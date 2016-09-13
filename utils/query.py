@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 from pygments import highlight
 from pygments.lexers.sql import SqlLexer
-from pygments.formatters import HtmlFormatter
+from pygments.formatters import HtmlFormatter, LatexFormatter
 from IPython import display
 
 CONNECTION_STRING = 'mssql+pymssql://IVYuser:resuyvi@vita.ieor.columbia.edu'
@@ -44,16 +44,15 @@ def pprint_query(filename):
             highlight(sql, SqlLexer(), formatter)))
 
 
-def nbprint_and_query(filename, connection=None):
+def nbprint_and_query(filename, connection=None, use_latex=False):
     if connection is None:
         connection = get_connection()
 
+    formatter = HtmlFormatter() if not use_latex else LatexFormatter()
+
     with open(filename, 'r') as handle:
         sql = handle.read()
-        formatter = HtmlFormatter()
         display.display(
-            display.HTML('<style type="text/css">{}</style>{}'.format(
-                formatter.get_style_defs('.highlight'),
-                highlight(sql, SqlLexer(), formatter))),
+            display.Latex(highlight(sql, SqlLexer(), formatter)),
             pd.read_sql(sql, connection)
         )

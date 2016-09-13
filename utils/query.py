@@ -1,5 +1,9 @@
 from sqlalchemy import create_engine
 import pandas as pd
+from pygments import highlight
+from pygments.lexers.sql import SqlLexer
+from pygments.formatters import HtmlFormatter
+from IPython import display
 
 CONNECTION_STRING = 'mssql+pymssql://IVYuser:resuyvi@vita.ieor.columbia.edu'
 
@@ -29,3 +33,27 @@ def print_and_query(filename, connection=None):
         sql = handle.read()
         print(sql)
         return pd.read_sql(sql, connection)
+
+
+def pprint_query(filename):
+    with open(filename, 'r') as handle:
+        sql = handle.read()
+        formatter = HtmlFormatter()
+        return display.HTML('<style type="text/css">{}</style>{}'.format(
+            formatter.get_style_defs('.highlight'),
+            highlight(sql, SqlLexer(), formatter)))
+
+
+def nbprint_and_query(filename, connection=None):
+    if connection is None:
+        connection = get_connection()
+
+    with open(filename, 'r') as handle:
+        sql = handle.read()
+        formatter = HtmlFormatter()
+        display.display(
+            display.HTML('<style type="text/css">{}</style>{}'.format(
+                formatter.get_style_defs('.highlight'),
+                highlight(sql, SqlLexer(), formatter))),
+            pd.read_sql(sql, connection)
+        )

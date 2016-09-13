@@ -48,11 +48,19 @@ def nbprint_and_query(filename, connection=None, use_latex=False):
     if connection is None:
         connection = get_connection()
 
-    formatter = HtmlFormatter() if not use_latex else LatexFormatter()
-
     with open(filename, 'r') as handle:
         sql = handle.read()
+        if use_latex:
+            display_obj = display.Latex(highlight(
+                sql, SqlLexer(), LatexFormatter()))
+        else:
+            formatter = HtmlFormatter()
+            display_obj = display.HTML('<style type="text/css">{}</style>{}'
+                .format(
+                formatter.get_style_defs('.highlight'),
+                highlight(sql, SqlLexer(), formatter)))
+
         display.display(
-            display.Latex(highlight(sql, SqlLexer(), formatter)),
+            display_obj,
             pd.read_sql(sql, connection)
         )

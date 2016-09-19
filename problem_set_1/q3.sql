@@ -1,4 +1,4 @@
-SELECT TOP 200 *
+SELECT *
 FROM XFDATA.dbo.OPTION_PRICE_2002_02 op
   INNER JOIN XFDATA.dbo.SECURITY s ON op.SecurityID = s.SecurityID
   INNER JOIN XFDATA.dbo.SECURITY_PRICE sp on s.SecurityID = sp.SecurityID

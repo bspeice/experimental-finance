@@ -60,7 +60,6 @@ def nbprint_and_query(filename, connection=None, use_latex=False):
                 formatter.get_style_defs('.highlight'),
                 highlight(sql, SqlLexer(), formatter)))
 
-        display.display(
-            display_obj,
-            pd.read_sql(sql, connection)
-        )
+        display.display(display_obj)
+
+        return pd.read_sql(sql, connection)

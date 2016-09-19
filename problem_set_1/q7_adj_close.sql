@@ -1,5 +1,5 @@
 SELECT
-  sp.ClosePrice / sp.AdjustmentFactor as 'Adjusted Close',
+  sp.ClosePrice * sp.AdjustmentFactor as 'Adjusted Close',
   sp.Date
 FROM XFDATA.dbo.SECURITY s
   INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON s.SecurityID = sp.SecurityID

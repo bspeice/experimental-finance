@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/DetermineVersionOfSQLServer.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/problem_set_1" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/problem_set_2" dialect="TSQL" />
   </component>
 </project>

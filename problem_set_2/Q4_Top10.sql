@@ -1,4 +1,4 @@
-select 
+select top 10
   op.Date, 
   XF.dbo.formatStrike(op.Strike) as Strike,
   op.Expiration, 

@@ -1,7 +1,11 @@
-SELECT TOP 200
-  op.SecurityID,
-  -- Decimal(5, 2) implies penny pricing,
-  -- and option prices not exceeding 999.99
-  CONVERT(DECIMAL(5, 2), op.BestBid),
-  CONVERT(DECIMAL(5, 2), op.BestOffer)
-FROM XFDATA.dbo.OPTION_PRICE_2001_05 op
+select top 10 
+  Date, 
+  SecurityID,
+  XF.dbo.formatStrike(Strike) as Strike, 
+  Expiration, 
+  CallPut,
+  BestBid, 
+  BestOffer,
+  ROUND(BestBid,2) as BestBidRnd,
+  ROUND(BestOffer,2) as BestOfferRnd
+from XFDATA.dbo.OPTION_PRICE_VIEW

@@ -1,0 +1,401 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Q6</title><meta name="generator" content="MATLAB 9.0"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-09-19"><meta name="DC.source" content="Q6.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">Analyze data</a></li></ul></div><pre class="codeinput">clear;clc;
+addpath(<span class="string">'C:\Users\Helgi\Dropbox\Columbia\4736 Event Driven Finance\Projects\Project 2\'</span>);
+file_path = <span class="string">'C:\Users\Helgi\Dropbox\Columbia\4736 Event Driven Finance\Projects\Project 2\'</span>;
+<span class="comment">%dates = {'2013-2-13', '2013-4-16', '2013-7-10'};</span>
+dates = {<span class="string">'2006-2-8'</span>, <span class="string">'2006-4-12'</span>, <span class="string">'2006-7-10'</span>};
+
+<span class="comment">% Get SQL queries</span>
+query_yield = fileread([file_path <span class="string">'Q6_GetYield.sql'</span>]);
+query_goog = fileread([file_path <span class="string">'Q6_GetGOOG.sql'</span>]);
+query_ibm = fileread([file_path <span class="string">'Q6_GetIBM.sql'</span>]);
+query_ibm_div = fileread([file_path <span class="string">'Q6_GetIBM_Dividends.sql'</span>]);
+
+<span class="comment">% Connect to database</span>
+con_str = <span class="string">'PROVIDER=SQLOLEDB; Data Source=vita.ieor.columbia.edu; initial catalog=XFDATA; User ID=IVYuser; password=resuyvi'</span>;
+con = actxserver(<span class="string">'ADODB.Connection'</span>);
+con.CommandTimeout = 600; <span class="comment">% Seconds</span>
+con.Open(con_str);
+
+<span class="comment">% Fetch data</span>
+yield_curves = cell2table(con.Execute(query_yield).GetRows()');
+goog = cell2table(con.Execute(query_goog).GetRows()');
+ibm = cell2table(con.Execute(query_ibm).GetRows()');
+ibm_div = cell2table(con.Execute(query_ibm_div).GetRows()');
+
+<span class="comment">% Close database connection</span>
+con.Close();
+
+<span class="comment">% Parse yield data</span>
+yield_curves.Properties.VariableNames = {<span class="string">'Date'</span>,<span class="string">'Days'</span>,<span class="string">'Rate'</span>};
+yield_curves.Date = datetime(yield_curves.Date, <span class="string">'InputFormat'</span>, <span class="string">'dd-MMM-yy'</span>);
+
+<span class="comment">% Parse Google data</span>
+goog.Properties.VariableNames = {<span class="string">'Date'</span>,<span class="string">'StockPrice'</span>,<span class="string">'Expiration'</span>,<span class="string">'ExpirationD'</span>,<span class="string">'Strike'</span>,<span class="string">'ATMdiff'</span>,<span class="string">'CallPrice'</span>,<span class="string">'CallIV'</span>,<span class="string">'CallPOP'</span>,<span class="string">'PutPrice'</span>,<span class="string">'PutIV'</span>,<span class="string">'PutPOP'</span>};
+goog.Date = datetime(goog.Date, <span class="string">'InputFormat'</span>, <span class="string">'dd-MMM-yy'</span>);
+goog.Expiration = datetime(goog.Expiration, <span class="string">'InputFormat'</span>, <span class="string">'dd-MMM-yy'</span>);
+goog.Strike = str2double(goog.Strike);
+goog.CallPrice = str2double(goog.CallPrice);
+goog.PutPrice = str2double(goog.PutPrice);
+
+<span class="comment">% Parse IBM data</span>
+ibm.Properties.VariableNames = {<span class="string">'Date'</span>,<span class="string">'StockPrice'</span>,<span class="string">'Expiration'</span>,<span class="string">'ExpirationD'</span>,<span class="string">'Strike'</span>,<span class="string">'ATMdiff'</span>,<span class="string">'CallPrice'</span>,<span class="string">'CallIV'</span>,<span class="string">'CallPOP'</span>,<span class="string">'PutPrice'</span>,<span class="string">'PutIV'</span>,<span class="string">'PutPOP'</span>};
+ibm.Date = datetime(ibm.Date, <span class="string">'InputFormat'</span>, <span class="string">'dd-MMM-yy'</span>);
+ibm.Expiration = datetime(ibm.Expiration, <span class="string">'InputFormat'</span>, <span class="string">'dd-MMM-yy'</span>);
+ibm.Strike = str2double(ibm.Strike);
+ibm.CallPrice = str2double(ibm.CallPrice);
+ibm.PutPrice = str2double(ibm.PutPrice);
+
+<span class="comment">% Parse IBM dividend data</span>
+ibm_div.Properties.VariableNames = {<span class="string">'ExDivDate'</span>,<span class="string">'DivAmount'</span>};
+ibm_div.ExDivDate = datetime(ibm_div.ExDivDate, <span class="string">'InputFormat'</span>, <span class="string">'dd-MMM-yy'</span>);
+</pre><h2>Analyze data<a name="2"></a></h2><pre class="codeinput">close <span class="string">all</span>; clc;
+BinomialTreeSteps = 100;
+
+<span class="comment">% Cycle through all dates</span>
+<span class="keyword">for</span> i=1:length(dates)
+    dt = datetime(dates{i},<span class="string">'InputFormat'</span>,<span class="string">'yyyy-MM-dd'</span>);
+
+    <span class="comment">% Get IBM and Google option data</span>
+    goog_dat = goog(goog.Date==dt,:);
+    ibm_dat = ibm(ibm.Date==dt,:);
+    <span class="comment">% Parse IBM dividend data</span>
+    ibm_div_dat = ibm_div(ibm_div.ExDivDate &gt;= dt,:);
+    ibm_div_dat.ExDivDate = (datenum(ibm_div_dat.ExDivDate) - datenum(dt))/360.0;
+
+    <span class="comment">% Google</span>
+    goog_curve = [];
+    goog_curve_dates = [];
+    goog_expirations = unique(goog_dat.ExpirationD);
+    goog_expirations = goog_expirations(goog_expirations &gt; 7); <span class="comment">% Skip expirations with time to maturity &lt; 7 days</span>
+    <span class="comment">% Cycle through expirations</span>
+    <span class="keyword">for</span> j = 1:length(goog_expirations)
+        goog_exp_dat = goog_dat(goog_dat.ExpirationD == goog_expirations(j),:); <span class="comment">% Filter data</span>
+
+        <span class="comment">% Get known parameters</span>
+        S0 = goog_exp_dat.StockPrice(1);
+        DaysToMaturity = goog_expirations(j);
+        T = double(DaysToMaturity) / 360.0;
+        X = goog_exp_dat{:,<span class="string">'Strike'</span>};
+        call_price = goog_exp_dat{:,<span class="string">'CallPrice'</span>};
+        call_ivy_vol = goog_exp_dat{:,<span class="string">'CallIV'</span>};
+        call_pop = goog_exp_dat{:,<span class="string">'CallPOP'</span>};
+        put_price = goog_exp_dat{:,<span class="string">'PutPrice'</span>};
+        put_ivy_vol = goog_exp_dat{:,<span class="string">'PutIV'</span>};
+        put_pop = goog_exp_dat{:,<span class="string">'PutPOP'</span>};
+
+        <span class="comment">% Initial guess for parameters</span>
+        <span class="comment">% Interest rate guess from put call parity</span>
+        r_guess = max(double(mean((call_pop - put_pop) ./ (X .* T))), 0.0025);
+        <span class="comment">% IV guess as mean of IVY vols</span>
+        sigma_guess = double(call_ivy_vol + put_ivy_vol) / 2;
+        <span class="keyword">if</span> (length(sigma_guess) &lt; 5)
+            sigma_guess = padarray(sigma_guess,5-length(sigma_guess),<span class="string">'post'</span>);
+        <span class="keyword">end</span>
+
+        <span class="comment">% Optimize parameters</span>
+        [PS,FVAL,EXITFLAG,OUTPUT] = fminsearch(<span class="keyword">...</span>
+            @(pars) Q6_ObjectiveFunction(call_price, put_price, S0, X, pars(1), T, BinomialTreeSteps, [], [], pars(2), pars(3), pars(4), pars(5), pars(6)), <span class="keyword">...</span>
+            [r_guess; sigma_guess]);
+        opt_r = PS(1);
+
+        <span class="keyword">if</span> (EXITFLAG ~= 1)
+           disp(<span class="string">'Optimization error'</span>);
+        <span class="keyword">end</span>
+
+        goog_curve_dates(j) = DaysToMaturity;
+        goog_curve(j) = opt_r;
+    <span class="keyword">end</span>
+
+    <span class="comment">% IBM</span>
+    ibm_curve = [];
+    ibm_curve_dates = [];
+    ibm_expirations = unique(ibm_dat.ExpirationD);
+    ibm_expirations = ibm_expirations(ibm_expirations &gt; 7);     <span class="comment">% Skip expirations with time to maturity &lt; 7 days</span>
+    <span class="comment">% Cycle through expirations</span>
+    <span class="keyword">for</span> j = 1:length(ibm_expirations)
+        ibm_exp_dat = ibm_dat(ibm_dat.ExpirationD == ibm_expirations(j),:); <span class="comment">% Filter data</span>
+
+        <span class="comment">% Get data</span>
+        S0 = ibm_exp_dat.StockPrice(1);
+        DaysToMaturity = ibm_expirations(j);
+        T = double(DaysToMaturity) / 360.0;
+        X = ibm_exp_dat{:,<span class="string">'Strike'</span>};
+        call_price = ibm_exp_dat{:,<span class="string">'CallPrice'</span>};
+        call_ivy_vol = ibm_exp_dat{:,<span class="string">'CallIV'</span>};
+        call_pop = ibm_exp_dat{:,<span class="string">'CallPOP'</span>};
+        put_price = ibm_exp_dat{:,<span class="string">'PutPrice'</span>};
+        put_ivy_vol = ibm_exp_dat{:,<span class="string">'PutIV'</span>};
+        put_pop = ibm_exp_dat{:,<span class="string">'PutPOP'</span>};
+
+        <span class="comment">% Initial guess for parameters</span>
+        <span class="comment">% Interest rate guess from put call parity</span>
+        r_guess = max(double(mean((call_pop - put_pop) ./ (X .* T))), 0.0025);
+        <span class="comment">% IV guess as mean of IVY vols</span>
+        sigma_guess = double(call_ivy_vol + put_ivy_vol) / 2;
+        <span class="keyword">if</span> (length(sigma_guess) &lt; 5)
+            sigma_guess = padarray(sigma_guess,5-length(sigma_guess),<span class="string">'post'</span>);
+        <span class="keyword">end</span>
+
+        <span class="comment">% Optimize parameters</span>
+        [PS,FVAL,EXITFLAG,OUTPUT] = fminsearch(<span class="keyword">...</span>
+            @(pars) Q6_ObjectiveFunction(call_price, put_price, S0, X, pars(1), T, BinomialTreeSteps, ibm_div_dat.DivAmount(ibm_div_dat.ExDivDate&lt;=T), ibm_div_dat.ExDivDate(ibm_div_dat.ExDivDate&lt;=T), <span class="keyword">...</span>
+                                         pars(2), pars(3), pars(4), pars(5), pars(6)), <span class="keyword">...</span>
+            [r_guess; sigma_guess]);
+        opt_r = PS(1);
+
+        <span class="keyword">if</span> (EXITFLAG ~= 1)
+           disp(<span class="string">'Optimization error'</span>);
+        <span class="keyword">end</span>
+
+        ibm_curve_dates(j) = DaysToMaturity;
+        ibm_curve(j) = opt_r;
+    <span class="keyword">end</span>
+
+    <span class="comment">% Plot curves</span>
+    figure(i)
+    plot(yield_curves.Days(yield_curves.Date==dt), yield_curves.Rate(yield_curves.Date==dt)/100,<span class="string">'k.-'</span>); hold <span class="string">on</span>;
+    plot(goog_curve_dates, goog_curve,<span class="string">'r.-'</span>); hold <span class="string">on</span>;
+    plot(ibm_curve_dates, ibm_curve,<span class="string">'b.-'</span>);
+    title(datestr(dt));
+    xlabel(<span class="string">'Days to Maturity'</span>);
+    ylabel(<span class="string">'Rate'</span>); ylim([0,0.07]);
+    legend(<span class="string">'Zero Curve'</span>,<span class="string">'Google'</span>,<span class="string">'IBM'</span>)
+<span class="keyword">end</span>
+</pre><img vspace="5" hspace="5" src="Q6_01.png" style="width:560px;height:420px;" alt=""> <img vspace="5" hspace="5" src="Q6_02.png" style="width:560px;height:420px;" alt=""> <img vspace="5" hspace="5" src="Q6_03.png" style="width:560px;height:420px;" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2016a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+clear;clc;
+addpath('C:\Users\Helgi\Dropbox\Columbia\4736 Event Driven Finance\Projects\Project 2\');
+file_path = 'C:\Users\Helgi\Dropbox\Columbia\4736 Event Driven Finance\Projects\Project 2\';
+%dates = {'2013-2-13', '2013-4-16', '2013-7-10'};
+dates = {'2006-2-8', '2006-4-12', '2006-7-10'};
+
+% Get SQL queries
+query_yield = fileread([file_path 'Q6_GetYield.sql']);
+query_goog = fileread([file_path 'Q6_GetGOOG.sql']);
+query_ibm = fileread([file_path 'Q6_GetIBM.sql']);
+query_ibm_div = fileread([file_path 'Q6_GetIBM_Dividends.sql']);
+
+% Connect to database
+con_str = 'PROVIDER=SQLOLEDB; Data Source=vita.ieor.columbia.edu; initial catalog=XFDATA; User ID=IVYuser; password=resuyvi';
+con = actxserver('ADODB.Connection');
+con.CommandTimeout = 600; % Seconds
+con.Open(con_str);
+
+% Fetch data
+yield_curves = cell2table(con.Execute(query_yield).GetRows()');
+goog = cell2table(con.Execute(query_goog).GetRows()');
+ibm = cell2table(con.Execute(query_ibm).GetRows()');
+ibm_div = cell2table(con.Execute(query_ibm_div).GetRows()');
+
+% Close database connection
+con.Close();
+
+% Parse yield data
+yield_curves.Properties.VariableNames = {'Date','Days','Rate'};
+yield_curves.Date = datetime(yield_curves.Date, 'InputFormat', 'dd-MMM-yy');
+
+% Parse Google data
+goog.Properties.VariableNames = {'Date','StockPrice','Expiration','ExpirationD','Strike','ATMdiff','CallPrice','CallIV','CallPOP','PutPrice','PutIV','PutPOP'};
+goog.Date = datetime(goog.Date, 'InputFormat', 'dd-MMM-yy');
+goog.Expiration = datetime(goog.Expiration, 'InputFormat', 'dd-MMM-yy');
+goog.Strike = str2double(goog.Strike);
+goog.CallPrice = str2double(goog.CallPrice);
+goog.PutPrice = str2double(goog.PutPrice);
+
+% Parse IBM data
+ibm.Properties.VariableNames = {'Date','StockPrice','Expiration','ExpirationD','Strike','ATMdiff','CallPrice','CallIV','CallPOP','PutPrice','PutIV','PutPOP'};
+ibm.Date = datetime(ibm.Date, 'InputFormat', 'dd-MMM-yy');
+ibm.Expiration = datetime(ibm.Expiration, 'InputFormat', 'dd-MMM-yy');
+ibm.Strike = str2double(ibm.Strike);
+ibm.CallPrice = str2double(ibm.CallPrice);
+ibm.PutPrice = str2double(ibm.PutPrice);
+
+% Parse IBM dividend data
+ibm_div.Properties.VariableNames = {'ExDivDate','DivAmount'};
+ibm_div.ExDivDate = datetime(ibm_div.ExDivDate, 'InputFormat', 'dd-MMM-yy');
+
+
+%% Analyze data
+close all; clc;
+BinomialTreeSteps = 100;
+
+% Cycle through all dates
+for i=1:length(dates)
+    dt = datetime(dates{i},'InputFormat','yyyy-MM-dd');
+    
+    % Get IBM and Google option data
+    goog_dat = goog(goog.Date==dt,:);
+    ibm_dat = ibm(ibm.Date==dt,:);
+    % Parse IBM dividend data
+    ibm_div_dat = ibm_div(ibm_div.ExDivDate >= dt,:);
+    ibm_div_dat.ExDivDate = (datenum(ibm_div_dat.ExDivDate) - datenum(dt))/360.0;
+    
+    % Google 
+    goog_curve = [];
+    goog_curve_dates = [];
+    goog_expirations = unique(goog_dat.ExpirationD);
+    goog_expirations = goog_expirations(goog_expirations > 7); % Skip expirations with time to maturity < 7 days
+    % Cycle through expirations
+    for j = 1:length(goog_expirations)
+        goog_exp_dat = goog_dat(goog_dat.ExpirationD == goog_expirations(j),:); % Filter data
+        
+        % Get known parameters
+        S0 = goog_exp_dat.StockPrice(1);
+        DaysToMaturity = goog_expirations(j);
+        T = double(DaysToMaturity) / 360.0;
+        X = goog_exp_dat{:,'Strike'};
+        call_price = goog_exp_dat{:,'CallPrice'};
+        call_ivy_vol = goog_exp_dat{:,'CallIV'};
+        call_pop = goog_exp_dat{:,'CallPOP'};
+        put_price = goog_exp_dat{:,'PutPrice'};
+        put_ivy_vol = goog_exp_dat{:,'PutIV'};
+        put_pop = goog_exp_dat{:,'PutPOP'};
+        
+        % Initial guess for parameters
+        % Interest rate guess from put call parity
+        r_guess = max(double(mean((call_pop - put_pop) ./ (X .* T))), 0.0025); 
+        % IV guess as mean of IVY vols
+        sigma_guess = double(call_ivy_vol + put_ivy_vol) / 2;
+        if (length(sigma_guess) < 5)
+            sigma_guess = padarray(sigma_guess,5-length(sigma_guess),'post');
+        end
+        
+        % Optimize parameters
+        [PS,FVAL,EXITFLAG,OUTPUT] = fminsearch(...
+            @(pars) Q6_ObjectiveFunction(call_price, put_price, S0, X, pars(1), T, BinomialTreeSteps, [], [], pars(2), pars(3), pars(4), pars(5), pars(6)), ...
+            [r_guess; sigma_guess]);
+        opt_r = PS(1);
+        
+        if (EXITFLAG ~= 1)
+           disp('Optimization error'); 
+        end
+        
+        goog_curve_dates(j) = DaysToMaturity;
+        goog_curve(j) = opt_r;
+    end
+    
+    % IBM 
+    ibm_curve = [];
+    ibm_curve_dates = [];
+    ibm_expirations = unique(ibm_dat.ExpirationD);
+    ibm_expirations = ibm_expirations(ibm_expirations > 7);     % Skip expirations with time to maturity < 7 days
+    % Cycle through expirations
+    for j = 1:length(ibm_expirations)
+        ibm_exp_dat = ibm_dat(ibm_dat.ExpirationD == ibm_expirations(j),:); % Filter data
+        
+        % Get data
+        S0 = ibm_exp_dat.StockPrice(1);
+        DaysToMaturity = ibm_expirations(j);
+        T = double(DaysToMaturity) / 360.0;
+        X = ibm_exp_dat{:,'Strike'};
+        call_price = ibm_exp_dat{:,'CallPrice'};
+        call_ivy_vol = ibm_exp_dat{:,'CallIV'};
+        call_pop = ibm_exp_dat{:,'CallPOP'};
+        put_price = ibm_exp_dat{:,'PutPrice'};
+        put_ivy_vol = ibm_exp_dat{:,'PutIV'};
+        put_pop = ibm_exp_dat{:,'PutPOP'};
+        
+        % Initial guess for parameters
+        % Interest rate guess from put call parity
+        r_guess = max(double(mean((call_pop - put_pop) ./ (X .* T))), 0.0025); 
+        % IV guess as mean of IVY vols
+        sigma_guess = double(call_ivy_vol + put_ivy_vol) / 2;
+        if (length(sigma_guess) < 5)
+            sigma_guess = padarray(sigma_guess,5-length(sigma_guess),'post');
+        end
+        
+        % Optimize parameters
+        [PS,FVAL,EXITFLAG,OUTPUT] = fminsearch(...
+            @(pars) Q6_ObjectiveFunction(call_price, put_price, S0, X, pars(1), T, BinomialTreeSteps, ibm_div_dat.DivAmount(ibm_div_dat.ExDivDate<=T), ibm_div_dat.ExDivDate(ibm_div_dat.ExDivDate<=T), ...
+                                         pars(2), pars(3), pars(4), pars(5), pars(6)), ...
+            [r_guess; sigma_guess]);
+        opt_r = PS(1);
+        
+        if (EXITFLAG ~= 1)
+           disp('Optimization error'); 
+        end
+        
+        ibm_curve_dates(j) = DaysToMaturity;
+        ibm_curve(j) = opt_r;
+    end
+    
+    % Plot curves
+    figure(i)
+    plot(yield_curves.Days(yield_curves.Date==dt), yield_curves.Rate(yield_curves.Date==dt)/100,'k.-'); hold on;
+    plot(goog_curve_dates, goog_curve,'r.-'); hold on;
+    plot(ibm_curve_dates, ibm_curve,'b.-');
+    title(datestr(dt));
+    xlabel('Days to Maturity');
+    ylabel('Rate'); ylim([0,0.07]);
+    legend('Zero Curve','Google','IBM')
+end
+##### SOURCE END #####
+--></body></html>

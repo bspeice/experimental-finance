@@ -2,7 +2,7 @@
 declare @SecurityID int = 103042
 
 -- Get all relevant data
-select op.Date, sp.ClosePrice as StockPrice, op.CallPut, op.Expiration, XF.dbo.formatStrike(op.Strike) as Strike,
+select op.Date, sp.ClosePrice as StockPrice, op.CallPut, op.Expiration, XF.dbo.formatStrike(op.Strike) as Strike, 
                 XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, op.ImpliedVolatility, op.OpenInterest, op.Volume
 into #data
 from XFDATA.dbo.OPTION_PRICE_VIEW op

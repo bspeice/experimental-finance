@@ -2,7 +2,7 @@
 declare @SecurityID int = 103042
 declare @WeekStart datetime = '2007-1-8' 
 declare @WeekEnd datetime = '2007-1-12'
-declare @OptionType char = 'C'
+declare @OptionType char = 'P'
 declare @TargetFactor float = 1
 
 -- Get all relevant data

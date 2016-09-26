@@ -23,7 +23,6 @@ where Expiration = (
   group by Date
 )
 
--- Problem 2 
 -- Extract the 2nd series ATM volatility history
 -- ATM is the option with Strike closest to current Stock Price
 select identity(int) as ID, Date, ImpliedVolatility
@@ -37,13 +36,13 @@ where abs(StockPrice - Strike) = (
 )
 order by Date
 
--- Find biggest changes in volatility
+-- Find biggest (absolute) changes in volatility
 select top 3 Date, ImpliedVolChange
 from (
   select s1.Date, s1.ImpliedVolatility, s1.ImpliedVolatility-s2.ImpliedVolatility as ImpliedVolChange
   from #SecondSeriesATM s1
   inner join #SecondSeriesATM s2 on s1.ID-1 = s2.ID
 ) dat
-order by ImpliedVolChange desc
+order by abs(ImpliedVolChange) desc
 
 drop table #data, #SecondSeries, #SecondSeriesATM

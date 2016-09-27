@@ -1,72 +1,79 @@
--- CSCO 103042
-declare @SecurityID int = 103042
-declare @WeekStart datetime = '2007-1-22' 
-declare @WeekEnd datetime = '2007-1-26'
-declare @OptionType char = '{opt_type}'
-declare @TargetFactor float = 1
+-- TODO: description 
+
+-- Parameters are set using Python
+declare @Ticker varchar(10) = 'CSCO'
+declare @DateStart datetime = '2007-1-8' 
+declare @DateEnd datetime = '2007-1-12'
+declare @OptionType char = 'C'
+declare @TargetMaturityDays int = 45
+declare @TargetFactor float = 1.1
 
 -- Get all relevant data
 select op.Date, sp.ClosePrice as StockPrice, 
   op.CallPut, op.Expiration, datediff(day,op.Date,Expiration) as DaysToMaturity, 
   XF.dbo.formatStrike(op.Strike) as Strike, op.ImpliedVolatility, XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, 
-  round(@TargetFactor * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance
+  round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance
 into #data
 from XFDATA.dbo.OPTION_PRICE_VIEW op
   inner join XFDATA.dbo.SECURITY_PRICE sp on sp.SecurityID = op.SecurityID and sp.Date = op.Date
-where op.SecurityID = @SecurityID
-  and op.Date between @WeekStart and @WeekEnd
+  inner join XFDATA.dbo.SECURITY s on s.SecurityID = sp.SecurityID
+where s.Ticker = @Ticker
+  and op.Date between @DateStart and @DateEnd
   and op.CallPut = @OptionType
 
--- Code:  HS: High Strike, LS: Low Strike, BM: Before Maturity, AM: After Maturity
+-- Higher strike, shorter maturity
 select *
 into #HS_BM
 from #data d1
-where abs(DaysToMaturity - 45) = (
-  select min(abs(DaysToMaturity - 45))
+where abs(DaysToMaturity - @TargetMaturityDays) = (
+  select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity <= 45
+    and DaysToMaturity <= @TargetMaturityDays
 )
 and TargetDistance >= 0
 order by Date
 
+-- Higher strike, longer maturity
 select *
 into #HS_AM
 from #data d1
-where abs(DaysToMaturity - 45) = (
-  select min(abs(DaysToMaturity - 45))
+where abs(DaysToMaturity - @TargetMaturityDays) = (
+  select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity >= 45
+    and DaysToMaturity >= @TargetMaturityDays
 )
 and TargetDistance >= 0
 order by Date
 
+-- Lower strike, shorter maturity
 select *
 into #LS_BM
 from #data d1
-where abs(DaysToMaturity - 45) = (
-  select min(abs(DaysToMaturity - 45))
+where abs(DaysToMaturity - @TargetMaturityDays) = (
+  select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity <= 45
+    and DaysToMaturity <= @TargetMaturityDays
 )
 and TargetDistance <= 0
 order by Date
 
+-- Lower strike, longer maturity
 select *
 into #LS_AM
 from #data d1
-where abs(DaysToMaturity - 45) = (
-  select min(abs(DaysToMaturity - 45))
+where abs(DaysToMaturity - @TargetMaturityDays) = (
+  select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity >= 45
+    and DaysToMaturity >= @TargetMaturityDays
 )
 and TargetDistance <= 0
 order by Date
 
--- Select 4 options having....
+-- Combine data
 select *, 'HS-BM' as Code
 from #HS_BM d1
 where TargetDistance = (

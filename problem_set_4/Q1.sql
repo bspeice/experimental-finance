@@ -6,13 +6,23 @@ into #Coke
 from XFDATA.dbo.OPTION_PRICE_VIEW op
 inner join XFDATA.dbo.SECURITY_PRICE sp on sp.Date = op.Date and sp.SecurityID = op.SecurityID
 where op.SecurityID = 103125
-and op.Date = op.Expiration
 
 
-select distinct Expiration, Strike
+
+select *
 from #Coke
 
 
 
+
+
+
+select distinct Expiration
+from #Coke
+order by 1
+
+select  DATEPART ( weekday , Expiration ), count(*)
+from #Coke
+group by DATEPART ( weekday , Expiration )
 
 drop table #Coke

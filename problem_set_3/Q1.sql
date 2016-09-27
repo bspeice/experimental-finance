@@ -1,9 +1,9 @@
--- CSCO 103042 LEH 106893
+-- CSCO 103042
 declare @SecurityID int = 103042
 
 -- Get all relevant data
 select op.Date, sp.ClosePrice as StockPrice, op.CallPut, op.Expiration, XF.dbo.formatStrike(op.Strike) as Strike,
-  XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, op.ImpliedVolatility, op.OpenInterest, op.Volume
+  XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, op.ImpliedVolatility
 into #data
 from XFDATA.dbo.OPTION_PRICE_VIEW op
   inner join XFDATA.dbo.SECURITY_PRICE sp on sp.SecurityID = op.SecurityID and sp.Date = op.Date
@@ -23,32 +23,13 @@ where Expiration = (
   group by Date
 )
 
--- Get moneyness
+-- Display second series options with POP > 0.5 
 select *,
   MBBO - IntrinsicValue as POP,
   Strike/StockPrice as Moneyness
 from #SecondSeries
 where ImpliedVolatility > 0
   and MBBO - IntrinsicValue > 0.5
-order by Date, Strike/StockPrice asc
-
--- Get moneyness for dates having more than one entry
-select *,
-  MBBO - IntrinsicValue as POP,
-  Strike/StockPrice as Moneyness
-from #SecondSeries
-where ImpliedVolatility > 0
-  and MBBO - IntrinsicValue > 0.5
-  and Date in (
-    select Date
-    from #SecondSeries 
-    where ImpliedVolatility > 0
-      and MBBO - IntrinsicValue > 0.5
-    group by Date
-    having count(*) > 1
-  )
 order by Date, Strike/StockPrice asc
 
 drop table #data, #SecondSeries
-
--- TODO: Check if volatility is monotonically declining with moneyness

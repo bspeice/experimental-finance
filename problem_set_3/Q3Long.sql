@@ -1,36 +1,46 @@
 -- CSCO 103042
-declare @SecurityID int = 103042
+DECLARE @SecurityID INT = 103042
 
 -- Get all relevant data
-select op.Date, sp.ClosePrice as StockPrice, op.CallPut, op.Expiration, XF.dbo.formatStrike(op.Strike) as Strike, 
-                XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, op.ImpliedVolatility, op.OpenInterest, op.Volume
-into #data
-from XFDATA.dbo.OPTION_PRICE_VIEW op
-  inner join XFDATA.dbo.SECURITY_PRICE sp on sp.SecurityID = op.SecurityID and sp.Date = op.Date
-where op.SecurityID = @SecurityID
-      and op.Date between '2007-1-22' and '2007-1-26'
+SELECT
+  op.Date,
+  sp.ClosePrice                         AS StockPrice,
+  op.CallPut,
+  op.Expiration,
+  XF.dbo.formatStrike(op.Strike)        AS Strike,
+  XF.dbo.mbbo(op.BestBid, op.BestOffer) AS MBBO,
+  op.ImpliedVolatility,
+  op.OpenInterest,
+  op.Volume
+INTO #data
+FROM XFDATA.dbo.OPTION_PRICE_VIEW op
+  INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON sp.SecurityID = op.SecurityID AND sp.Date = op.Date
+WHERE op.SecurityID = @SecurityID
+      AND op.Date BETWEEN '2007-1-22' AND '2007-1-26'
 --and op.CallPut = 'C'
 
 -- Problem 3. Synthetic ATM with 45 days to maturity
 -- Check missing dates
-select *, datediff(day,Date,Expiration) as DaysToMaturity
-into #data3
-from #data
+SELECT
+  *,
+  datediff(DAY, Date, Expiration) AS DaysToMaturity
+INTO #data3
+FROM #data
 
 -- Closest to ATM with Maturity >= 45 Days
-select *
-into #P3above
-from #data3 d1
-where abs(DaysToMaturity - 45) = (
-  select min(abs(DaysToMaturity - 45))
-  from #data3 d2
-  where d1.Date = d2.Date
-        and DaysToMaturity >= 45
+SELECT *
+INTO #P3above
+FROM #data3 d1
+WHERE abs(DaysToMaturity - 45) = (
+  SELECT min(abs(DaysToMaturity - 45))
+  FROM #data3 d2
+  WHERE d1.Date = d2.Date
+        AND DaysToMaturity >= 45
 )
-and Strike BETWEEN StockPrice*0.85 and StockPrice*1.15
-and DaysToMaturity >= 45
+      AND Strike BETWEEN StockPrice * 0.85 AND StockPrice * 1.15
+      AND DaysToMaturity >= 45
 
-select *
-from #P3above 
+SELECT *
+FROM #P3above
 
-drop table #data, #data3, #P3above
+DROP TABLE #data, #data3, #P3above

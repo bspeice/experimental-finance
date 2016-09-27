@@ -12,7 +12,8 @@ declare @TargetFactor float = '{target_factor}'
 select op.Date, sp.ClosePrice as StockPrice, 
   op.CallPut, op.Expiration, datediff(day,op.Date,Expiration) as DaysToMaturity, 
   XF.dbo.formatStrike(op.Strike) as Strike, op.ImpliedVolatility, XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, 
-  round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance
+  round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance,
+  XF.[db_datawriter].InterpolateRate(@TargetMaturityDays, op.Date) as ZeroRate
 into #data
 from XFDATA.dbo.OPTION_PRICE_VIEW op
   inner join XFDATA.dbo.SECURITY_PRICE sp on sp.SecurityID = op.SecurityID and sp.Date = op.Date
@@ -29,7 +30,7 @@ where abs(DaysToMaturity - @TargetMaturityDays) = (
   select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity <= @TargetMaturityDays
+    and DaysToMaturity < @TargetMaturityDays
 )
 and TargetDistance >= 0
 order by Date
@@ -42,7 +43,7 @@ where abs(DaysToMaturity - @TargetMaturityDays) = (
   select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity >= @TargetMaturityDays
+    and DaysToMaturity > @TargetMaturityDays
 )
 and TargetDistance >= 0
 order by Date
@@ -55,7 +56,7 @@ where abs(DaysToMaturity - @TargetMaturityDays) = (
   select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity <= @TargetMaturityDays
+    and DaysToMaturity < @TargetMaturityDays
 )
 and TargetDistance <= 0
 order by Date
@@ -68,7 +69,7 @@ where abs(DaysToMaturity - @TargetMaturityDays) = (
   select min(abs(DaysToMaturity - @TargetMaturityDays))
   from #data d2
   where d1.Date = d2.Date
-    and DaysToMaturity >= @TargetMaturityDays
+    and DaysToMaturity > @TargetMaturityDays
 )
 and TargetDistance <= 0
 order by Date
@@ -105,5 +106,6 @@ where TargetDistance = (
   from #LS_AM d2
   where d1.Date = d2.Date
 )
+order by Date
 
 drop table #data, #HS_AM, #HS_BM, #LS_AM, #LS_BM

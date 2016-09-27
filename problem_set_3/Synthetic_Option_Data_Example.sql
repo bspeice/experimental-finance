@@ -1,18 +1,19 @@
 -- TODO: description 
 
 -- Parameters are set using Python
-declare @Ticker varchar(10) = 'CSCO'
-declare @DateStart datetime = '2007-1-8' 
-declare @DateEnd datetime = '2007-1-12'
+declare @Ticker varchar(10) = 'KO'
+declare @DateStart datetime = '2011-1-1' 
+declare @DateEnd datetime = '2013-12-31'
 declare @OptionType char = 'C'
 declare @TargetMaturityDays int = 45
-declare @TargetFactor float = 1.1
+declare @TargetFactor float = 1
 
 -- Get all relevant data
 select op.Date, sp.ClosePrice as StockPrice, 
   op.CallPut, op.Expiration, datediff(day,op.Date,Expiration) as DaysToMaturity, 
   XF.dbo.formatStrike(op.Strike) as Strike, op.ImpliedVolatility, XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, 
-  round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance
+  round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance,
+  XF.[db_datawriter].InterpolateRate(@TargetMaturityDays, op.Date) as ZeroRate
 into #data
 from XFDATA.dbo.OPTION_PRICE_VIEW op
   inner join XFDATA.dbo.SECURITY_PRICE sp on sp.SecurityID = op.SecurityID and sp.Date = op.Date
@@ -105,5 +106,6 @@ where TargetDistance = (
   from #LS_AM d2
   where d1.Date = d2.Date
 )
+order by Date
 
 drop table #data, #HS_AM, #HS_BM, #LS_AM, #LS_BM

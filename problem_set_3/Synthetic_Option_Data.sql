@@ -1,28 +1,36 @@
 -- TODO: description 
 
 -- Parameters are set using Python
-declare @Ticker varchar(10) = '{ticker}'
-declare @DateStart datetime = '{date_start}' 
-declare @DateEnd datetime = '{date_end}'
-declare @OptionType char = '{opt_type}'
-declare @TargetMaturityDays int = '{target_maturity}'
-declare @TargetFactor float = '{target_factor}'
+DECLARE @Ticker VARCHAR(10) = '{ticker}'
+DECLARE @DateStart DATETIME = '{date_start}'
+DECLARE @DateEnd DATETIME = '{date_end}'
+DECLARE @OptionType CHAR = '{opt_type}'
+DECLARE @TargetMaturityDays INT = '{target_maturity}'
+DECLARE @TargetFactor FLOAT = '{target_factor}'
 
 -- Get all relevant data
-select op.Date, sp.ClosePrice as StockPrice, 
-  op.CallPut, op.Expiration, datediff(day,op.Date,Expiration) as DaysToMaturity, 
-  XF.dbo.formatStrike(op.Strike) as Strike, op.ImpliedVolatility, XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, 
-  round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance,
-  XF.[db_datawriter].InterpolateRate(@TargetMaturityDays, op.Date) as ZeroRate
-into #data
-from XFDATA.dbo.OPTION_PRICE_VIEW op
-  inner join XFDATA.dbo.SECURITY_PRICE sp on sp.SecurityID = op.SecurityID and sp.Date = op.Date
-  inner join XFDATA.dbo.SECURITY s on s.SecurityID = sp.SecurityID
-where s.Ticker = @Ticker
-  and op.Date between @DateStart and @DateEnd
-  and op.CallPut = @OptionType
+SELECT
+  op.Date,
+  sp.ClosePrice                                                    AS StockPrice,
+  op.CallPut,
+  op.Expiration,
+  datediff(DAY, op.Date, Expiration)                               AS DaysToMaturity,
+  XF.dbo.formatStrike(op.Strike)                                   AS Strike,
+  op.ImpliedVolatility,
+  XF.dbo.mbbo(op.BestBid, op.BestOffer)                            AS MBBO,
+  round(convert(FLOAT, @TargetFactor) * sp.ClosePrice, 2)          AS StrikePriceTarget,
+  (XF.dbo.formatStrike(op.Strike) - @TargetFactor * sp.ClosePrice) AS TargetDistance,
+  XF.[db_datawriter].InterpolateRate(@TargetMaturityDays, op.Date) AS ZeroRate
+INTO #data
+FROM XFDATA.dbo.OPTION_PRICE_VIEW op
+  INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON sp.SecurityID = op.SecurityID AND sp.Date = op.Date
+  INNER JOIN XFDATA.dbo.SECURITY s ON s.SecurityID = sp.SecurityID
+WHERE s.Ticker = @Ticker
+      AND op.Date BETWEEN @DateStart AND @DateEnd
+      AND op.CallPut = @OptionType
 
 -- Higher strike, shorter maturity
+<<<<<<< HEAD
 select *
 into #HS_BM
 from #data d1
@@ -109,7 +117,99 @@ where TargetDistance = (
   select max(TargetDistance)
   from #LS_AM d2
   where d1.Date = d2.Date
+=======
+SELECT *
+INTO #HS_BM
+FROM #data d1
+WHERE abs(DaysToMaturity - @TargetMaturityDays) = (
+  SELECT min(abs(DaysToMaturity - @TargetMaturityDays))
+  FROM #data d2
+  WHERE d1.Date = d2.Date
+        AND DaysToMaturity < @TargetMaturityDays
 )
-order by Date
+      AND TargetDistance >= 0
+ORDER BY Date
 
-drop table #data, #HS_AM, #HS_BM, #LS_AM, #LS_BM
+-- Higher strike, longer maturity
+SELECT *
+INTO #HS_AM
+FROM #data d1
+WHERE abs(DaysToMaturity - @TargetMaturityDays) = (
+  SELECT min(abs(DaysToMaturity - @TargetMaturityDays))
+  FROM #data d2
+  WHERE d1.Date = d2.Date
+        AND DaysToMaturity > @TargetMaturityDays
+)
+      AND TargetDistance >= 0
+ORDER BY Date
+
+-- Lower strike, shorter maturity
+SELECT *
+INTO #LS_BM
+FROM #data d1
+WHERE abs(DaysToMaturity - @TargetMaturityDays) = (
+  SELECT min(abs(DaysToMaturity - @TargetMaturityDays))
+  FROM #data d2
+  WHERE d1.Date = d2.Date
+        AND DaysToMaturity < @TargetMaturityDays
+)
+      AND TargetDistance <= 0
+ORDER BY Date
+
+-- Lower strike, longer maturity
+SELECT *
+INTO #LS_AM
+FROM #data d1
+WHERE abs(DaysToMaturity - @TargetMaturityDays) = (
+  SELECT min(abs(DaysToMaturity - @TargetMaturityDays))
+  FROM #data d2
+  WHERE d1.Date = d2.Date
+        AND DaysToMaturity > @TargetMaturityDays
+)
+      AND TargetDistance <= 0
+ORDER BY Date
+
+-- Combine data
+SELECT
+  *,
+  'HS-BM' AS Code
+FROM #HS_BM d1
+WHERE TargetDistance = (
+  SELECT min(TargetDistance)
+  FROM #HS_BM d2
+  WHERE d1.Date = d2.Date
+)
+UNION
+SELECT
+  *,
+  'HS-AM' AS Code
+FROM #HS_AM d1
+WHERE TargetDistance = (
+  SELECT min(TargetDistance)
+  FROM #HS_AM d2
+  WHERE d1.Date = d2.Date
+)
+UNION
+SELECT
+  *,
+  'LS-BM' AS Code
+FROM #LS_BM d1
+WHERE TargetDistance = (
+  SELECT max(TargetDistance)
+  FROM #LS_BM d2
+  WHERE d1.Date = d2.Date
+)
+UNION
+SELECT
+  *,
+  'LS-AM' AS Code
+FROM #LS_AM d1
+WHERE TargetDistance = (
+  SELECT max(TargetDistance)
+  FROM #LS_AM d2
+  WHERE d1.Date = d2.Date
+>>>>>>> e033ed02045bbc876fe4e00745123fe77f4571fe
+)
+ORDER BY Date
+
+DROP TABLE #data, #HS_AM, #HS_BM, #LS_AM, #LS_BM

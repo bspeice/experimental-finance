@@ -11,7 +11,8 @@ SELECT
   sp.Volume,
   sp.Date,
   op.Strike,
-  op.OpenInterest,
+  SUM(op.OpenInterest),
+  -- Sum the Open Interest to get both calls and puts
   op.Expiration
 FROM XFDATA.dbo.OPTION_PRICE_VIEW op
   INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON op.SecurityID = sp.SecurityID
@@ -30,5 +31,6 @@ GROUP BY
   sp.Volume,
   sp.Date,
   op.Strike,
-  op.OpenInterest,
   op.Expiration
+
+ORDER BY s.Ticker, sp.Date, op.Strike

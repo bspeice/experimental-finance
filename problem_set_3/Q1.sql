@@ -1,7 +1,7 @@
 -- CSCO 103042
 declare @SecurityID int = 103042
 
--- Get all relevant data
+-- Get all relevant option data
 select op.Date, sp.ClosePrice as StockPrice, op.CallPut, op.Expiration, XF.dbo.formatStrike(op.Strike) as Strike,
   XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, op.ImpliedVolatility
 into #data
@@ -11,7 +11,7 @@ where op.SecurityID = @SecurityID
   and op.Date between '2007-1-1' and '2007-12-31'
   and op.CallPut = 'C'
 
--- Extract the 2nd series
+-- Extract the 2nd series as the second earliest expiration
 select *,  ROUND(ABS((SIGN(d1.StockPrice-d1.Strike) + 1 ) / 2 * (d1.StockPrice-d1.Strike)),2) as IntrinsicValue
 into #SecondSeries
 from #data d1
@@ -24,6 +24,7 @@ where Expiration = (
 )
 
 -- Display second series options with POP > 0.5 
+-- POP is calculated as MBBO option price minus the intrinsic value of the option
 select *,
   MBBO - IntrinsicValue as POP,
   Strike/StockPrice as Moneyness

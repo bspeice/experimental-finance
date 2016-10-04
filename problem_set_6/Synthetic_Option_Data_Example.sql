@@ -6,11 +6,11 @@ characteristics that are requested.
 */
 
 -- Parameters are set using Python
-declare @Ticker VARCHAR(10) = 'CSCO'
-declare @DateStart DATETIME = '2011-1-8' -- yyyy-MM-dd
-declare @DateEnd DATETIME = '2011-1-12' -- yyyy-MM-dd
+declare @Ticker VARCHAR(10) = 'KKD'
+declare @DateStart DATETIME = '2005-3-1' -- yyyy-MM-dd
+declare @DateEnd DATETIME = '2005-3-10' -- yyyy-MM-dd
 declare @OptionType CHAR = 'C'
-declare @TargetMaturityDays INT = 45
+declare @TargetMaturityDays INT = 75
 declare @TargetFactor FLOAT = 1
 
 -- Get all relevant data

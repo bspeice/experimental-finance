@@ -5,7 +5,7 @@ For each day 1, 2 or 4 options are returned, depending on how many points are ne
 characteristics that are requested.
 */
 
--- Parameters are set using Python
+-- Parameters
 declare @Ticker VARCHAR(10) = 'CSCO'
 declare @DateStart DATETIME = '2011-1-8' -- yyyy-MM-dd
 declare @DateEnd DATETIME = '2011-1-12' -- yyyy-MM-dd

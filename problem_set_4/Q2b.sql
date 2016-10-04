@@ -11,8 +11,13 @@ SELECT
   sp.Volume,
   sp.Date,
   op.Strike,
-  SUM(op.OpenInterest) as OpenInterest,
   -- Sum the Open Interest to get both calls and puts
+  SUM(op.OpenInterest) as OpenInterest,
+  -- Average the implied volatility - I'm not sure there's
+  -- a better measure that could be used.
+  -- It's only for binning though, and not actual calculations,
+  -- so we assume this is an OK guess.
+  AVG(op.ImpliedVolatility) as ImpliedVolatility,
   op.Expiration
 FROM XFDATA.dbo.OPTION_PRICE_VIEW op
   INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON op.SecurityID = sp.SecurityID

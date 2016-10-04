@@ -11,7 +11,7 @@ SELECT
   sp.Volume,
   sp.Date,
   op.Strike,
-  SUM(op.OpenInterest),
+  SUM(op.OpenInterest) as OpenInterest,
   -- Sum the Open Interest to get both calls and puts
   op.Expiration
 FROM XFDATA.dbo.OPTION_PRICE_VIEW op
@@ -20,7 +20,6 @@ FROM XFDATA.dbo.OPTION_PRICE_VIEW op
   INNER JOIN XFDATA.dbo.SECURITY s ON sp.SecurityID = s.SecurityID
 WHERE op.Expiration BETWEEN '2007-01-01' AND '2009-01-01'
       AND sp.Date BETWEEN '2006-12-01' AND '2009-02-01' -- Stock price buffer
-      AND op.Date = sp.Date
       AND ABS(DATEDIFF(DAY, sp.Date, op.Expiration)) < 20
 
 -- Massive GROUP BY clause cuts down on duplicate data we don't

@@ -15,7 +15,7 @@ WITH strike_diff as (
       SUM(op.OpenInterest)                               AS OpenInterest,
       -- Sum the Open Interest to get both calls and puts
       op.Expiration,
-      AVG(op.ImpliedVolatility),
+      AVG(op.ImpliedVolatility) as ImpliedVolatility,
       sp.ClosePrice - CONVERT(FLOAT, op.Strike) / 1000.0 AS StrikeDiff
     FROM XFDATA.dbo.OPTION_PRICE_VIEW op
       INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON op.SecurityID = sp.SecurityID
@@ -36,8 +36,6 @@ WITH strike_diff as (
       sp.Date,
       op.Strike,
       op.Expiration
-
-    ORDER BY s.Ticker, sp.Date, op.Strike
 )
 
 SELECT strike_diff.*
@@ -53,3 +51,5 @@ FROM strike_diff
     ) sd_grouped ON strike_diff.StrikeDiff = sd_grouped.StrikeDiff
                     AND strike_diff.Date = sd_grouped.Date
                     AND strike_diff.Ticker = sd_grouped.Ticker
+
+ORDER BY strike_diff.Ticker, strike_diff.Date, strike_diff.Strike

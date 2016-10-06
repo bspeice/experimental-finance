@@ -15,8 +15,8 @@ WITH strike_diff as (
       SUM(op.OpenInterest)                               AS OpenInterest,
       -- Sum the Open Interest to get both calls and puts
       op.Expiration,
-      AVG(op.ImpliedVolatility) as ImpliedVolatility,
-      sp.ClosePrice - CONVERT(FLOAT, op.Strike) / 1000.0 AS StrikeDiff
+      AVG(CASE WHEN op.ImpliedVolatility <= 0 THEN NULL ELSE op.ImpliedVolatility END) as ImpliedVolatility,
+      ABS(sp.ClosePrice - XF.dbo.formatStrike(op.Strike)) AS StrikeDiff
     FROM XFDATA.dbo.OPTION_PRICE_VIEW op
       INNER JOIN XFDATA.dbo.SECURITY_PRICE sp ON op.SecurityID = sp.SecurityID
                                                  AND ABS(DATEDIFF(DAY, op.Expiration, sp.Date)) < 20

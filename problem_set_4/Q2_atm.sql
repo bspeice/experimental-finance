@@ -12,9 +12,12 @@ WITH strike_diff as (
       sp.Volume,
       sp.Date,
       op.Strike,
-      SUM(op.OpenInterest)                               AS OpenInterest,
       -- Sum the Open Interest to get both calls and puts
+      SUM(op.OpenInterest)                               AS OpenInterest,
       op.Expiration,
+      -- AVG ignores NULL values, so if we have an invalid ImpliedVolatility we can just
+      -- set it to NULL to exclude it from calculations. Then the correct value is
+      -- applied everywhere
       AVG(CASE WHEN op.ImpliedVolatility <= 0 THEN NULL ELSE op.ImpliedVolatility END) as ImpliedVolatility,
       ABS(sp.ClosePrice - XF.dbo.formatStrike(op.Strike)) AS StrikeDiff
     FROM XFDATA.dbo.OPTION_PRICE_VIEW op

@@ -59,4 +59,4 @@ FROM #StrikeDiff
                              AND #StrikeDiff.Date = sd_grouped.Date
                              AND #StrikeDiff.Ticker = sd_grouped.Ticker
 
-ORDER BY strike_diff.Ticker, strike_diff.Date, strike_diff.Strike
+ORDER BY #StrikeDiff.Ticker, #StrikeDiff.Date, #StrikeDiff.Strike

@@ -7,7 +7,8 @@ from pandas.tseries.offsets import CustomBusinessDay
 
 class USTradingCalendar(AbstractHolidayCalendar):
     rules = [
-        Holiday('NewYearsDay', month=1, day=1, observance=nearest_workday),
+        #Holiday('NewYearsDay', month=1, day=1, observance=nearest_workday),
+        Holiday('NewYearsDay', month=1, day=1),
         USMartinLutherKingJr,
         USPresidentsDay,
         GoodFriday,

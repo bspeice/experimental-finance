@@ -21,5 +21,4 @@ from Earnings e
 
 select * from Earnings
 
-
 drop table #Expirations, Earnings

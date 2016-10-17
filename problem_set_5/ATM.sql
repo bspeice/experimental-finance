@@ -5,6 +5,13 @@ declare @DateStart datetime = '{date_start}'            -- yyyy-MM-dd
 declare @DateEnd datetime = '{date_end}'                -- yyyy-MM-dd
 declare @Expiration datetime = '{date_expiration}'      -- yyyy-MM-dd
 
+/*
+	The query selects two ATM option series for each of the different methods we have considered. 
+	First method is selecting the lower and higher strikes in which the current stock price is contained 
+	and will be used for options with lower time to maturity. Second method selects the strikes with
+	smallest straddle delta value in which straddle delta=0 is contained.
+*/
+
 SELECT
   sp.Date, CallPut,
   MIN(ClosePrice)                                                                    AS ClosePrice,

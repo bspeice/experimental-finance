@@ -17,6 +17,7 @@ declare @TargetFactor float = '{target_factor}'
 select op.Date, sp.ClosePrice as StockPrice, 
   op.CallPut, op.Expiration, datediff(day,op.Date,Expiration) as DaysToMaturity, 
   XF.dbo.formatStrike(op.Strike) as Strike, op.ImpliedVolatility, XF.dbo.mbbo(op.BestBid,op.BestOffer) as MBBO, 
+  (op.BestOffer-op.BestBid) as Spread,
   round(convert(float,@TargetFactor) * sp.ClosePrice,2) as StrikePriceTarget, (XF.dbo.formatStrike(op.Strike)-@TargetFactor * sp.ClosePrice) as TargetDistance,
   XF.[db_datawriter].InterpolateRate(@TargetMaturityDays, op.Date) as ZeroRate
 into #data

@@ -1,10 +1,5 @@
 -- Parameters are set externally
-declare @Ticker varchar(10) = '{ticker}'
-declare @SecID int = '{sec_id}'
-declare @SecurityID int = 0
-IF @SecID=0
-   Select @SecurityID = (select SecurityID from XFDATA.dbo.SECURITY where Ticker = @Ticker)
-   ELSE Select @SecurityID=@SecID
+declare @SecurityID int = '{sec_id}'
 declare @DateStart datetime = '{date_start}'            -- yyyy-MM-dd
 declare @DateEnd datetime = '{date_end}'                -- yyyy-MM-dd
 declare @Expiration datetime = '{date_expiration}'      -- yyyy-MM-dd

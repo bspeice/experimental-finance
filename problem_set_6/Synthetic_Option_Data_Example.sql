@@ -7,9 +7,9 @@ characteristics that are requested.
 
 -- Parameters are set using Python
 declare @Ticker VARCHAR(10) = 'KKD'
-declare @DateStart DATETIME = '2005-3-1' -- yyyy-MM-dd
-declare @DateEnd DATETIME = '2005-3-10' -- yyyy-MM-dd
-declare @OptionType CHAR = 'C'
+declare @DateStart DATETIME = '2004-5-19' -- yyyy-MM-dd
+declare @DateEnd DATETIME = '2005-5-19' -- yyyy-MM-dd
+declare @OptionType CHAR = 'P'
 declare @TargetMaturityDays INT = 75
 declare @TargetFactor FLOAT = 1
 

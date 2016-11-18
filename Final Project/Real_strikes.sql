@@ -20,7 +20,7 @@ SELECT
   XF.dbo.mbbo(op.BestBid,op.BestOffer)                                               AS MBBO,
   op.BestOffer-op.BestBid                                                            AS Spread,
   ImpliedVolatility							             AS ImpliedVolatility,
-  OpenInterest, op.Volume,
+  OpenInterest, op.Volume, op.Delta,
   XF.[db_datawriter].InterpolateRate(DATEDIFF(day,sp.Date,@Expiration), sp.Date)     AS ZeroRate
 INTO #diff_table
 FROM XFDATA.dbo.SECURITY_PRICE sp

@@ -1,5 +1,5 @@
 
-1-In:Delta Air Lines-129410 - Out:BMC Software-101903- A-Date: 2013-09-06 00:00:00 - C-Date: 2013-09-10 00:00:00
+1-In:Delta Air Lines-129410 - Out:BMC Software-101903- A-Date: 2013-09-06 - C-Date: 2013-09-10
 2013-09-06
 Long Leg - Buy   : 500.0 shares of DAL @ 19.89 for 9945.00
 Short Leg - Sell : 60.0 shares of SPY @ 166.04 for 9962.40
@@ -11,7 +11,7 @@ Results
 Return on Long: 1370.00, Return on Short: -169.80 Total Return: 1217.60
 
 
-2-In:Ametek-101496 - Out:Leidos Holdings Inc-127813- A-Date: 2013-09-11 00:00:00 - C-Date: 2013-09-20 00:00:00
+2-In:Ametek-101496 - Out:Leidos Holdings Inc-127813- A-Date: 2013-09-11 - C-Date: 2013-09-20
 2013-09-11
 Long Leg - Buy   : 224.0 shares of AME @ 44.49 for 9965.76
 Short Leg - Sell : 59.0 shares of SPY @ 169.40 for 9994.60
@@ -23,7 +23,7 @@ Results
 Return on Long: 338.24, Return on Short: -77.88 Total Return: 289.20
 
 
-3-In:Vertex Pharmaceuticals Inc.-111683 - Out:Advanced Micro Devices-101121- A-Date: 2013-09-11 00:00:00 - C-Date: 2013-09-20 00:00:00
+3-In:Vertex Pharmaceuticals Inc.-111683 - Out:Advanced Micro Devices-101121- A-Date: 2013-09-11 - C-Date: 2013-09-20
 2013-09-11
 Long Leg - Buy   : 125.0 shares of VRTX @ 79.81 for 9976.25
 Short Leg - Sell : 59.0 shares of SPY @ 169.40 for 9994.60
@@ -35,7 +35,7 @@ Results
 Return on Long: -457.50, Return on Short: -77.88 Total Return: -517.03
 
 
-4-In:Transocean-112333 - Out:Dell, Inc.-103749- A-Date: 2013-10-21 00:00:00 - C-Date: 2013-10-28 00:00:00
+4-In:Transocean-112333 - Out:Dell, Inc.-103749- A-Date: 2013-10-21 - C-Date: 2013-10-28
 2013-10-21
 Long Leg - Buy   : 213.0 shares of RIG @ 46.57 for 9919.41
 Short Leg - Sell : 57.0 shares of SPY @ 174.40 for 9940.80
@@ -47,7 +47,7 @@ Results
 Return on Long: 432.39, Return on Short: -104.31 Total Return: 349.47
 
 
-5-In:Michael Kors Holdings-151413 - Out:NYSE Euronext-125812- A-Date: 2013-11-08 00:00:00 - C-Date: 2013-11-12 00:00:00
+5-In:Michael Kors Holdings-151413 - Out:NYSE Euronext-125812- A-Date: 2013-11-08 - C-Date: 2013-11-12
 2013-11-08
 Long Leg - Buy   : 125.0 shares of KORS @ 79.40 for 9925.00
 Short Leg - Sell : 56.0 shares of SPY @ 177.29 for 9928.24
@@ -59,7 +59,7 @@ Results
 Return on Long: 342.50, Return on Short: 18.48 Total Return: 364.22
 
 
-6-In:Allegion-189767 - Out:J.C. Penney-108849- A-Date: 2013-11-22 00:00:00 - C-Date: 2013-11-29 00:00:00
+6-In:Allegion-189767 - Out:J.C. Penney-108849- A-Date: 2013-11-22 - C-Date: 2013-11-29
 2013-11-22
 Long Leg - Buy   : 226.0 shares of ALLE @ 43.99 for 9941.74
 Short Leg - Sell : 55.0 shares of SPY @ 180.81 for 9944.55
@@ -71,7 +71,7 @@ Results
 Return on Long: -169.50, Return on Short: -10.45 Total Return: -177.14
 
 
-7-In:General Growth Properties-105171 - Out:Molex Inc.-107657- A-Date: 2013-12-04 00:00:00 - C-Date: 2013-12-09 00:00:00
+7-In:General Growth Properties-105171 - Out:Molex Inc.-107657- A-Date: 2013-12-04 - C-Date: 2013-12-09
 2013-12-04
 Long Leg - Buy   : 487.0 shares of GGP @ 20.28 for 9876.36
 Short Leg - Sell : 55.0 shares of SPY @ 179.73 for 9885.15
@@ -83,7 +83,7 @@ Results
 Return on Long: 433.43, Return on Short: -91.85 Total Return: 350.37
 
 
-8-In:Facebook, Inc.-154402 - Out:Teradyne-110952- A-Date: 2013-12-11 00:00:00 - C-Date: 2013-12-20 00:00:00
+8-In:Facebook, Inc.-154402 - Out:Teradyne-110952- A-Date: 2013-12-11 - C-Date: 2013-12-20
 2013-12-11
 Long Leg - Buy   : 199.0 shares of FB @ 49.38 for 9826.62
 Short Leg - Sell : 55.0 shares of SPY @ 178.72 for 9829.60
@@ -95,7 +95,7 @@ Results
 Return on Long: 1142.26, Return on Short: -156.20 Total Return: 989.04
 
 
-9-In:Mohawk Industries-107652 - Out:VIAVI Solutions Inc-106505- A-Date: 2013-12-11 00:00:00 - C-Date: 2013-12-20 00:00:00
+9-In:Mohawk Industries-107652 - Out:VIAVI Solutions Inc-106505- A-Date: 2013-12-11 - C-Date: 2013-12-20
 2013-12-11
 Long Leg - Buy   : 70.0 shares of MHK @ 139.52 for 9766.40
 Short Leg - Sell : 55.0 shares of SPY @ 178.72 for 9829.60
@@ -107,7 +107,7 @@ Results
 Return on Long: 134.40, Return on Short: -156.20 Total Return: 41.40
 
 
-10-In:Alliance Data Systems Corp.-115211 - Out:Abercrombie & Fitch-100974- A-Date: 2013-12-11 00:00:00 - C-Date: 2013-12-20 00:00:00
+10-In:Alliance Data Systems Corp.-115211 - Out:Abercrombie & Fitch-100974- A-Date: 2013-12-11 - C-Date: 2013-12-20
 2013-12-11
 Long Leg - Buy   : 40.0 shares of ADS @ 243.70 for 9748.00
 Short Leg - Sell : 55.0 shares of SPY @ 178.72 for 9829.60
@@ -119,7 +119,7 @@ Results
 Return on Long: 272.00, Return on Short: -156.20 Total Return: 197.40
 
 
-11-In:Tractor Supply Co.-111122 - Out:Life Technologies-106387- A-Date: 2014-01-16 00:00:00 - C-Date: 2014-01-23 00:00:00
+11-In:Tractor Supply Co.-111122 - Out:Life Technologies-106387- A-Date: 2014-01-16 - C-Date: 2014-01-23
 2014-01-16
 Long Leg - Buy   : 134.0 shares of TSCO @ 74.31 for 9957.54
 Short Leg - Sell : 54.0 shares of SPY @ 184.42 for 9958.68
@@ -131,7 +131,7 @@ Results
 Return on Long: -326.96, Return on Short: 88.02 Total Return: -237.80
 
 
-12-In:Keurig Green Mountain-105399 - Out:WPX Energy Inc-151404- A-Date: 2014-03-14 00:00:00 - C-Date: 2014-03-21 00:00:00
+12-In:Keurig Green Mountain-105399 - Out:WPX Energy Inc-151404- A-Date: 2014-03-14 - C-Date: 2014-03-21
 2014-03-14
 Long Leg - Buy   : 88.0 shares of GMCR @ 113.25 for 9966.00
 Short Leg - Sell : 54.0 shares of SPY @ 184.66 for 9971.64
@@ -143,7 +143,7 @@ Results
 Return on Long: -110.00, Return on Short: -83.16 Total Return: -187.52
 
 
-13-In:Essex Property Trust Inc-104452 - Out:Cliffs Natural Resources-103098- A-Date: 2014-03-26 00:00:00 - C-Date: 2014-04-01 00:00:00
+13-In:Essex Property Trust Inc-104452 - Out:Cliffs Natural Resources-103098- A-Date: 2014-03-26 - C-Date: 2014-04-01
 2014-03-26
 Long Leg - Buy   : 60.0 shares of ESS @ 165.31 for 9918.60
 Short Leg - Sell : 54.0 shares of SPY @ 184.97 for 9988.38
@@ -155,7 +155,7 @@ Results
 Return on Long: 521.40, Return on Short: -177.12 Total Return: 414.06
 
 
-14-In:Navient-204016 - Out:SLM Corp.-111359- A-Date: 2014-04-24 00:00:00 - C-Date: 2014-05-01 00:00:00
+14-In:Navient-204016 - Out:SLM Corp.-111359- A-Date: 2014-04-24 - C-Date: 2014-05-01
 2014-04-24
 Long Leg - Buy   : 598.0 shares of NAVI @ 16.63 for 9944.74
 Short Leg - Sell : 53.0 shares of SPY @ 187.83 for 9954.99
@@ -167,7 +167,7 @@ Results
 Return on Long: 221.26, Return on Short: -26.23 Total Return: 205.28
 
 
-15-In:Under Armour-125183 - Out:Beam Inc.-104958- A-Date: 2014-04-24 00:00:00 - C-Date: 2014-04-30 00:00:00
+15-In:Under Armour-125183 - Out:Beam Inc.-104958- A-Date: 2014-04-24 - C-Date: 2014-04-30
 2014-04-24
 Long Leg - Buy   : 197.0 shares of UA @ 50.42 for 9932.74
 Short Leg - Sell : 53.0 shares of SPY @ 187.83 for 9954.99
@@ -179,7 +179,7 @@ Results
 Return on Long: -301.41, Return on Short: -25.44 Total Return: -304.60
 
 
-16-In:Avago Technologies-139322 - Out:LSI Corporation-106776- A-Date: 2014-05-05 00:00:00 - C-Date: 2014-05-07 00:00:00
+16-In:Avago Technologies-139322 - Out:LSI Corporation-106776- A-Date: 2014-05-05 - C-Date: 2014-05-07
 2014-05-05
 Long Leg - Buy   : 155.0 shares of AVGO @ 64.25 for 9958.75
 Short Leg - Sell : 53.0 shares of SPY @ 188.42 for 9986.26
@@ -191,7 +191,7 @@ Results
 Return on Long: 396.80, Return on Short: 28.62 Total Return: 452.93
 
 
-17-In:Cimarex Energy-116327 - Out:International Game Tech.-106293- A-Date: 2014-06-12 00:00:00 - C-Date: 2014-06-20 00:00:00
+17-In:Cimarex Energy-116327 - Out:International Game Tech.-106293- A-Date: 2014-06-12 - C-Date: 2014-06-20
 2014-06-12
 Long Leg - Buy   : 72.0 shares of XEC @ 135.77 for 9775.44
 Short Leg - Sell : 51.0 shares of SPY @ 193.54 for 9870.54
@@ -203,7 +203,7 @@ Results
 Return on Long: 398.88, Return on Short: -122.40 Total Return: 371.58
 
 
-18-In:Affiliated Managers Group-101138 - Out:Forest Laboratories-104946- A-Date: 2014-06-24 00:00:00 - C-Date: 2014-06-30 00:00:00
+18-In:Affiliated Managers Group-101138 - Out:Forest Laboratories-104946- A-Date: 2014-06-24 - C-Date: 2014-06-30
 2014-06-24
 Long Leg - Buy   : 49.0 shares of AMG @ 201.56 for 9876.44
 Short Leg - Sell : 51.0 shares of SPY @ 194.70 for 9929.70
@@ -215,7 +215,7 @@ Results
 Return on Long: 188.16, Return on Short: -52.02 Total Return: 189.40
 
 
-19-In:Martin Marietta Materials-107253 - Out:U.S. Steel Corp.-111337- A-Date: 2014-06-27 00:00:00 - C-Date: 2014-07-01 00:00:00
+19-In:Martin Marietta Materials-107253 - Out:U.S. Steel Corp.-111337- A-Date: 2014-06-27 - C-Date: 2014-07-01
 2014-06-27
 Long Leg - Buy   : 75.0 shares of MLM @ 132.23 for 9917.25
 Short Leg - Sell : 51.0 shares of SPY @ 195.82 for 9986.82
@@ -227,7 +227,7 @@ Results
 Return on Long: -17.25, Return on Short: -61.71 Total Return: -9.39
 
 
-20-In:Mallinckrodt plc-166732 - Out:Rowan Companies plc-109715- A-Date: 2014-08-14 00:00:00 - C-Date: 2014-08-18 00:00:00
+20-In:Mallinckrodt plc-166732 - Out:Rowan Companies plc-109715- A-Date: 2014-08-14 - C-Date: 2014-08-18
 2014-08-14
 Long Leg - Buy   : 140.0 shares of MNK @ 70.88 for 9923.20
 Short Leg - Sell : 51.0 shares of SPY @ 195.76 for 9983.76
@@ -239,7 +239,7 @@ Results
 Return on Long: 156.80, Return on Short: -81.60 Total Return: 135.76
 
 
-21-In:Universal Health Services-111493 - Out:Graham Holdings-111885- A-Date: 2014-09-12 00:00:00 - C-Date: 2014-09-19 00:00:00
+21-In:Universal Health Services-111493 - Out:Graham Holdings-111885- A-Date: 2014-09-12 - C-Date: 2014-09-19
 2014-09-12
 Long Leg - Buy   : 89.0 shares of UHS @ 111.71 for 9942.19
 Short Leg - Sell : 50.0 shares of SPY @ 199.13 for 9956.50
@@ -251,7 +251,7 @@ Results
 Return on Long: 197.58, Return on Short: -78.50 Total Return: 133.39
 
 
-22-In:United Rentals, Inc.-111436 - Out:Peabody Energy-115179- A-Date: 2014-09-12 00:00:00 - C-Date: 2014-09-19 00:00:00
+22-In:United Rentals, Inc.-111436 - Out:Peabody Energy-115179- A-Date: 2014-09-12 - C-Date: 2014-09-19
 2014-09-12
 Long Leg - Buy   : 85.0 shares of URI @ 116.60 for 9911.00
 Short Leg - Sell : 50.0 shares of SPY @ 199.13 for 9956.50
@@ -263,7 +263,7 @@ Results
 Return on Long: 8.50, Return on Short: -78.50 Total Return: -24.50
 
 
-23-In:Level 3 Comm's-106908 - Out:Jabil Circuit-106521- A-Date: 2014-10-29 00:00:00 - C-Date: 2014-11-04 00:00:00
+23-In:Level 3 Comm's-106908 - Out:Jabil Circuit-106521- A-Date: 2014-10-29 - C-Date: 2014-11-04
 2014-10-29
 Long Leg - Buy   : 222.0 shares of LVLT @ 44.59 for 9898.98
 Short Leg - Sell : 50.0 shares of SPY @ 198.11 for 9905.50
@@ -275,7 +275,7 @@ Results
 Return on Long: 590.52, Return on Short: -148.00 Total Return: 449.04
 
 
-24-In:Royal Caribbean Cruises-112463 - Out:Bemis-102088- A-Date: 2014-12-01 00:00:00 - C-Date: 2014-12-04 00:00:00
+24-In:Royal Caribbean Cruises-112463 - Out:Bemis-102088- A-Date: 2014-12-01 - C-Date: 2014-12-04
 2014-12-01
 Long Leg - Buy   : 136.0 shares of RCL @ 72.29 for 9831.44
 Short Leg - Sell : 48.0 shares of SPY @ 205.76 for 9876.48
@@ -287,7 +287,7 @@ Results
 Return on Long: 703.12, Return on Short: -91.20 Total Return: 656.96
 
 
-25-In:Endo International plc-104318 - Out:Covidien-129709- A-Date: 2015-01-21 00:00:00 - C-Date: 2015-01-26 00:00:00
+25-In:Endo International plc-104318 - Out:Covidien-129709- A-Date: 2015-01-21 - C-Date: 2015-01-26
 2015-01-21
 Long Leg - Buy   : 124.0 shares of ENDP @ 79.82 for 9897.68
 Short Leg - Sell : 49.0 shares of SPY @ 203.08 for 9950.92
@@ -299,7 +299,7 @@ Results
 Return on Long: -83.08, Return on Short: -116.13 Total Return: -145.97
 
 
-26-In:HCA Holdings Inc-146286 - Out:Safeway Inc.-109854- A-Date: 2015-01-23 00:00:00 - C-Date: 2015-01-26 00:00:00
+26-In:HCA Holdings Inc-146286 - Out:Safeway Inc.-109854- A-Date: 2015-01-23 - C-Date: 2015-01-26
 2015-01-23
 Long Leg - Buy   : 143.0 shares of HCA @ 68.64 for 9815.52
 Short Leg - Sell : 48.0 shares of SPY @ 204.97 for 9838.56
@@ -311,7 +311,7 @@ Results
 Return on Long: 623.48, Return on Short: -23.04 Total Return: 623.48
 
 
-27-In:Skyworks Solutions Inc.-101281 - Out:PetSmart, Inc.-108942- A-Date: 2015-03-09 00:00:00 - C-Date: 2015-03-11 00:00:00
+27-In:Skyworks Solutions Inc.-101281 - Out:PetSmart, Inc.-108942- A-Date: 2015-03-09 - C-Date: 2015-03-11
 2015-03-09
 Long Leg - Buy   : 106.0 shares of SWKS @ 92.11 for 9764.19
 Short Leg - Sell : 47.0 shares of SPY @ 208.36 for 9792.92
@@ -323,7 +323,7 @@ Results
 Return on Long: 9.01, Return on Short: 181.42 Total Return: 219.16
 
 
-28-In:Henry Schein Inc-109951 - Out:Carefusion-139386- A-Date: 2015-03-13 00:00:00 - C-Date: 2015-03-17 00:00:00
+28-In:Henry Schein Inc-109951 - Out:Carefusion-139386- A-Date: 2015-03-13 - C-Date: 2015-03-17
 2015-03-13
 Long Leg - Buy   : 72.0 shares of HSIC @ 136.37 for 9818.64
 Short Leg - Sell : 48.0 shares of SPY @ 205.83 for 9879.71
@@ -335,7 +335,7 @@ Results
 Return on Long: 141.84, Return on Short: -102.37 Total Return: 100.53
 
 
-29-In:Hanesbrands Inc-127473 - Out:Avon Products-101849- A-Date: 2015-03-13 00:00:00 - C-Date: 2015-03-20 00:00:00
+29-In:Hanesbrands Inc-127473 - Out:Avon Products-101849- A-Date: 2015-03-13 - C-Date: 2015-03-20
 2015-03-13
 Long Leg - Buy   : 302.0 shares of HBI @ 32.61 for 9848.22
 Short Leg - Sell : 48.0 shares of SPY @ 205.83 for 9879.71
@@ -347,7 +347,7 @@ Results
 Return on Long: 474.14, Return on Short: -219.97 Total Return: 285.65
 
 
-30-In:SL Green Realty Corp-109812 - Out:Nabors Industries Ltd.-107885- A-Date: 2015-03-13 00:00:00 - C-Date: 2015-03-20 00:00:00
+30-In:SL Green Realty Corp-109812 - Out:Nabors Industries Ltd.-107885- A-Date: 2015-03-13 - C-Date: 2015-03-20
 2015-03-13
 Long Leg - Buy   : 77.0 shares of SLG @ 127.42 for 9811.34
 Short Leg - Sell : 48.0 shares of SPY @ 205.83 for 9879.71
@@ -359,7 +359,7 @@ Results
 Return on Long: 506.66, Return on Short: -219.97 Total Return: 355.05
 
 
-31-In:Equinix Inc-104415 - Out:Denbury Resources Inc.-103770- A-Date: 2015-03-13 00:00:00 - C-Date: 2015-03-20 00:00:00
+31-In:Equinix Inc-104415 - Out:Denbury Resources Inc.-103770- A-Date: 2015-03-13 - C-Date: 2015-03-20
 2015-03-13
 Long Leg - Buy   : 42.0 shares of EQIX @ 230.49 for 9680.58
 Short Leg - Sell : 48.0 shares of SPY @ 205.83 for 9879.71
@@ -371,7 +371,7 @@ Results
 Return on Long: 355.32, Return on Short: -219.97 Total Return: 334.47
 
 
-32-In:American Airlines Group-189845 - Out:Allergan Inc (Old)-101233- A-Date: 2015-03-13 00:00:00 - C-Date: 2015-03-20 00:00:00
+32-In:American Airlines Group-189845 - Out:Allergan Inc (Old)-101233- A-Date: 2015-03-13 - C-Date: 2015-03-20
 2015-03-13
 Long Leg - Buy   : 200.0 shares of AAL @ 49.22 for 9844.00
 Short Leg - Sell : 48.0 shares of SPY @ 205.83 for 9879.71
@@ -383,7 +383,7 @@ Results
 Return on Long: 1308.00, Return on Short: -219.97 Total Return: 1123.73
 
 
-33-In:Realty Income Corporation-109507 - Out:Windstream Comm's-123082- A-Date: 2015-03-27 00:00:00 - C-Date: 2015-04-06 00:00:00
+33-In:Realty Income Corporation-109507 - Out:Windstream Comm's-123082- A-Date: 2015-03-27 - C-Date: 2015-04-06
 2015-03-27
 Long Leg - Buy   : 193.0 shares of O @ 51.06 for 9854.58
 Short Leg - Sell : 48.0 shares of SPY @ 205.74 for 9875.52
@@ -395,7 +395,7 @@ Results
 Return on Long: -96.50, Return on Short: -100.32 Total Return: -175.88
 
 
-34-In:Qorvo-206043 - Out:Lorillard Inc.-113928- A-Date: 2015-06-09 00:00:00 - C-Date: 2015-06-11 00:00:00
+34-In:Qorvo-206043 - Out:Lorillard Inc.-113928- A-Date: 2015-06-09 - C-Date: 2015-06-11
 2015-06-09
 Long Leg - Buy   : 122.0 shares of QRVO @ 80.05 for 9766.10
 Short Leg - Sell : 47.0 shares of SPY @ 208.45 for 9797.15
@@ -407,7 +407,7 @@ Results
 Return on Long: 237.90, Return on Short: -149.46 Total Return: 119.49
 
 
-35-In:Baxalta Inc-102043 - Out:QEP Resources-143086- A-Date: 2015-06-19 00:00:00 - C-Date: 2015-06-30 00:00:00
+35-In:Baxalta Inc-102043 - Out:QEP Resources-143086- A-Date: 2015-06-19 - C-Date: 2015-06-30
 2015-06-19
 Long Leg - Buy   : 142.0 shares of BXLT @ 69.41 for 9856.22
 Short Leg - Sell : 47.0 shares of SPY @ 210.81 for 9908.07
@@ -419,7 +419,7 @@ Results
 Return on Long: 73.84, Return on Short: 233.12 Total Return: 358.81
 
 
-36-In:J. B. Hunt Transport Services Inc.-105843 - Out:Integrys Energy Group Inc.-111838- A-Date: 2015-06-26 00:00:00 - C-Date: 2015-06-30 00:00:00
+36-In:J. B. Hunt Transport Services Inc.-105843 - Out:Integrys Energy Group Inc.-111838- A-Date: 2015-06-26 - C-Date: 2015-06-30
 2015-06-26
 Long Leg - Buy   : 117.0 shares of JBHT @ 83.82 for 9806.94
 Short Leg - Sell : 47.0 shares of SPY @ 209.82 for 9861.54
@@ -433,7 +433,7 @@ Return on Long: -202.41, Return on Short: 186.59 Total Return: 38.78
 
 37-In:Columbia Pipeline Group Inc.-Not index tradable
 
-38-In:Advance Auto Parts Inc-113185 - Out:Family Dollar Stores-104593- A-Date: 2015-07-06 00:00:00 - C-Date: 2015-07-08 00:00:00
+38-In:Advance Auto Parts Inc-113185 - Out:Family Dollar Stores-104593- A-Date: 2015-07-06 - C-Date: 2015-07-08
 2015-07-06
 Long Leg - Buy   : 60.0 shares of AAP @ 163.42 for 9805.20
 Short Leg - Sell : 48.0 shares of SPY @ 206.72 for 9922.56
@@ -445,7 +445,7 @@ Results
 Return on Long: -205.80, Return on Short: 105.12 Total Return: 16.68
 
 
-39-In:PayPal Holdings Inc.-207609 - Out:Noble Corp.-108175- A-Date: 2015-07-14 00:00:00 - C-Date: 2015-07-17 00:00:00
+39-In:PayPal Holdings Inc.-207609 - Out:Noble Corp.-108175- A-Date: 2015-07-14 - C-Date: 2015-07-17
 2015-07-14
 Long Leg - Buy   : 268.0 shares of PYPL @ 36.93 for 9897.24
 Short Leg - Sell : 47.0 shares of SPY @ 210.68 for 9901.96
@@ -457,7 +457,7 @@ Results
 Return on Long: 391.28, Return on Short: -84.60 Total Return: 311.40
 
 
-40-In:Signet Jewelers Limited-110158 - Out:DirecTV-119891- A-Date: 2015-07-24 00:00:00 - C-Date: 2015-07-28 00:00:00
+40-In:Signet Jewelers Limited-110158 - Out:DirecTV-119891- A-Date: 2015-07-24 - C-Date: 2015-07-28
 2015-07-24
 Long Leg - Buy   : 82.0 shares of SIG @ 121.04 for 9925.28
 Short Leg - Sell : 48.0 shares of SPY @ 208.00 for 9984.00
@@ -469,7 +469,7 @@ Results
 Return on Long: -13.94, Return on Short: -63.84 Total Return: -19.06
 
 
-41-In:Activision Blizzard Inc-101029 - Out:Pall Corp.-108716- A-Date: 2015-08-27 00:00:00 - C-Date: 2015-08-28 00:00:00
+41-In:Activision Blizzard Inc-101029 - Out:Pall Corp.-108716- A-Date: 2015-08-27 - C-Date: 2015-08-28
 2015-08-27
 Long Leg - Buy   : 356.0 shares of ATVI @ 27.93 for 9943.08
 Short Leg - Sell : 50.0 shares of SPY @ 199.27 for 9963.50
@@ -481,7 +481,7 @@ Results
 Return on Long: 459.24, Return on Short: -0.50 Total Return: 479.16
 
 
-42-In:United Continental Holdings-125537 - Out:Hospira Inc.-121383- A-Date: 2015-08-27 00:00:00 - C-Date: 2015-09-02 00:00:00
+42-In:United Continental Holdings-125537 - Out:Hospira Inc.-121383- A-Date: 2015-08-27 - C-Date: 2015-09-02
 2015-08-27
 Long Leg - Buy   : 186.0 shares of UAL @ 53.36 for 9924.96
 Short Leg - Sell : 50.0 shares of SPY @ 199.27 for 9963.50
@@ -493,7 +493,7 @@ Results
 Return on Long: 730.98, Return on Short: 193.00 Total Return: 962.52
 
 
-43-In:Verisk Analytics Inc-139590 - Out:Joy Global Inc.-112931- A-Date: 2015-09-30 00:00:00 - C-Date: 2015-10-07 00:00:00
+43-In:Verisk Analytics Inc-139590 - Out:Joy Global Inc.-112931- A-Date: 2015-09-30 - C-Date: 2015-10-07
 2015-09-30
 Long Leg - Buy   : 134.0 shares of VRSK @ 73.91 for 9903.94
 Short Leg - Sell : 52.0 shares of SPY @ 191.63 for 9964.76
@@ -507,7 +507,7 @@ Return on Long: 942.02, Return on Short: -404.56 Total Return: 598.28
 
 44-In:Hewlett Packard Enterprise Co-Not index tradable
 
-45-In:Synchrony Financial-205036 - Out:Genworth Financial Inc.-121535- A-Date: 2015-11-09 00:00:00 - C-Date: 2015-11-17 00:00:00
+45-In:Synchrony Financial-205036 - Out:Genworth Financial Inc.-121535- A-Date: 2015-11-09 - C-Date: 2015-11-17
 2015-11-09
 Long Leg - Buy   : 307.0 shares of SYF @ 32.52 for 9983.64
 Short Leg - Sell : 48.0 shares of SPY @ 208.08 for 9987.84
@@ -519,7 +519,7 @@ Results
 Return on Long: -595.58, Return on Short: 125.28 Total Return: -466.10
 
 
-46-In:Illumina Inc-105986 - Out:Sigma-Aldrich Corp.-110152- A-Date: 2015-11-12 00:00:00 - C-Date: 2015-11-18 00:00:00
+46-In:Illumina Inc-105986 - Out:Sigma-Aldrich Corp.-110152- A-Date: 2015-11-12 - C-Date: 2015-11-18
 2015-11-12
 Long Leg - Buy   : 63.0 shares of ILMN @ 155.39 for 9789.57
 Short Leg - Sell : 48.0 shares of SPY @ 204.84 for 9832.32
@@ -533,7 +533,7 @@ Return on Long: 1325.52, Return on Short: -186.72 Total Return: 1181.55
 
 47-In:CSRA Inc-Not index tradable
 
-48-In:Church & Dwight Co-103016 - Out:Altera Corp.-101293- A-Date: 2015-12-22 00:00:00 - C-Date: 2015-12-28 00:00:00
+48-In:Church & Dwight Co-103016 - Out:Altera Corp.-101293- A-Date: 2015-12-22 - C-Date: 2015-12-28
 2015-12-22
 Long Leg - Buy   : 116.0 shares of CHD @ 85.33 for 9898.28
 Short Leg - Sell : 49.0 shares of SPY @ 203.50 for 9971.50
@@ -545,7 +545,7 @@ Results
 Return on Long: 2.32, Return on Short: -83.79 Total Return: -8.25
 
 
-49-In:Willis Towers Watson-115225 - Out:Fossil Group-104964- A-Date: 2015-12-28 00:00:00 - C-Date: 2016-01-04 00:00:00
+49-In:Willis Towers Watson-115225 - Out:Fossil Group-104964- A-Date: 2015-12-28 - C-Date: 2016-01-04
 2015-12-28
 Long Leg - Buy   : 209.0 shares of WLTW @ 47.05 for 9833.45
 Short Leg - Sell : 48.0 shares of SPY @ 205.21 for 9850.08
@@ -557,7 +557,7 @@ Results
 Return on Long: 27.17, Return on Short: 201.16 Total Return: 244.96
 
 
-50-In:Extra Space Storage Inc-121804 - Out:Chubb Corp-103015- A-Date: 2016-01-13 00:00:00 - C-Date: 2016-01-15 00:00:00
+50-In:Extra Space Storage Inc-121804 - Out:Chubb Corp-103015- A-Date: 2016-01-13 - C-Date: 2016-01-15
 2016-01-13
 Long Leg - Buy   : 109.0 shares of EXR @ 89.55 for 9760.95
 Short Leg - Sell : 52.0 shares of SPY @ 188.83 for 9819.16
@@ -569,7 +569,7 @@ Results
 Return on Long: -383.68, Return on Short: 53.04 Total Return: -272.43
 
 
-51-In:Federal Realty Investment Trust-104629 - Out:Broadcom Corporation-102362- A-Date: 2016-01-22 00:00:00 - C-Date: 2016-01-29 00:00:00
+51-In:Federal Realty Investment Trust-104629 - Out:Broadcom Corporation-102362- A-Date: 2016-01-22 - C-Date: 2016-01-29
 2016-01-22
 Long Leg - Buy   : 65.0 shares of FRT @ 150.29 for 9768.85
 Short Leg - Sell : 52.0 shares of SPY @ 190.52 for 9907.04
@@ -581,7 +581,7 @@ Results
 Return on Long: 35.10, Return on Short: -166.44 Total Return: 6.85
 
 
-52-In:Citizens Financial Group-205457 - Out:Precision Castparts Corp.-109148- A-Date: 2016-01-26 00:00:00 - C-Date: 2016-01-29 00:00:00
+52-In:Citizens Financial Group-205457 - Out:Precision Castparts Corp.-109148- A-Date: 2016-01-26 - C-Date: 2016-01-29
 2016-01-26
 Long Leg - Buy   : 487.0 shares of CFG @ 20.29 for 9881.23
 Short Leg - Sell : 52.0 shares of SPY @ 190.20 for 9890.40
@@ -593,7 +593,7 @@ Results
 Return on Long: 467.52, Return on Short: -183.08 Total Return: 293.61
 
 
-53-In:Concho Resources-133962 - Out:Plum Creek Timber-109073- A-Date: 2016-02-16 00:00:00 - C-Date: 2016-02-19 00:00:00
+53-In:Concho Resources-133962 - Out:Plum Creek Timber-109073- A-Date: 2016-02-16 - C-Date: 2016-02-19
 2016-02-16
 Long Leg - Buy   : 111.0 shares of CXO @ 88.14 for 9783.54
 Short Leg - Sell : 52.0 shares of SPY @ 189.78 for 9868.56
@@ -605,7 +605,7 @@ Results
 Return on Long: 460.65, Return on Short: -115.44 Total Return: 430.23
 
 
-54-In:American Water Works Company Inc-136200 - Out:Consol Energy-103354- A-Date: 2016-03-01 00:00:00 - C-Date: 2016-03-03 00:00:00
+54-In:American Water Works Company Inc-136200 - Out:Consol Energy-103354- A-Date: 2016-03-01 - C-Date: 2016-03-03
 2016-03-01
 Long Leg - Buy   : 151.0 shares of AWK @ 65.30 for 9860.30
 Short Leg - Sell : 50.0 shares of SPY @ 198.11 for 9905.50
@@ -617,7 +617,7 @@ Results
 Return on Long: 392.60, Return on Short: -83.25 Total Return: 354.55
 
 
-55-In:UDR Inc-111416 - Out:Keurig Green Mountain-105399- A-Date: 2016-03-03 00:00:00 - C-Date: 2016-03-04 00:00:00
+55-In:UDR Inc-111416 - Out:Keurig Green Mountain-105399- A-Date: 2016-03-03 - C-Date: 2016-03-04
 2016-03-03
 Long Leg - Buy   : 273.0 shares of UDR @ 36.53 for 9972.69
 Short Leg - Sell : 50.0 shares of SPY @ 199.78 for 9988.75
@@ -629,7 +629,7 @@ Results
 Return on Long: -483.21, Return on Short: -32.75 Total Return: -499.90
 
 
-56-In:Centene Corp-113430 - Out:Ensco plc-104056- A-Date: 2016-03-24 00:00:00 - C-Date: 2016-03-29 00:00:00
+56-In:Centene Corp-113430 - Out:Ensco plc-104056- A-Date: 2016-03-24 - C-Date: 2016-03-29
 2016-03-24
 Long Leg - Buy   : 156.0 shares of CNC @ 63.76 for 9946.56
 Short Leg - Sell : 49.0 shares of SPY @ 203.12 for 9952.88
@@ -641,7 +641,7 @@ Results
 Return on Long: -180.96, Return on Short: -98.04 Total Return: -272.68
 
 
-57-In:Hologic Inc-105751 - Out:Pepco Holdings Inc-109120- A-Date: 2016-03-24 00:00:00 - C-Date: 2016-03-29 00:00:00
+57-In:Hologic Inc-105751 - Out:Pepco Holdings Inc-109120- A-Date: 2016-03-24 - C-Date: 2016-03-29
 2016-03-24
 Long Leg - Buy   : 289.0 shares of HOLX @ 34.35 for 9927.15
 Short Leg - Sell : 49.0 shares of SPY @ 203.12 for 9952.88
@@ -653,7 +653,7 @@ Results
 Return on Long: 43.35, Return on Short: -98.04 Total Return: -28.96
 
 
-58-In:Foot Locker Inc-111652 - Out:Cameron International-103399- A-Date: 2016-03-28 00:00:00 - C-Date: 2016-04-01 00:00:00
+58-In:Foot Locker Inc-111652 - Out:Cameron International-103399- A-Date: 2016-03-28 - C-Date: 2016-04-01
 2016-03-28
 Long Leg - Buy   : 152.0 shares of FL @ 65.20 for 9910.40
 Short Leg - Sell : 49.0 shares of SPY @ 203.24 for 9958.76
@@ -665,7 +665,7 @@ Results
 Return on Long: -220.40, Return on Short: -180.32 Total Return: -352.36
 
 
-59-In:Ulta Salon, Cosmetics & Fragrance Inc-134685 - Out:Tenet Healthcare-110945- A-Date: 2016-04-07 00:00:00 - C-Date: 2016-04-15 00:00:00
+59-In:Ulta Salon, Cosmetics & Fragrance Inc-134685 - Out:Tenet Healthcare-110945- A-Date: 2016-04-07 - C-Date: 2016-04-15
 2016-04-07
 Long Leg - Buy   : 51.0 shares of ULTA @ 194.12 for 9900.12
 Short Leg - Sell : 49.0 shares of SPY @ 203.95 for 9993.55
@@ -677,7 +677,7 @@ Results
 Return on Long: 506.94, Return on Short: -187.67 Total Return: 412.70
 
 
-60-In:Global Payments-112551 - Out:GameStop-113993- A-Date: 2016-04-19 00:00:00 - C-Date: 2016-04-22 00:00:00
+60-In:Global Payments-112551 - Out:GameStop-113993- A-Date: 2016-04-19 - C-Date: 2016-04-22
 2016-04-19
 Long Leg - Buy   : 128.0 shares of GPN @ 76.60 for 9804.80
 Short Leg - Sell : 47.0 shares of SPY @ 209.90 for 9865.30

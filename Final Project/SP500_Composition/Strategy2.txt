@@ -1,5 +1,5 @@
 
-1-In:Case Corp-8285.0 - Out:Brinks Co.-109040.0- A-Date: 1996-01-11 00:00:00 - C-Date: 1996-01-19 00:00:00
+1-In:Case Corp-8285.0 - Out:Brinks Co.-109040.0- A-Date: 1996-01-11 - C-Date: 1996-01-19
 1996-01-12
 Long Leg - Buy   : 237.0 shares of CSE @ 41.99 for 9952.39
 Short Leg - Sell : 361.0 shares of BCO @ 27.67 for 9989.11
@@ -13,7 +13,7 @@ Return on Long: 320.11, Return on Short: -118.45 Total Return: 238.38
 
 2-In:Bay Networks Inc-Out:Capital Cities/ABC Inc.-Not pair tradable
 
-3-In:Fifth Third Bancorp-104664.0 - Out:Handleman Co.-105536.0- A-Date: 1996-03-01 00:00:00 - C-Date: 1996-03-07 00:00:00
+3-In:Fifth Third Bancorp-104664.0 - Out:Handleman Co.-105536.0- A-Date: 1996-03-01 - C-Date: 1996-03-07
 1996-03-04
 Long Leg - Buy   : 933.0 shares of FITB @ 10.71 for 9994.65
 Short Leg - Sell : 2413.0 shares of HDL @ 4.14 for 9998.66
@@ -27,7 +27,7 @@ Return on Long: 957.43, Return on Short: 833.22 Total Return: 1794.66
 
 4-In:Conseco Finance Corp-Out:Federal Paper Board Co.-Not pair tradable
 
-5-In:EMC Corp-104049.0 - Out:Cray Research-5258.0- A-Date: 1996-03-26 00:00:00 - C-Date: 1996-03-27 00:00:00
+5-In:EMC Corp-104049.0 - Out:Cray Research-5258.0- A-Date: 1996-03-26 - C-Date: 1996-03-27
 1996-03-27
 Long Leg - Buy   : 3859.0 shares of EMC @ 2.58 for 9974.24
 Short Leg - Sell : 350.0 shares of CYR @ 28.50 for 9975.00
@@ -45,7 +45,7 @@ Return on Long: 117.34, Return on Short: -43.75 Total Return: 74.35
 
 8-In:Aon Corp-Out:Loral Corp.-Not pair tradable
 
-9-In:Tupperware Brands Corp-111256.0 - Out:Premark International Inc.-6250.0- A-Date: 1996-05-21 00:00:00 - C-Date: 1996-05-30 00:00:00
+9-In:Tupperware Brands Corp-111256.0 - Out:Premark International Inc.-6250.0- A-Date: 1996-05-21 - C-Date: 1996-05-30
 1996-05-22
 Long Leg - Buy   : 435.0 shares of TUP @ 22.83 for 9928.97
 Short Leg - Sell : 179.0 shares of PMI @ 55.59 for 9951.09
@@ -59,7 +59,7 @@ Return on Long: 725.80, Return on Short: -643.39 Total Return: 104.53
 
 10-In:MGIC Investment Corp-Out:US Healthcare Inc.-Not pair tradable
 
-11-In:Battle Mountain Gold Co.-102041.0 - Out:Caleres Inc.-102381.0- A-Date: 1996-07-16 00:00:00 - C-Date: 1996-07-19 00:00:00
+11-In:Battle Mountain Gold Co.-102041.0 - Out:Caleres Inc.-102381.0- A-Date: 1996-07-16 - C-Date: 1996-07-19
 1996-07-17
 Long Leg - Buy   : 1296.0 shares of BMG @ 7.71 for 9997.20
 Short Leg - Sell : 2329.0 shares of CAL @ 4.29 for 9998.65
@@ -71,7 +71,7 @@ Results
 Return on Long: 634.74, Return on Short: 1110.96 Total Return: 1747.15
 
 
-12-In:HFS Inc-7631.0 - Out:Moneygram International Inc.-103814.0- A-Date: 1996-08-06 00:00:00 - C-Date: 1996-08-15 00:00:00
+12-In:HFS Inc-7631.0 - Out:Moneygram International Inc.-103814.0- A-Date: 1996-08-06 - C-Date: 1996-08-15
 1996-08-07
 Long Leg - Buy   : 151.0 shares of HFS @ 66.00 for 9966.00
 Short Leg - Sell : 752.0 shares of MGI @ 13.29 for 9994.35
@@ -83,7 +83,7 @@ Results
 Return on Long: 0.00, Return on Short: 1091.82 Total Return: 1120.17
 
 
-13-In:Seagate Technology (Old)-5828.0 - Out:Covanta Energy Corp.-108406.0- A-Date: 1996-08-06 00:00:00 - C-Date: 1996-08-15 00:00:00
+13-In:Seagate Technology (Old)-5828.0 - Out:Covanta Energy Corp.-108406.0- A-Date: 1996-08-06 - C-Date: 1996-08-15
 1996-08-07
 Long Leg - Buy   : 392.0 shares of SEG @ 25.50 for 9996.00
 Short Leg - Sell : 616.0 shares of CVA @ 16.23 for 9998.94
@@ -97,7 +97,7 @@ Return on Long: 269.50, Return on Short: 328.91 Total Return: 601.35
 
 14-In:Dell Inc-Out:Varity Corp.-Not pair tradable
 
-15-In:Lucent Technologies Inc-107050.0 - Out:Outboard Marine Corp.-5684.0- A-Date: 1996-09-17 00:00:00 - C-Date: 1996-09-30 00:00:00
+15-In:Lucent Technologies Inc-107050.0 - Out:Outboard Marine Corp.-5684.0- A-Date: 1996-09-17 - C-Date: 1996-09-30
 1996-09-18
 Long Leg - Buy   : 990.0 shares of LU @ 10.09 for 9984.34
 Short Leg - Sell : 632.0 shares of OM @ 15.81 for 9989.48
@@ -109,7 +109,7 @@ Results
 Return on Long: 1221.33, Return on Short: 464.63 Total Return: 1691.10
 
 
-16-In:Union Pacific Resources Grp-8672.0 - Out:Transitional Hospitals-5218.0- A-Date: 1996-10-07 00:00:00 - C-Date: 1996-10-15 00:00:00
+16-In:Union Pacific Resources Grp-8672.0 - Out:Transitional Hospitals-5218.0- A-Date: 1996-10-07 - C-Date: 1996-10-15
 1996-10-08
 Long Leg - Buy   : 357.0 shares of UPR @ 27.94 for 9973.79
 Short Leg - Sell : 1176.0 shares of THY @ 8.50 for 9996.00
@@ -123,7 +123,7 @@ Return on Long: -213.12, Return on Short: -735.00 Total Return: -925.91
 
 17-In:IMS Health Inc.-Out:YRC Worldwide Inc.-Not pair tradable
 
-18-In:MBIA Inc-107078.0 - Out:Con-Way Inc.-102555.0- A-Date: 1996-11-25 00:00:00 - C-Date: 1996-12-02 00:00:00
+18-In:MBIA Inc-107078.0 - Out:Con-Way Inc.-102555.0- A-Date: 1996-11-25 - C-Date: 1996-12-02
 1996-11-26
 Long Leg - Buy   : 352.0 shares of MBI @ 28.29 for 9958.18
 Short Leg - Sell : 493.0 shares of CNW @ 20.24 for 9980.02
@@ -137,7 +137,7 @@ Return on Long: 158.65, Return on Short: 0.00 Total Return: 180.49
 
 19-In:Guidant Corp-Out:Bally Entertainment Corp.-Not pair tradable
 
-20-In:Frontier Corp-5792.0 - Out:Ryan's Restaurant Group Inc.-109751.0- A-Date: 1996-12-20 00:00:00 - C-Date: 1996-12-31 00:00:00
+20-In:Frontier Corp-5792.0 - Out:Ryan's Restaurant Group Inc.-109751.0- A-Date: 1996-12-20 - C-Date: 1996-12-31
 1996-12-23
 Long Leg - Buy   : 507.0 shares of FRO @ 19.70 for 9989.37
 Short Leg - Sell : 1967.0 shares of RYAN @ 5.08 for 9998.92
@@ -149,7 +149,7 @@ Results
 Return on Long: 584.17, Return on Short: 983.50 Total Return: 1577.22
 
 
-21-In:Autozone Inc-101806.0 - Out:Lubys Inc.-107048.0- A-Date: 1996-12-20 00:00:00 - C-Date: 1996-12-31 00:00:00
+21-In:Autozone Inc-101806.0 - Out:Lubys Inc.-107048.0- A-Date: 1996-12-20 - C-Date: 1996-12-31
 1996-12-23
 Long Leg - Buy   : 403.0 shares of AZO @ 24.75 for 9974.25
 Short Leg - Sell : 577.0 shares of LUB @ 17.33 for 9999.00
@@ -161,7 +161,7 @@ Results
 Return on Long: 1108.25, Return on Short: 701.68 Total Return: 1834.68
 
 
-22-In:Thermo Fisher Scientific Inc-110991.0 - Out:Shoney's Inc.-110126.0- A-Date: 1996-12-20 00:00:00 - C-Date: 1996-12-31 00:00:00
+22-In:Thermo Fisher Scientific Inc-110991.0 - Out:Shoney's Inc.-110126.0- A-Date: 1996-12-20 - C-Date: 1996-12-31
 1996-12-23
 Long Leg - Buy   : 339.0 shares of TMO @ 29.40 for 9966.43
 Short Leg - Sell : 1355.0 shares of SHN @ 7.38 for 9993.12
@@ -193,7 +193,7 @@ Return on Long: 1949.95, Return on Short: 508.12 Total Return: 2484.78
 
 32-In:Washington Mutual Inc-Out:Great Western Financial-Not pair tradable
 
-33-In:Sunamerica Inc-5520.0 - Out:Giddings & Lewis Inc.-6740.0- A-Date: 1997-07-10 00:00:00 - C-Date: 1997-07-16 00:00:00
+33-In:Sunamerica Inc-5520.0 - Out:Giddings & Lewis Inc.-6740.0- A-Date: 1997-07-10 - C-Date: 1997-07-16
 1997-07-11
 Long Leg - Buy   : 261.0 shares of SAI @ 38.17 for 9962.86
 Short Leg - Sell : 479.0 shares of GIDL @ 20.85 for 9984.86
@@ -207,7 +207,7 @@ Return on Long: -332.81, Return on Short: 0.00 Total Return: -310.82
 
 34-In:Anadarko Petroleum Corp-Out:Santa Fe Snyder Corp.-Not pair tradable
 
-35-In:Apache Corp-101580.0 - Out:Intergraph Corp-106247.0- A-Date: 1997-07-22 00:00:00 - C-Date: 1997-07-25 00:00:00
+35-In:Apache Corp-101580.0 - Out:Intergraph Corp-106247.0- A-Date: 1997-07-22 - C-Date: 1997-07-25
 1997-07-23
 Long Leg - Buy   : 716.0 shares of APA @ 13.95 for 9984.86
 Short Leg - Sell : 1230.0 shares of INGR @ 8.12 for 9993.75
@@ -233,7 +233,7 @@ Return on Long: 0.00, Return on Short: 307.50 Total Return: 316.39
 
 42-In:Kla-Tencor Corp-Out:Amdahl Corp.-Not pair tradable
 
-43-In:Yum Brands Inc-111206.0 - Out:Stride Rite Corp.-110576.0- A-Date: 1997-09-29 00:00:00 - C-Date: 1997-10-06 00:00:00
+43-In:Yum Brands Inc-111206.0 - Out:Stride Rite Corp.-110576.0- A-Date: 1997-09-29 - C-Date: 1997-10-06
 1997-09-30
 Long Leg - Buy   : 1468.0 shares of YUM @ 6.81 for 9991.87
 Short Leg - Sell : 894.0 shares of SRR @ 11.18 for 9994.32
@@ -249,7 +249,7 @@ Return on Long: 19.55, Return on Short: -135.67 Total Return: -113.67
 
 45-In:Synovus Financial Corp-Out:Salomon Inc.-Not pair tradable
 
-46-In:BB&T Corp-101863.0 - Out:Beverly Enterprises Inc.-102119.0- A-Date: 1997-12-02 00:00:00 - C-Date: 1997-12-03 00:00:00
+46-In:BB&T Corp-101863.0 - Out:Beverly Enterprises Inc.-102119.0- A-Date: 1997-12-02 - C-Date: 1997-12-03
 1997-12-03
 Long Leg - Buy   : 552.0 shares of BBT @ 18.08 for 9982.54
 Short Leg - Sell : 597.0 shares of BEV @ 16.75 for 9999.75
@@ -263,7 +263,7 @@ Return on Long: 399.30, Return on Short: -74.62 Total Return: 341.89
 
 47-In:Cincinnati Financial Corp-Out:HFS Inc.-Not pair tradable
 
-48-In:Omnicom Group-108429.0 - Out:Fleming Companies Inc.-104894.0- A-Date: 1997-12-16 00:00:00 - C-Date: 1997-12-23 00:00:00
+48-In:Omnicom Group-108429.0 - Out:Fleming Companies Inc.-104894.0- A-Date: 1997-12-16 - C-Date: 1997-12-23
 1997-12-17
 Long Leg - Buy   : 649.0 shares of OMC @ 15.38 for 9980.72
 Short Leg - Sell : 714.0 shares of FLM @ 13.99 for 9991.60
@@ -277,7 +277,7 @@ Return on Long: 260.93, Return on Short: 646.01 Total Return: 917.82
 
 49-In:Lehman Brothers Holdings-Out:Barnett Banks Inc.-Not pair tradable
 
-50-In:Big Lots Inc-103363.0 - Out:Echo Bay Mines Ltd-104144.0- A-Date: 1998-01-09 00:00:00 - C-Date: 1998-01-16 00:00:00
+50-In:Big Lots Inc-103363.0 - Out:Echo Bay Mines Ltd-104144.0- A-Date: 1998-01-09 - C-Date: 1998-01-16
 1998-01-12
 Long Leg - Buy   : 248.0 shares of BIG @ 40.21 for 9972.50
 Short Leg - Sell : 4705.0 shares of ECO @ 2.12 for 9998.12
@@ -291,7 +291,7 @@ Return on Long: 774.26, Return on Short: 2646.56 Total Return: 3446.45
 
 51-In:Summit Bancorp-Out:Caliber Systems Inc.-Not pair tradable
 
-52-In:Northern Trust Corp-108226.0 - Out:Pepsiamericas Inc.-112022.0- A-Date: 1998-01-23 00:00:00 - C-Date: 1998-01-29 00:00:00
+52-In:Northern Trust Corp-108226.0 - Out:Pepsiamericas Inc.-112022.0- A-Date: 1998-01-23 - C-Date: 1998-01-29
 1998-01-26
 Long Leg - Buy   : 404.0 shares of NTRS @ 24.67 for 9968.13
 Short Leg - Sell : 459.0 shares of PAS @ 21.75 for 9984.39
@@ -303,7 +303,7 @@ Results
 Return on Long: 854.21, Return on Short: 148.65 Total Return: 1019.12
 
 
-53-In:Mercantile Bancorporation-5602.0 - Out:ITT Corporation (Old)-105955.0- A-Date: 1998-02-12 00:00:00 - C-Date: 1998-02-20 00:00:00
+53-In:Mercantile Bancorporation-5602.0 - Out:ITT Corporation (Old)-105955.0- A-Date: 1998-02-12 - C-Date: 1998-02-20
 1998-02-13
 Long Leg - Buy   : 183.0 shares of MTL @ 54.50 for 9972.68
 Short Leg - Sell : 1875.0 shares of ITT (Old) @ 5.33 for 9999.83
@@ -315,7 +315,7 @@ Results
 Return on Long: -153.09, Return on Short: -312.49 Total Return: -438.43
 
 
-54-In:Nextel Communications Inc-108146.0 - Out:John H. Harland Co.-105557.0- A-Date: 1998-03-30 00:00:00 - C-Date: 1998-03-31 00:00:00
+54-In:Nextel Communications Inc-108146.0 - Out:John H. Harland Co.-105557.0- A-Date: 1998-03-30 - C-Date: 1998-03-31
 1998-03-31
 Long Leg - Buy   : 609.0 shares of NXTL @ 16.41 for 9991.41
 Short Leg - Sell : 740.0 shares of JH @ 13.50 for 9992.59
@@ -327,7 +327,7 @@ Results
 Return on Long: 285.47, Return on Short: 0.00 Total Return: 286.65
 
 
-55-In:Sealed Air Corp-110000.0 - Out:Safety-Kleen Corp.-5811.0- A-Date: 1998-03-24 00:00:00 - C-Date: 1998-03-31 00:00:00
+55-In:Sealed Air Corp-110000.0 - Out:Safety-Kleen Corp.-5811.0- A-Date: 1998-03-24 - C-Date: 1998-03-31
 1998-03-25
 Long Leg - Buy   : 344.0 shares of SEE @ 28.98 for 9968.12
 Short Leg - Sell : 364.0 shares of SK @ 27.44 for 9987.25
@@ -339,7 +339,7 @@ Results
 Return on Long: -436.56, Return on Short: -318.50 Total Return: -735.93
 
 
-56-In:Associates First Capital-101725.0 - Out:Charming Shoppes Inc.-102927.0- A-Date: 1998-03-31 00:00:00 - C-Date: 1998-04-07 00:00:00
+56-In:Associates First Capital-101725.0 - Out:Charming Shoppes Inc.-102927.0- A-Date: 1998-03-31 - C-Date: 1998-04-07
 1998-04-01
 Long Leg - Buy   : 253.0 shares of AFS @ 39.46 for 9982.89
 Short Leg - Sell : 2133.0 shares of CHRS @ 4.69 for 9998.44
@@ -357,7 +357,7 @@ Return on Long: 472.43, Return on Short: 333.28 Total Return: 821.25
 
 59-In:Ascend Communications Inc-Out:Digital Equipment-Not pair tradable
 
-60-In:Sempra Energy-110051.0 - Out:Pacific Enterprises-110051.0- A-Date: 1998-06-26 00:00:00 - C-Date: 1998-06-29 00:00:00
+60-In:Sempra Energy-110051.0 - Out:Pacific Enterprises-110051.0- A-Date: 1998-06-26 - C-Date: 1998-06-29
 1998-06-29
 Long Leg - Buy   : 616.0 shares of SRE @ 16.22 for 9989.18
 Short Leg - Sell : 616.0 shares of PET @ 16.22 for 9989.18
@@ -369,7 +369,7 @@ Results
 Return on Long: 110.68, Return on Short: -110.68 Total Return: 0.00
 
 
-61-In:Bear Stearns Companies Inc-102061.0 - Out:Conseco Finance Corp.-103352.0- A-Date: 1998-06-23 00:00:00 - C-Date: 1998-06-30 00:00:00
+61-In:Bear Stearns Companies Inc-102061.0 - Out:Conseco Finance Corp.-103352.0- A-Date: 1998-06-23 - C-Date: 1998-06-30
 1998-06-24
 Long Leg - Buy   : 216.0 shares of BSC @ 46.13 for 9963.26
 Short Leg - Sell : 224.0 shares of CNC (Con) @ 44.53 for 9974.68
@@ -381,7 +381,7 @@ Results
 Return on Long: 66.13, Return on Short: -66.94 Total Return: 10.61
 
 
-62-In:Capital One Financial Corp-102702.0 - Out:Ryerson Inc.-109753.0- A-Date: 1998-06-23 00:00:00 - C-Date: 1998-06-30 00:00:00
+62-In:Capital One Financial Corp-102702.0 - Out:Ryerson Inc.-109753.0- A-Date: 1998-06-23 - C-Date: 1998-06-30
 1998-06-24
 Long Leg - Buy   : 286.0 shares of COF @ 34.91 for 9983.00
 Short Leg - Sell : 397.0 shares of RYI @ 25.18 for 9996.82
@@ -397,7 +397,7 @@ Return on Long: 658.75, Return on Short: 238.02 Total Return: 910.59
 
 64-In:Meyer (Fred) Inc-Out:Echlin Inc.-Not pair tradable
 
-65-In:Dollar General Corp-103906.0 - Out:Giant Food Inc.-5413.0- A-Date: 1998-07-09 00:00:00 - C-Date: 1998-07-15 00:00:00
+65-In:Dollar General Corp-103906.0 - Out:Giant Food Inc.-5413.0- A-Date: 1998-07-09 - C-Date: 1998-07-15
 1998-07-10
 Long Leg - Buy   : 461.0 shares of DG @ 21.59 for 9954.68
 Short Leg - Sell : 233.0 shares of GFS @ 42.80 for 9972.69
@@ -409,7 +409,7 @@ Results
 Return on Long: 55.00, Return on Short: 28.99 Total Return: 102.00
 
 
-66-In:Waste Management Inc-111893.0 - Out:Waste Management Inc. (Old)-111893.0- A-Date: 1998-07-13 00:00:00 - C-Date: 1998-07-16 00:00:00
+66-In:Waste Management Inc-111893.0 - Out:Waste Management Inc. (Old)-111893.0- A-Date: 1998-07-13 - C-Date: 1998-07-16
 1998-07-14
 Long Leg - Buy   : 254.0 shares of WM @ 39.27 for 9975.25
 Short Leg - Sell : 254.0 shares of WM (Old) @ 39.27 for 9975.25
@@ -425,7 +425,7 @@ Return on Long: 680.39, Return on Short: -680.39 Total Return: 0.00
 
 68-In:Kohl's Corp-Out:Mercantile Stores Co.-Not pair tradable
 
-69-In:Regions Financial Corp-109543.0 - Out:DSC Communications Corp.-5273.0- A-Date: 1998-08-25 00:00:00 - C-Date: 1998-08-27 00:00:00
+69-In:Regions Financial Corp-109543.0 - Out:DSC Communications Corp.-5273.0- A-Date: 1998-08-25 - C-Date: 1998-08-27
 1998-08-26
 Long Leg - Buy   : 399.0 shares of RF @ 24.99 for 9972.26
 Short Leg - Sell : 357.0 shares of DIGI @ 28.00 for 9996.00
@@ -457,7 +457,7 @@ Return on Long: -1451.07, Return on Short: 2008.12 Total Return: 580.80
 
 79-In:Coca-Cola Enterprises Inc-Out:Citicorp Inc.-Not pair tradable
 
-80-In:New Century Energies Inc-5748.0 - Out:Wells Fargo & Co. (Old)-111953.0- A-Date: 1998-10-27 00:00:00 - C-Date: 1998-11-02 00:00:00
+80-In:New Century Energies Inc-5748.0 - Out:Wells Fargo & Co. (Old)-111953.0- A-Date: 1998-10-27 - C-Date: 1998-11-02
 1998-10-28
 Long Leg - Buy   : 224.0 shares of NCE @ 44.49 for 9966.72
 Short Leg - Sell : 811.0 shares of WFC (Old) @ 12.33 for 9998.65
@@ -473,7 +473,7 @@ Return on Long: -336.38, Return on Short: -258.59 Total Return: -563.03
 
 82-In:Danaher Corp-Out:Stone Container Corp.-Not pair tradable
 
-83-In:Sprint PCS Group-110434.0 - Out:Armco Inc.-5058.0- A-Date: 1998-11-19 00:00:00 - C-Date: 1998-11-23 00:00:00
+83-In:Sprint PCS Group-110434.0 - Out:Armco Inc.-5058.0- A-Date: 1998-11-19 - C-Date: 1998-11-23
 1998-11-20
 Long Leg - Buy   : 1176.0 shares of PCS (Sprint) @ 8.50 for 9996.00
 Short Leg - Sell : 2539.0 shares of AS @ 3.94 for 9997.31
@@ -487,7 +487,7 @@ Return on Long: 918.75, Return on Short: 0.00 Total Return: 920.06
 
 84-In:Carnival Corp & plc-Out:General Re Corp.-Not pair tradable
 
-85-In:Solectron Corp-110282.0 - Out:Pennzenergy Co.-5712.0- A-Date: 1998-12-21 00:00:00 - C-Date: 1998-12-30 00:00:00
+85-In:Solectron Corp-110282.0 - Out:Pennzenergy Co.-5712.0- A-Date: 1998-12-21 - C-Date: 1998-12-30
 1998-12-22
 Long Leg - Buy   : 486.0 shares of SLR @ 20.50 for 9963.00
 Short Leg - Sell : 315.0 shares of PZE @ 31.66 for 9974.00
@@ -501,7 +501,7 @@ Return on Long: 1336.50, Return on Short: 311.69 Total Return: 1659.19
 
 86-In:Compuware Corp-Out:Sunamerica Inc.-Not pair tradable
 
-87-In:Time Warner Inc.-111051.0 - Out:Foot Locker Inc.-111652.0- A-Date: 1998-12-22 00:00:00 - C-Date: 1998-12-31 00:00:00
+87-In:Time Warner Inc.-111051.0 - Out:Foot Locker Inc.-111652.0- A-Date: 1998-12-22 - C-Date: 1998-12-31
 1998-12-23
 Long Leg - Buy   : 171.0 shares of TWX @ 58.14 for 9941.57
 Short Leg - Sell : 2190.0 shares of FL @ 4.56 for 9996.97
@@ -531,7 +531,7 @@ Return on Long: 616.70, Return on Short: -612.06 Total Return: 60.04
 
 96-In:Delphi Corp (Old)-Out:Fred Meyer Inc.-Not pair tradable
 
-97-In:AFLAC Inc-100892.0 - Out:Moore Wallace Inc.-107691.0- A-Date: 1999-05-20 00:00:00 - C-Date: 1999-05-27 00:00:00
+97-In:AFLAC Inc-100892.0 - Out:Moore Wallace Inc.-107691.0- A-Date: 1999-05-20 - C-Date: 1999-05-27
 1999-05-21
 Long Leg - Buy   : 481.0 shares of AFL @ 20.77 for 9990.32
 Short Leg - Sell : 1227.0 shares of MWI @ 8.14 for 9993.27
@@ -545,7 +545,7 @@ Return on Long: -35.89, Return on Short: 208.19 Total Return: 175.26
 
 98-In:Paine Webber Group-Out:Bankers Trust Corp.-Not pair tradable
 
-99-In:Wellpoint Health Networks Inc-111951.0 - Out:Harnischfeger Industries-105567.0- A-Date: 1999-06-07 00:00:00 - C-Date: 1999-06-08 00:00:00
+99-In:Wellpoint Health Networks Inc-111951.0 - Out:Harnischfeger Industries-105567.0- A-Date: 1999-06-07 - C-Date: 1999-06-08
 1999-06-08
 Long Leg - Buy   : 231.0 shares of WLP @ 43.12 for 9961.88
 Short Leg - Sell : 8421.0 shares of HPH @ 1.19 for 9999.94
@@ -569,7 +569,7 @@ Return on Long: -14.44, Return on Short: 1052.62 Total Return: 1076.25
 
 105-In:Qualcomm Inc-Out:Transamerica Corp.-Not pair tradable
 
-106-In:Allied Waste Industries Inc-101263.0 - Out:Nalco Chemical Co-5646.0- A-Date: 1999-07-21 00:00:00 - C-Date: 1999-07-30 00:00:00
+106-In:Allied Waste Industries Inc-101263.0 - Out:Nalco Chemical Co-5646.0- A-Date: 1999-07-21 - C-Date: 1999-07-30
 1999-07-22
 Long Leg - Buy   : 502.0 shares of AW @ 19.88 for 9977.25
 Short Leg - Sell : 192.0 shares of NLC @ 52.00 for 9983.59
@@ -591,7 +591,7 @@ Return on Long: -972.62, Return on Short: 155.25 Total Return: -811.04
 
 111-In:Global Crossing Ltd-Out:Frontier Corp.-Not pair tradable
 
-112-In:Adaptec Inc-101053.0 - Out:Fruit Of The Loom Ltd-112286.0- A-Date: 1999-09-23 00:00:00 - C-Date: 1999-09-30 00:00:00
+112-In:Adaptec Inc-101053.0 - Out:Fruit Of The Loom Ltd-112286.0- A-Date: 1999-09-23 - C-Date: 1999-09-30
 1999-09-24
 Long Leg - Buy   : 366.0 shares of ADPT @ 27.31 for 9994.31
 Short Leg - Sell : 2622.0 shares of FTL @ 3.81 for 9996.38
@@ -611,7 +611,7 @@ Return on Long: 1544.58, Return on Short: 983.25 Total Return: 2529.89
 
 116-In:Price (T. Rowe) Group-Out:Data General Corp.-Not pair tradable
 
-117-In:Leggett & Platt Inc-106891.0 - Out:Cyprus Amax Minerals Co-6099.0- A-Date: 1999-10-14 00:00:00 - C-Date: 1999-10-15 00:00:00
+117-In:Leggett & Platt Inc-106891.0 - Out:Cyprus Amax Minerals Co-6099.0- A-Date: 1999-10-14 - C-Date: 1999-10-15
 1999-10-15
 Long Leg - Buy   : 750.0 shares of LEG @ 13.31 for 9980.38
 Short Leg - Sell : 498.0 shares of CYM @ 20.06 for 9991.12
@@ -627,7 +627,7 @@ Return on Long: 85.79, Return on Short: -62.25 Total Return: 34.28
 
 119-In:Comverse Technology Inc-Out:ASARCO Inc.-Not pair tradable
 
-120-In:Pactiv Corp-108710.0 - Out:Tenneco Inc.-110950.0- A-Date: 1999-11-01 00:00:00 - C-Date: 1999-11-04 00:00:00
+120-In:Pactiv Corp-108710.0 - Out:Tenneco Inc.-110950.0- A-Date: 1999-11-01 - C-Date: 1999-11-04
 1999-11-02
 Long Leg - Buy   : 733.0 shares of PTV @ 13.62 for 9987.12
 Short Leg - Sell : 640.0 shares of TEN @ 15.62 for 10000.00
@@ -639,7 +639,7 @@ Results
 Return on Long: 366.50, Return on Short: -240.00 Total Return: 139.37
 
 
-121-In:Xilinx Inc-112161.0 - Out:Harris Corp.-105573.0- A-Date: 1999-11-02 00:00:00 - C-Date: 1999-11-05 00:00:00
+121-In:Xilinx Inc-112161.0 - Out:Harris Corp.-105573.0- A-Date: 1999-11-02 - C-Date: 1999-11-05
 1999-11-03
 Long Leg - Buy   : 284.0 shares of XLNX @ 35.16 for 9986.10
 Short Leg - Sell : 1101.0 shares of HRS @ 9.08 for 9992.16
@@ -659,7 +659,7 @@ Return on Long: 374.48, Return on Short: 587.77 Total Return: 968.31
 
 125-In:Molex Inc-Out:Mobil Corp.-Not pair tradable
 
-126-In:Old Kent Financial Corp.-108419.0 - Out:Honeywell Inc. (Old)-105785.0- A-Date: 1999-11-29 00:00:00 - C-Date: 1999-12-01 00:00:00
+126-In:Old Kent Financial Corp.-108419.0 - Out:Honeywell Inc. (Old)-105785.0- A-Date: 1999-11-29 - C-Date: 1999-12-01
 1999-11-30
 Long Leg - Buy   : 269.0 shares of OK @ 37.06 for 9968.98
 Short Leg - Sell : 236.0 shares of HON (Old) @ 42.30 for 9982.36
@@ -671,7 +671,7 @@ Results
 Return on Long: 0.00, Return on Short: -361.83 Total Return: -348.46
 
 
-127-In:Yahoo Inc-112180.0 - Out:Laidlaw Inc.-106802.0- A-Date: 1999-11-30 00:00:00 - C-Date: 1999-12-07 00:00:00
+127-In:Yahoo Inc-112180.0 - Out:Laidlaw Inc.-106802.0- A-Date: 1999-11-30 - C-Date: 1999-12-07
 1999-12-01
 Long Leg - Buy   : 173.0 shares of YHOO @ 57.50 for 9947.50
 Short Leg - Sell : 1886.0 shares of LDW @ 5.30 for 9998.65
@@ -683,7 +683,7 @@ Results
 Return on Long: 5103.50, Return on Short: -232.53 Total Return: 4922.12
 
 
-128-In:Transocean-112333.0 - Out:Helmerich & Payne-105675.0- A-Date: 1999-12-21 00:00:00 - C-Date: 1999-12-30 00:00:00
+128-In:Transocean-112333.0 - Out:Helmerich & Payne-105675.0- A-Date: 1999-12-21 - C-Date: 1999-12-30
 1999-12-22
 Long Leg - Buy   : 377.0 shares of RIG @ 26.49 for 9987.49
 Short Leg - Sell : 1596.0 shares of HP @ 6.26 for 9993.80
@@ -701,7 +701,7 @@ Return on Long: 1291.49, Return on Short: -1274.04 Total Return: 23.76
 
 131-In:Young & Rubicam-Out:General Instrument Corp-Not pair tradable
 
-132-In:Harley-Davidson-105558.0 - Out:Fleetwood Enterprises-104893.0- A-Date: 2000-01-24 00:00:00 - C-Date: 2000-01-28 00:00:00
+132-In:Harley-Davidson-105558.0 - Out:Fleetwood Enterprises-104893.0- A-Date: 2000-01-24 - C-Date: 2000-01-28
 2000-01-25
 Long Leg - Buy   : 310.0 shares of HOG @ 32.11 for 9954.52
 Short Leg - Sell : 566.0 shares of FLE @ 17.64 for 9983.47
@@ -715,7 +715,7 @@ Return on Long: -775.68, Return on Short: 1340.06 Total Return: 593.33
 
 133-In:Conexant Systems-Out:Consolidated Natural Gas-Not pair tradable
 
-134-In:Biogen Inc.-102157.0 - Out:Foster Wheeler-104967.0- A-Date: 2000-01-26 00:00:00 - C-Date: 2000-01-28 00:00:00
+134-In:Biogen Inc.-102157.0 - Out:Foster Wheeler-104967.0- A-Date: 2000-01-26 - C-Date: 2000-01-28
 2000-01-27
 Long Leg - Buy   : 102.0 shares of BGEN @ 97.50 for 9945.00
 Short Leg - Sell : 1266.0 shares of FWC @ 7.90 for 9997.82
@@ -727,7 +727,7 @@ Results
 Return on Long: -535.50, Return on Short: 1363.34 Total Return: 880.66
 
 
-135-In:Sabre Holding Corp.-109841.0 - Out:Service Corp. Int'l-110086.0- A-Date: 2000-03-08 00:00:00 - C-Date: 2000-03-15 00:00:00
+135-In:Sabre Holding Corp.-109841.0 - Out:Service Corp. Int'l-110086.0- A-Date: 2000-03-08 - C-Date: 2000-03-15
 2000-03-09
 Long Leg - Buy   : 217.0 shares of TSG @ 46.08 for 9998.51
 Short Leg - Sell : 3635.0 shares of SRV @ 2.75 for 9999.02
@@ -739,7 +739,7 @@ Results
 Return on Long: -127.37, Return on Short: 0.00 Total Return: -126.85
 
 
-136-In:Veritas Software-111663.0 - Out:Pep Boys-108888.0- A-Date: 2000-03-27 00:00:00 - C-Date: 2000-03-31 00:00:00
+136-In:Veritas Software-111663.0 - Out:Pep Boys-108888.0- A-Date: 2000-03-27 - C-Date: 2000-03-31
 2000-03-28
 Long Leg - Buy   : 60.0 shares of VRTS @ 166.25 for 9975.00
 Short Leg - Sell : 2060.0 shares of PBY @ 4.85 for 9995.15
@@ -763,7 +763,7 @@ Return on Long: -2115.00, Return on Short: 685.94 Total Return: -1408.91
 
 142-In:American Power Conversion-Out:Mirage Resorts-Not pair tradable
 
-143-In:Agilent Technologies Inc.-101149.0 - Out:NACCO Industries-107886.0- A-Date: 2000-05-25 00:00:00 - C-Date: 2000-06-02 00:00:00
+143-In:Agilent Technologies Inc.-101149.0 - Out:NACCO Industries-107886.0- A-Date: 2000-05-25 - C-Date: 2000-06-02
 2000-05-26
 Long Leg - Buy   : 160.0 shares of A @ 62.26 for 9961.20
 Short Leg - Sell : 645.0 shares of NC @ 15.50 for 9998.07
@@ -787,7 +787,7 @@ Return on Long: 2155.78, Return on Short: 661.93 Total Return: 2854.58
 
 149-In:Charter One Financial-Out:None-Not pair tradable
 
-150-In:Tiffany & Co.-111045.0 - Out:Silicon Graphics-110166.0- A-Date: 2000-06-13 00:00:00 - C-Date: 2000-06-20 00:00:00
+150-In:Tiffany & Co.-111045.0 - Out:Silicon Graphics-110166.0- A-Date: 2000-06-13 - C-Date: 2000-06-20
 2000-06-14
 Long Leg - Buy   : 368.0 shares of TIF @ 27.12 for 9978.41
 Short Leg - Sell : 1269.0 shares of SGI @ 7.88 for 9993.38
@@ -801,7 +801,7 @@ Return on Long: 100.76, Return on Short: 317.25 Total Return: 432.97
 
 151-In:Sanmina Corp.-Out:Warner-Lambert-Not pair tradable
 
-152-In:Visteon Corp.-111774.0 - Out:IKON Office Solutions, Inc.-105976.0- A-Date: 2000-06-21 00:00:00 - C-Date: 2000-06-28 00:00:00
+152-In:Visteon Corp.-111774.0 - Out:IKON Office Solutions, Inc.-105976.0- A-Date: 2000-06-21 - C-Date: 2000-06-28
 2000-06-22
 Long Leg - Buy   : 794.0 shares of VC @ 12.58 for 9991.42
 Short Leg - Sell : 2312.0 shares of IKN @ 4.32 for 9996.57
@@ -813,7 +813,7 @@ Results
 Return on Long: -490.65, Return on Short: 499.83 Total Return: 14.33
 
 
-153-In:Mercury Interactive-107434.0 - Out:Milacron Inc.-107585.0- A-Date: 2000-06-21 00:00:00 - C-Date: 2000-06-28 00:00:00
+153-In:Mercury Interactive-107434.0 - Out:Milacron Inc.-107585.0- A-Date: 2000-06-21 - C-Date: 2000-06-28
 2000-06-22
 Long Leg - Buy   : 91.0 shares of MERQE @ 109.00 for 9919.00
 Short Leg - Sell : 749.0 shares of MZ @ 13.34 for 9988.40
@@ -829,7 +829,7 @@ Return on Long: -1325.19, Return on Short: -89.58 Total Return: -1345.37
 
 155-In:Qwest Communications-Out:US West-Not pair tradable
 
-156-In:Janus Capital Group-110531.0 - Out:Kansas City Southern-106625.0- A-Date: 2000-07-06 00:00:00 - C-Date: 2000-07-12 00:00:00
+156-In:Janus Capital Group-110531.0 - Out:Kansas City Southern-106625.0- A-Date: 2000-07-06 - C-Date: 2000-07-12
 2000-07-07
 Long Leg - Buy   : 250.0 shares of JNS @ 39.80 for 9948.89
 Short Leg - Sell : 111.0 shares of KSU @ 89.94 for 9983.06
@@ -843,7 +843,7 @@ Return on Long: 355.83, Return on Short: -388.50 Total Return: 1.49
 
 157-In:CIT Group Inc.-Out:Union Pacific Resources-Not pair tradable
 
-158-In:VIAVI Solutions Inc-106505.0 - Out:Rite Aid Corp.-109652.0- A-Date: 2000-07-19 00:00:00 - C-Date: 2000-07-26 00:00:00
+158-In:VIAVI Solutions Inc-106505.0 - Out:Rite Aid Corp.-109652.0- A-Date: 2000-07-19 - C-Date: 2000-07-26
 2000-07-20
 Long Leg - Buy   : 78.0 shares of VIAV @ 128.12 for 9993.75
 Short Leg - Sell : 2025.0 shares of RAD @ 4.94 for 9998.44
@@ -855,7 +855,7 @@ Results
 Return on Long: 609.38, Return on Short: 1265.62 Total Return: 1879.69
 
 
-159-In:Palm Inc.-108719.0 - Out:3Com Corp.-111020.0- A-Date: 2000-07-20 00:00:00 - C-Date: 2000-07-27 00:00:00
+159-In:Palm Inc.-108719.0 - Out:3Com Corp.-111020.0- A-Date: 2000-07-20 - C-Date: 2000-07-27
 2000-07-21
 Long Leg - Buy   : 253.0 shares of PALM @ 39.44 for 9977.69
 Short Leg - Sell : 722.0 shares of COMS @ 13.84 for 9991.71
@@ -869,7 +869,7 @@ Return on Long: -980.38, Return on Short: 522.50 Total Return: -443.85
 
 160-In:Keyspan Energy-Out:New Century Energies-Not pair tradable
 
-161-In:Devon Energy Corp.-103802.0 - Out:Great A&P-105379.0- A-Date: 2000-08-23 00:00:00 - C-Date: 2000-08-29 00:00:00
+161-In:Devon Energy Corp.-103802.0 - Out:Great A&P-105379.0- A-Date: 2000-08-23 - C-Date: 2000-08-29
 2000-08-24
 Long Leg - Buy   : 361.0 shares of DVN @ 27.65 for 9981.55
 Short Leg - Sell : 909.0 shares of GAP @ 11.00 for 9996.82
@@ -881,7 +881,7 @@ Results
 Return on Long: -30.68, Return on Short: 267.77 Total Return: 252.35
 
 
-162-In:Avaya Inc.-101820.0 - Out:Owens Corning-108572.0- A-Date: 2000-09-25 00:00:00 - C-Date: 2000-09-29 00:00:00
+162-In:Avaya Inc.-101820.0 - Out:Owens Corning-108572.0- A-Date: 2000-09-25 - C-Date: 2000-09-29
 2000-09-26
 Long Leg - Buy   : 512.0 shares of AV @ 19.50 for 9984.00
 Short Leg - Sell : 3137.0 shares of OWC @ 3.19 for 9999.19
@@ -895,7 +895,7 @@ Return on Long: 1760.00, Return on Short: 1764.56 Total Return: 3539.75
 
 163-In:Dynegy Inc.-Out:BestFoods-Not pair tradable
 
-164-In:Moody's Corp-107686.0 - Out:Dun & Bradstreet-103981.0- A-Date: 2000-09-26 00:00:00 - C-Date: 2000-10-02 00:00:00
+164-In:Moody's Corp-107686.0 - Out:Dun & Bradstreet-103981.0- A-Date: 2000-09-26 - C-Date: 2000-10-02
 2000-09-27
 Long Leg - Buy   : 699.0 shares of MCO @ 14.27 for 9978.17
 Short Leg - Sell : 804.0 shares of DNB @ 12.43 for 9991.88
@@ -931,7 +931,7 @@ Return on Long: 1196.61, Return on Short: -2822.82 Total Return: -1612.50
 
 176-In:Robert Half International-Out:None-Not pair tradable
 
-177-In:Intuit Inc.-106367.0 - Out:Owens-Illinois Inc.-108573.0- A-Date: 2000-12-04 00:00:00 - C-Date: 2000-12-08 00:00:00
+177-In:Intuit Inc.-106367.0 - Out:Owens-Illinois Inc.-108573.0- A-Date: 2000-12-04 - C-Date: 2000-12-08
 2000-12-05
 Long Leg - Buy   : 399.0 shares of INTU @ 25.04 for 9989.98
 Short Leg - Sell : 2758.0 shares of OI @ 3.62 for 9997.75
@@ -945,7 +945,7 @@ Return on Long: -402.53, Return on Short: 689.50 Total Return: 294.74
 
 178-In:MetLife Inc.-Out:Seagram Co. Ltd.-Not pair tradable
 
-179-In:Symbol Technologies-110685.0 - Out:W. R. Grace and Co.-105351.0- A-Date: 2000-12-04 00:00:00 - C-Date: 2000-12-08 00:00:00
+179-In:Symbol Technologies-110685.0 - Out:W. R. Grace and Co.-105351.0- A-Date: 2000-12-04 - C-Date: 2000-12-08
 2000-12-05
 Long Leg - Buy   : 334.0 shares of SBL @ 29.90 for 9986.32
 Short Leg - Sell : 5000.0 shares of GRA @ 2.00 for 10000.00
@@ -957,7 +957,7 @@ Results
 Return on Long: -1931.06, Return on Short: 1875.00 Total Return: -42.38
 
 
-180-In:Ambac Financial Group Inc.-101311.0 - Out:Crown Holdings-103546.0- A-Date: 2000-12-04 00:00:00 - C-Date: 2000-12-08 00:00:00
+180-In:Ambac Financial Group Inc.-101311.0 - Out:Crown Holdings-103546.0- A-Date: 2000-12-04 - C-Date: 2000-12-08
 2000-12-05
 Long Leg - Buy   : 201.0 shares of ABK @ 49.60 for 9968.93
 Short Leg - Sell : 2461.0 shares of CCK @ 4.06 for 9997.81
@@ -969,7 +969,7 @@ Results
 Return on Long: 528.77, Return on Short: 2307.19 Total Return: 2864.84
 
 
-181-In:Allegheny Energy Inc.-101226.0 - Out:Bethlehem Steel-102117.0- A-Date: 2000-12-04 00:00:00 - C-Date: 2000-12-08 00:00:00
+181-In:Allegheny Energy Inc.-101226.0 - Out:Bethlehem Steel-102117.0- A-Date: 2000-12-04 - C-Date: 2000-12-08
 2000-12-05
 Long Leg - Buy   : 270.0 shares of AYE @ 36.90 for 9963.69
 Short Leg - Sell : 5333.0 shares of BS @ 1.88 for 9999.38
@@ -983,7 +983,7 @@ Return on Long: -555.01, Return on Short: -1002.60 Total Return: -1521.93
 
 182-In:Kinder Morgan-Out:Nabisco Group Hldgs.-Not pair tradable
 
-183-In:QLogic Corp.-109331.0 - Out:Primary PDC Inc-109085.0- A-Date: 2000-12-05 00:00:00 - C-Date: 2000-12-11 00:00:00
+183-In:QLogic Corp.-109331.0 - Out:Primary PDC Inc-109085.0- A-Date: 2000-12-05 - C-Date: 2000-12-11
 2000-12-06
 Long Leg - Buy   : 171.0 shares of QLGC @ 58.16 for 9944.72
 Short Leg - Sell : 1441.0 shares of PRDC @ 6.94 for 9996.94
@@ -995,7 +995,7 @@ Results
 Return on Long: 309.98, Return on Short: 90.06 Total Return: 452.26
 
 
-184-In:Stryker Corp.-110578.0 - Out:Russell Corp.-109749.0- A-Date: 2000-12-05 00:00:00 - C-Date: 2000-12-11 00:00:00
+184-In:Stryker Corp.-110578.0 - Out:Russell Corp.-109749.0- A-Date: 2000-12-05 - C-Date: 2000-12-11
 2000-12-06
 Long Leg - Buy   : 389.0 shares of SYK @ 25.68 for 9987.62
 Short Leg - Sell : 669.0 shares of RML @ 14.95 for 9999.74
@@ -1007,7 +1007,7 @@ Results
 Return on Long: -652.14, Return on Short: 703.11 Total Return: 63.08
 
 
-185-In:Vitesse Semiconductor-111786.0 - Out:Springs Industries Inc.-110432.0- A-Date: 2000-12-05 00:00:00 - C-Date: 2000-12-11 00:00:00
+185-In:Vitesse Semiconductor-111786.0 - Out:Springs Industries Inc.-110432.0- A-Date: 2000-12-05 - C-Date: 2000-12-11
 2000-12-06
 Long Leg - Buy   : 162.0 shares of VTSS @ 61.56 for 9973.12
 Short Leg - Sell : 377.0 shares of SMI @ 26.48 for 9983.02
@@ -1019,7 +1019,7 @@ Results
 Return on Long: 435.38, Return on Short: 68.85 Total Return: 514.12
 
 
-186-In:Fluor Corp.-112487.0 - Out:Massey Energy Co.-104918.0- A-Date: 2000-12-12 00:00:00 - C-Date: 2000-12-21 00:00:00
+186-In:Fluor Corp.-112487.0 - Out:Massey Energy Co.-104918.0- A-Date: 2000-12-12 - C-Date: 2000-12-21
 2000-12-13
 Long Leg - Buy   : 762.0 shares of FLR @ 13.10 for 9980.70
 Short Leg - Sell : 263.0 shares of MEE @ 37.95 for 9981.62
@@ -1031,7 +1031,7 @@ Results
 Return on Long: -511.14, Return on Short: 722.53 Total Return: 212.30
 
 
-187-In:Applied Micro Circuits Corp.-101612.0 - Out:J. P. Morgan & Co. Inc (Old)-102936.0- A-Date: 2000-12-19 00:00:00 - C-Date: 2000-12-29 00:00:00
+187-In:Applied Micro Circuits Corp.-101612.0 - Out:J. P. Morgan & Co. Inc (Old)-102936.0- A-Date: 2000-12-19 - C-Date: 2000-12-29
 2000-12-20
 Long Leg - Buy   : 163.0 shares of AMCC @ 61.00 for 9943.00
 Short Leg - Sell : 329.0 shares of JPM (Old) @ 30.38 for 9995.26
@@ -1043,7 +1043,7 @@ Results
 Return on Long: 2289.66, Return on Short: -139.52 Total Return: 2202.41
 
 
-188-In:Noble Corp.-108175.0 - Out:Time Warner Inc. (Old)-101328.0- A-Date: 2000-12-19 00:00:00 - C-Date: 2001-01-12 00:00:00
+188-In:Noble Corp.-108175.0 - Out:Time Warner Inc. (Old)-101328.0- A-Date: 2000-12-19 - C-Date: 2001-01-12
 2000-12-20
 Long Leg - Buy   : 521.0 shares of NE @ 19.17 for 9990.02
 Short Leg - Sell : 294.0 shares of TWX (Old) @ 34.01 for 9999.57
@@ -1065,7 +1065,7 @@ Return on Long: -103.33, Return on Short: -2375.40 Total Return: -2469.17
 
 193-In:Fiserv Inc-Out:Old Kent Financial-Not pair tradable
 
-194-In:Concord EFS Inc.-103325.0 - Out:Ceridian Corp.-102892.0- A-Date: 2001-03-26 00:00:00 - C-Date: 2001-03-30 00:00:00
+194-In:Concord EFS Inc.-103325.0 - Out:Ceridian Corp.-102892.0- A-Date: 2001-03-26 - C-Date: 2001-03-30
 2001-03-27
 Long Leg - Buy   : 424.0 shares of CE @ 23.56 for 9990.50
 Short Leg - Sell : 546.0 shares of CEN @ 18.30 for 9991.80
@@ -1079,7 +1079,7 @@ Return on Long: -1417.64, Return on Short: -109.20 Total Return: -1525.54
 
 195-In:GenOn Energy Inc-Out:Briggs & Stratton-Not pair tradable
 
-196-In:Pepsi Bottling Group Inc.-108890.0 - Out:Adaptec Inc.-101053.0- A-Date: 2001-05-07 00:00:00 - C-Date: 2001-05-11 00:00:00
+196-In:Pepsi Bottling Group Inc.-108890.0 - Out:Adaptec Inc.-101053.0- A-Date: 2001-05-07 - C-Date: 2001-05-11
 2001-05-08
 Long Leg - Buy   : 495.0 shares of PBG @ 20.18 for 9990.10
 Short Leg - Sell : 1138.0 shares of ADPT @ 8.79 for 9998.31
@@ -1097,7 +1097,7 @@ Return on Long: -44.90, Return on Short: 461.04 Total Return: 424.35
 
 199-In:John Hancock Financial-Out:Harcourt General Inc.-Not pair tradable
 
-200-In:Rockwell Collins-115279.0 - Out:Longs Drug Stores-107036.0- A-Date: 2001-06-25 00:00:00 - C-Date: 2001-06-29 00:00:00
+200-In:Rockwell Collins-115279.0 - Out:Longs Drug Stores-107036.0- A-Date: 2001-06-25 - C-Date: 2001-06-29
 2001-06-26
 Long Leg - Buy   : 531.0 shares of COL @ 18.81 for 9990.76
 Short Leg - Sell : 492.0 shares of LDG @ 20.32 for 9995.39
@@ -1109,7 +1109,7 @@ Results
 Return on Long: 448.47, Return on Short: 730.85 Total Return: 1183.95
 
 
-201-In:AT&T Wireless-100933.0 - Out:Potlatch Corp.-109118.0- A-Date: 2001-06-27 00:00:00 - C-Date: 2001-07-06 00:00:00
+201-In:AT&T Wireless-100933.0 - Out:Potlatch Corp.-109118.0- A-Date: 2001-06-27 - C-Date: 2001-07-06
 2001-06-28
 Long Leg - Buy   : 609.0 shares of AWE @ 16.40 for 9987.60
 Short Leg - Sell : 832.0 shares of PCH @ 12.01 for 9995.24
@@ -1123,7 +1123,7 @@ Return on Long: 456.75, Return on Short: 1000.98 Total Return: 1465.37
 
 202-In:PMC-Sierra-Out:Quaker Oats-Not pair tradable
 
-203-In:Family Dollar Stores-104593.0 - Out:Enterasys Networks Inc-102588.0- A-Date: 2001-07-30 00:00:00 - C-Date: 2001-08-03 00:00:00
+203-In:Family Dollar Stores-104593.0 - Out:Enterasys Networks Inc-102588.0- A-Date: 2001-07-30 - C-Date: 2001-08-03
 2001-07-31
 Long Leg - Buy   : 395.0 shares of FDO @ 25.25 for 9975.29
 Short Leg - Sell : 825.0 shares of ETS @ 12.12 for 9997.86
@@ -1135,7 +1135,7 @@ Results
 Return on Long: -591.47, Return on Short: -1276.90 Total Return: -1845.80
 
 
-204-In:Zimmer Biomet Holdings-112888.0 - Out:Timken Co.-111054.0- A-Date: 2001-07-31 00:00:00 - C-Date: 2001-08-06 00:00:00
+204-In:Zimmer Biomet Holdings-112888.0 - Out:Timken Co.-111054.0- A-Date: 2001-07-31 - C-Date: 2001-08-06
 2001-08-01
 Long Leg - Buy   : 350.0 shares of ZBH @ 28.53 for 9984.25
 Short Leg - Sell : 846.0 shares of TKR @ 11.81 for 9991.14
@@ -1147,7 +1147,7 @@ Results
 Return on Long: -426.91, Return on Short: 647.05 Total Return: 227.02
 
 
-205-In:AmerisourceBergen Corp.-101475.0 - Out:ONEOK, Inc.-108463.0- A-Date: 2001-08-27 00:00:00 - C-Date: 2001-08-29 00:00:00
+205-In:AmerisourceBergen Corp.-101475.0 - Out:ONEOK, Inc.-108463.0- A-Date: 2001-08-27 - C-Date: 2001-08-29
 2001-08-28
 Long Leg - Buy   : 679.0 shares of ABC @ 14.71 for 9989.58
 Short Leg - Sell : 1938.0 shares of OKE @ 5.16 for 9998.82
@@ -1161,7 +1161,7 @@ Return on Long: -392.93, Return on Short: -504.67 Total Return: -888.36
 
 206-In:Ciena Corp.-Out:American General-Not pair tradable
 
-207-In:International Game Tech.-106293.0 - Out:BroadVision Inc.-102364.0- A-Date: 2001-08-29 00:00:00 - C-Date: 2001-08-31 00:00:00
+207-In:International Game Tech.-106293.0 - Out:BroadVision Inc.-102364.0- A-Date: 2001-08-29 - C-Date: 2001-08-31
 2001-08-30
 Long Leg - Buy   : 893.0 shares of IGT @ 11.18 for 9987.22
 Short Leg - Sell : 6249.0 shares of BVSN @ 1.60 for 9998.40
@@ -1173,7 +1173,7 @@ Results
 Return on Long: 151.55, Return on Short: 1937.19 Total Return: 2099.93
 
 
-208-In:XL Capital-112339.0 - Out:Wachovia Corp. (Old)-104847.0- A-Date: 2001-08-27 00:00:00 - C-Date: 2001-08-31 00:00:00
+208-In:XL Capital-112339.0 - Out:Wachovia Corp. (Old)-104847.0- A-Date: 2001-08-27 - C-Date: 2001-08-31
 2001-08-28
 Long Leg - Buy   : 173.0 shares of XL @ 57.70 for 9981.56
 Short Leg - Sell : 377.0 shares of WB (Old) @ 26.48 for 9981.78
@@ -1191,7 +1191,7 @@ Return on Long: 278.12, Return on Short: 97.64 Total Return: 375.98
 
 211-In:Equity Office Properties-Out:Texaco Inc.-Not pair tradable
 
-212-In:TECO Energy-110740.0 - Out:Global Crossing Ltd.-112288.0- A-Date: 2001-10-04 00:00:00 - C-Date: 2001-10-09 00:00:00
+212-In:TECO Energy-110740.0 - Out:Global Crossing Ltd.-112288.0- A-Date: 2001-10-04 - C-Date: 2001-10-09
 2001-10-05
 Long Leg - Buy   : 690.0 shares of TE @ 14.49 for 9998.64
 Short Leg - Sell : 10000.0 shares of GX @ 1.00 for 10000.00
@@ -1205,7 +1205,7 @@ Return on Long: -324.87, Return on Short: 6200.00 Total Return: 5876.50
 
 213-In:Health Management Assoc.-Out:GPU Inc.-Not pair tradable
 
-214-In:Nvidia Corp.-108321.0 - Out:Enron Corp.-104355.0- A-Date: 2001-11-28 00:00:00 - C-Date: 2001-11-29 00:00:00
+214-In:Nvidia Corp.-108321.0 - Out:Enron Corp.-104355.0- A-Date: 2001-11-28 - C-Date: 2001-11-29
 2001-11-29
 Long Leg - Buy   : 556.0 shares of NVDA @ 17.95 for 9981.80
 Short Leg - Sell : 21276.0 shares of ENE @ 0.47 for 9999.72
@@ -1217,7 +1217,7 @@ Results
 Return on Long: -267.81, Return on Short: 2340.36 Total Return: 2090.47
 
 
-215-In:Equity Residential-104425.0 - Out:National Service Ind.-107952.0- A-Date: 2001-11-27 00:00:00 - C-Date: 2001-11-30 00:00:00
+215-In:Equity Residential-104425.0 - Out:National Service Ind.-107952.0- A-Date: 2001-11-27 - C-Date: 2001-11-30
 2001-11-28
 Long Leg - Buy   : 601.0 shares of EQR @ 16.61 for 9984.22
 Short Leg - Sell : 607.0 shares of NSI @ 16.45 for 9985.15
@@ -1235,7 +1235,7 @@ Return on Long: 69.46, Return on Short: 321.71 Total Return: 392.10
 
 218-In:Jones Apparel Group Inc.-Out:Homestake Mining-Not pair tradable
 
-219-In:Waters Corp.-111902.0 - Out:FMC Corporation-104550.0- A-Date: 2001-12-27 00:00:00 - C-Date: 2001-12-31 00:00:00
+219-In:Waters Corp.-111902.0 - Out:FMC Corporation-104550.0- A-Date: 2001-12-27 - C-Date: 2001-12-31
 2001-12-28
 Long Leg - Buy   : 246.0 shares of WAT @ 40.50 for 9963.00
 Short Leg - Sell : 1364.0 shares of FMC @ 7.33 for 9997.40
@@ -1247,7 +1247,7 @@ Results
 Return on Long: -430.50, Return on Short: -249.72 Total Return: -645.82
 
 
-220-In:Plum Creek Timber Co.-109073.0 - Out:Kmart Corp-106599.0- A-Date: 2002-01-15 00:00:00 - C-Date: 2002-01-16 00:00:00
+220-In:Plum Creek Timber Co.-109073.0 - Out:Kmart Corp-106599.0- A-Date: 2002-01-15 - C-Date: 2002-01-16
 2002-01-16
 Long Leg - Buy   : 550.0 shares of PCL @ 18.15 for 9983.61
 Short Leg - Sell : 5524.0 shares of KM @ 1.81 for 9998.44
@@ -1267,7 +1267,7 @@ Return on Long: -173.96, Return on Short: 1160.04 Total Return: 1000.90
 
 224-In:First Horizon-Out:COMPAQ Computer-Not pair tradable
 
-225-In:Trane Inc.-101441.0 - Out:Sapient Corp.-109921.0- A-Date: 2002-05-09 00:00:00 - C-Date: 2002-05-10 00:00:00
+225-In:Trane Inc.-101441.0 - Out:Sapient Corp.-109921.0- A-Date: 2002-05-09 - C-Date: 2002-05-10
 2002-05-10
 Long Leg - Buy   : 585.0 shares of TT @ 17.08 for 9990.42
 Short Leg - Sell : 7507.0 shares of SAPE @ 1.33 for 9999.35
@@ -1279,7 +1279,7 @@ Results
 Return on Long: -119.60, Return on Short: -1048.88 Total Return: -1159.55
 
 
-226-In:Apollo Group Inc.-101590.0 - Out:WorldCom Inc-112129.0- A-Date: 2002-05-13 00:00:00 - C-Date: 2002-05-14 00:00:00
+226-In:Apollo Group Inc.-101590.0 - Out:WorldCom Inc-112129.0- A-Date: 2002-05-13 - C-Date: 2002-05-14
 2002-05-14
 Long Leg - Buy   : 259.0 shares of APOL @ 38.52 for 9976.68
 Short Leg - Sell : 8333.0 shares of WCOM @ 1.20 for 9999.60
@@ -1291,7 +1291,7 @@ Results
 Return on Long: -248.64, Return on Short: -333.32 Total Return: -559.04
 
 
-227-In:BJ Services Co.-101886.0 - Out:USAirways Group Inc.-111448.0- A-Date: 2002-05-13 00:00:00 - C-Date: 2002-05-14 00:00:00
+227-In:BJ Services Co.-101886.0 - Out:USAirways Group Inc.-111448.0- A-Date: 2002-05-13 - C-Date: 2002-05-14
 2002-05-14
 Long Leg - Buy   : 538.0 shares of BJS @ 18.55 for 9982.57
 Short Leg - Sell : 3816.0 shares of U @ 2.62 for 9997.92
@@ -1303,7 +1303,7 @@ Results
 Return on Long: -89.59, Return on Short: -877.68 Total Return: -951.92
 
 
-228-In:Simon Property Group Inc.-110188.0 - Out:Conexant Systems-103338.0- A-Date: 2002-06-20 00:00:00 - C-Date: 2002-06-25 00:00:00
+228-In:Simon Property Group Inc.-110188.0 - Out:Conexant Systems-103338.0- A-Date: 2002-06-20 - C-Date: 2002-06-25
 2002-06-21
 Long Leg - Buy   : 440.0 shares of SPG @ 22.70 for 9986.84
 Short Leg - Sell : 9796.0 shares of CNXT @ 1.02 for 9999.18
@@ -1317,7 +1317,7 @@ Return on Long: 55.79, Return on Short: 945.48 Total Return: 1013.61
 
 229-In:North Fork Bancorp. Inc.-Out:Immunex Corp.-Not pair tradable
 
-230-In:SunGard Data Systems-110622.0 - Out:Inco Ltd.-106045.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+230-In:SunGard Data Systems-110622.0 - Out:Inco Ltd.-106045.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 424.0 shares of SDS @ 23.50 for 9964.00
 Short Leg - Sell : 482.0 shares of N @ 20.72 for 9986.27
@@ -1329,7 +1329,7 @@ Results
 Return on Long: -1187.20, Return on Short: 760.86 Total Return: -404.08
 
 
-231-In:Principal Financial Group-113096.0 - Out:Barrick Gold Corp.-102021.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+231-In:Principal Financial Group-113096.0 - Out:Barrick Gold Corp.-102021.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 426.0 shares of PFG @ 23.40 for 9969.34
 Short Leg - Sell : 616.0 shares of ABX @ 16.22 for 9992.46
@@ -1341,7 +1341,7 @@ Results
 Return on Long: -327.71, Return on Short: 883.91 Total Return: 579.31
 
 
-232-In:eBay Inc.-104138.0 - Out:Alcan Inc.-101201.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+232-In:eBay Inc.-104138.0 - Out:Alcan Inc.-101201.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 668.0 shares of EBAY @ 14.95 for 9989.94
 Short Leg - Sell : 363.0 shares of AL @ 27.54 for 9998.23
@@ -1353,7 +1353,7 @@ Results
 Return on Long: -45.09, Return on Short: 1163.97 Total Return: 1127.18
 
 
-233-In:Prudential Financial-113437.0 - Out:Nortel Networks-108196.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+233-In:Prudential Financial-113437.0 - Out:Nortel Networks-108196.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 400.0 shares of PRU @ 25.00 for 9999.06
 Short Leg - Sell : 7042.0 shares of NT @ 1.42 for 9999.64
@@ -1365,7 +1365,7 @@ Results
 Return on Long: 301.56, Return on Short: 1549.24 Total Return: 1851.37
 
 
-234-In:Goldman Sachs Group-105329.0 - Out:Unilevr N.V.-111381.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+234-In:Goldman Sachs Group-105329.0 - Out:Unilevr N.V.-111381.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 152.0 shares of GS @ 65.36 for 9935.01
 Short Leg - Sell : 678.0 shares of UN @ 14.74 for 9994.41
@@ -1377,7 +1377,7 @@ Results
 Return on Long: 494.38, Return on Short: 1337.45 Total Return: 1891.24
 
 
-235-In:United Parcel Service-111434.0 - Out:Royal Dutch Petroleum-109724.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+235-In:United Parcel Service-111434.0 - Out:Royal Dutch Petroleum-109724.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 215.0 shares of UPS @ 46.37 for 9969.42
 Short Leg - Sell : 216.0 shares of RD @ 46.24 for 9986.97
@@ -1389,7 +1389,7 @@ Results
 Return on Long: 1027.47, Return on Short: 1922.12 Total Return: 2967.14
 
 
-236-In:Electronic Arts-104229.0 - Out:Placer Dome Inc.-109047.0- A-Date: 2002-07-09 00:00:00 - C-Date: 2002-07-19 00:00:00
+236-In:Electronic Arts-104229.0 - Out:Placer Dome Inc.-109047.0- A-Date: 2002-07-09 - C-Date: 2002-07-19
 2002-07-10
 Long Leg - Buy   : 315.0 shares of EA @ 31.65 for 9968.18
 Short Leg - Sell : 951.0 shares of PDG @ 10.51 for 9994.43
@@ -1401,7 +1401,7 @@ Results
 Return on Long: -1055.25, Return on Short: 92.54 Total Return: -936.45
 
 
-237-In:Anthem Inc.-113119.0 - Out:CNO Financial Group-103426.0- A-Date: 2002-07-24 00:00:00 - C-Date: 2002-07-24 00:00:00
+237-In:Anthem Inc.-113119.0 - Out:CNO Financial Group-103426.0- A-Date: 2002-07-24 - C-Date: 2002-07-24
 2002-07-25
 Long Leg - Buy   : 331.0 shares of ANTM @ 30.14 for 9977.32
 Short Leg - Sell : 22222.0 shares of CNO @ 0.45 for 9999.90
@@ -1413,7 +1413,7 @@ Results
 Return on Long: 1.58, Return on Short: 0.00 Total Return: 24.16
 
 
-238-In:Monsanto Co.-107676.0 - Out:Palm Inc.-108719.0- A-Date: 2002-08-07 00:00:00 - C-Date: 2002-08-13 00:00:00
+238-In:Monsanto Co.-107676.0 - Out:Palm Inc.-108719.0- A-Date: 2002-08-07 - C-Date: 2002-08-13
 2002-08-08
 Long Leg - Buy   : 1422.0 shares of MON @ 7.03 for 9995.15
 Short Leg - Sell : 12345.0 shares of PALM @ 0.81 for 9999.45
@@ -1425,7 +1425,7 @@ Results
 Return on Long: -417.98, Return on Short: 1481.40 Total Return: 1067.72
 
 
-239-In:Travelers Property Casualty-116245.0 - Out:Vitesse Semiconductor-111786.0- A-Date: 2002-08-14 00:00:00 - C-Date: 2002-08-20 00:00:00
+239-In:Travelers Property Casualty-116245.0 - Out:Vitesse Semiconductor-111786.0- A-Date: 2002-08-14 - C-Date: 2002-08-20
 2002-08-15
 Long Leg - Buy   : 583.0 shares of TAP.B @ 17.13 for 9986.95
 Short Leg - Sell : 8695.0 shares of VTSS @ 1.15 for 9999.25
@@ -1441,7 +1441,7 @@ Return on Long: 707.65, Return on Short: -1921.59 Total Return: -1201.65
 
 241-In:Reynolds American Inc.-Out:None-Not pair tradable
 
-242-In:Comcast Class A Comm.-103198.0 - Out:Comcast Corp (Old)-103199.0- A-Date: 2002-11-15 00:00:00 - C-Date: 2002-11-18 00:00:00
+242-In:Comcast Class A Comm.-103198.0 - Out:Comcast Corp (Old)-103199.0- A-Date: 2002-11-15 - C-Date: 2002-11-18
 2002-11-18
 Long Leg - Buy   : 635.0 shares of CMCSA @ 15.72 for 9982.09
 Short Leg - Sell : 673.0 shares of CMCSK (Old) @ 14.84 for 9987.35
@@ -1457,7 +1457,7 @@ Return on Long: 53.56, Return on Short: 363.62 Total Return: 422.45
 
 244-In:AutoNation Inc.-Out:Rational Software-Not pair tradable
 
-245-In:Aimco-101583.0 - Out:AMR Corp.-100917.0- A-Date: 2003-03-11 00:00:00 - C-Date: 2003-03-13 00:00:00
+245-In:Aimco-101583.0 - Out:AMR Corp.-100917.0- A-Date: 2003-03-11 - C-Date: 2003-03-13
 2003-03-12
 Long Leg - Buy   : 675.0 shares of AIV @ 14.81 for 9997.60
 Short Leg - Sell : 6249.0 shares of AMR @ 1.60 for 9998.40
@@ -1475,7 +1475,7 @@ Return on Long: 96.80, Return on Short: 624.90 Total Return: 722.49
 
 248-In:Federated Investors-Out:Pharmacia Corp.-Not pair tradable
 
-249-In:Prologis-109248.0 - Out:GenOn Energy-115142.0- A-Date: 2003-07-15 00:00:00 - C-Date: 2003-07-16 00:00:00
+249-In:Prologis-109248.0 - Out:GenOn Energy-115142.0- A-Date: 2003-07-15 - C-Date: 2003-07-16
 2003-07-16
 Long Leg - Buy   : 519.0 shares of PLD @ 19.24 for 9988.05
 Short Leg - Sell : 1766.0 shares of GEN @ 5.66 for 9995.56
@@ -1487,7 +1487,7 @@ Results
 Return on Long: -316.52, Return on Short: 141.28 Total Return: -167.73
 
 
-250-In:Medco Health Solutions-117627.0 - Out:McDermott Int'l Inc-107317.0- A-Date: 2003-08-13 00:00:00 - C-Date: 2003-08-19 00:00:00
+250-In:Medco Health Solutions-117627.0 - Out:McDermott Int'l Inc-107317.0- A-Date: 2003-08-13 - C-Date: 2003-08-19
 2003-08-14
 Long Leg - Buy   : 808.0 shares of MHS @ 12.38 for 9999.00
 Short Leg - Sell : 14016.0 shares of MDR @ 0.71 for 9999.67
@@ -1505,7 +1505,7 @@ Return on Long: -363.60, Return on Short: -340.62 Total Return: -703.55
 
 253-In:M&T Bank Corp.-Out:Concord EFS Inc.-Not pair tradable
 
-254-In:Caremark Rx Inc.-102741.0 - Out:Tupperware Corp.-111256.0- A-Date: 2004-03-16 00:00:00 - C-Date: 2004-03-24 17:15:00
+254-In:Caremark Rx Inc.-102741.0 - Out:Tupperware Corp.-111256.0- A-Date: 2004-03-16 - C-Date: 2004-03-24
 2004-03-17
 Long Leg - Buy   : 304.0 shares of CMX @ 32.82 for 9978.73
 Short Leg - Sell : 785.0 shares of TUP @ 12.73 for 9995.59
@@ -1525,7 +1525,7 @@ Return on Long: -126.96, Return on Short: 290.23 Total Return: 180.13
 
 258-In:Valero Energy-Out:John Hancock Financial-Not pair tradable
 
-259-In:Hospira Inc.-121383.0 - Out:American Greetings-101384.0- A-Date: 2004-04-26 00:00:00 - C-Date: 2004-04-30 00:00:00
+259-In:Hospira Inc.-121383.0 - Out:American Greetings-101384.0- A-Date: 2004-04-26 - C-Date: 2004-04-30
 2004-04-27
 Long Leg - Buy   : 332.0 shares of HSP @ 30.05 for 9976.60
 Short Leg - Sell : 621.0 shares of AM @ 16.08 for 9988.21
@@ -1541,7 +1541,7 @@ Return on Long: -527.88, Return on Short: 214.54 Total Return: -301.73
 
 261-In:Gilead Sciences-Out:Bank One Corp.-Not pair tradable
 
-262-In:Fisher Scientific-104879.0 - Out:Thomas & Betts-111008.0- A-Date: 2004-07-26 00:00:00 - C-Date: 2004-08-02 00:00:00
+262-In:Fisher Scientific-104879.0 - Out:Thomas & Betts-111008.0- A-Date: 2004-07-26 - C-Date: 2004-08-02
 2004-07-27
 Long Leg - Buy   : 180.0 shares of FSH @ 55.25 for 9945.00
 Short Leg - Sell : 422.0 shares of TNB @ 23.65 for 9980.30
@@ -1563,7 +1563,7 @@ Return on Long: 783.00, Return on Short: -839.78 Total Return: -21.48
 
 267-In:Freescale Semiconductor-Out:Winn-Dixie-Not pair tradable
 
-268-In:Compass Bancshares-103283.0 - Out:Worthington Industries-112136.0- A-Date: 2004-12-08 00:00:00 - C-Date: 2004-12-17 00:00:00
+268-In:Compass Bancshares-103283.0 - Out:Worthington Industries-112136.0- A-Date: 2004-12-08 - C-Date: 2004-12-17
 2004-12-09
 Long Leg - Buy   : 229.0 shares of CBSS @ 43.50 for 9960.48
 Short Leg - Sell : 698.0 shares of WOR @ 14.31 for 9990.04
@@ -1575,7 +1575,7 @@ Results
 Return on Long: 162.01, Return on Short: -195.49 Total Return: -3.91
 
 
-269-In:Twenty-First Century Fox-122337.0 - Out:Deluxe Corp.-103772.0- A-Date: 2004-12-14 00:00:00 - C-Date: 2004-12-17 00:00:00
+269-In:Twenty-First Century Fox-122337.0 - Out:Deluxe Corp.-103772.0- A-Date: 2004-12-14 - C-Date: 2004-12-17
 2004-12-15
 Long Leg - Buy   : 678.0 shares of FOXA @ 14.73 for 9984.86
 Short Leg - Sell : 382.0 shares of DLX @ 26.16 for 9991.83
@@ -1587,7 +1587,7 @@ Results
 Return on Long: 360.56, Return on Short: 317.00 Total Return: 684.53
 
 
-270-In:Archstone-Smith Trust-101641.0 - Out:Crane Co.-103498.0- A-Date: 2004-12-08 00:00:00 - C-Date: 2004-12-17 00:00:00
+270-In:Archstone-Smith Trust-101641.0 - Out:Crane Co.-103498.0- A-Date: 2004-12-08 - C-Date: 2004-12-17
 2004-12-09
 Long Leg - Buy   : 297.0 shares of ASN @ 33.62 for 9985.47
 Short Leg - Sell : 406.0 shares of CR @ 24.60 for 9986.76
@@ -1617,7 +1617,7 @@ Return on Long: 262.78, Return on Short: 765.65 Total Return: 1029.72
 
 279-In:Murphy Oil-Out:Nextel Communications-Not pair tradable
 
-280-In:Public Storage-109286.0 - Out:Delta Air Lines-103757.0- A-Date: 2005-08-15 00:00:00 - C-Date: 2005-08-18 00:00:00
+280-In:Public Storage-109286.0 - Out:Delta Air Lines-103757.0- A-Date: 2005-08-15 - C-Date: 2005-08-18
 2005-08-16
 Long Leg - Buy   : 196.0 shares of PSA @ 50.93 for 9983.23
 Short Leg - Sell : 6249.0 shares of DAL @ 1.60 for 9998.40
@@ -1647,7 +1647,7 @@ Return on Long: 190.45, Return on Short: 374.94 Total Return: 580.56
 
 289-In:Whole Foods Market-Out:MBNA Corp.-Not pair tradable
 
-290-In:Viacom Inc-125237.0 - Out:Visteon Corp.-111774.0- A-Date: 2005-12-27 00:00:00 - C-Date: 2005-12-30 00:00:00
+290-In:Viacom Inc-125237.0 - Out:Visteon Corp.-111774.0- A-Date: 2005-12-27 - C-Date: 2005-12-30
 2005-12-28
 Long Leg - Buy   : 264.0 shares of VIAB @ 37.76 for 9969.67
 Short Leg - Sell : 1510.0 shares of VC @ 6.62 for 9996.20
@@ -1683,7 +1683,7 @@ Return on Long: 225.46, Return on Short: 543.60 Total Return: 795.59
 
 302-In:Legg Mason-Out:Guidant Co.-Not pair tradable
 
-303-In:Embarq Corp.-126835.0 - Out:Applied Micro Circuits Corp.-101612.0- A-Date: 2006-05-10 00:00:00 - C-Date: 2006-05-17 00:00:00
+303-In:Embarq Corp.-126835.0 - Out:Applied Micro Circuits Corp.-101612.0- A-Date: 2006-05-10 - C-Date: 2006-05-17
 2006-05-11
 Long Leg - Buy   : 261.0 shares of EQ @ 38.27 for 9987.54
 Short Leg - Sell : 3048.0 shares of AMCC @ 3.28 for 9997.44
@@ -1701,7 +1701,7 @@ Return on Long: 48.63, Return on Short: 335.28 Total Return: 393.81
 
 306-In:Consol Energy Inc.-Out:Knight-Ridder Inc.-Not pair tradable
 
-307-In:Windstream Comm's-123082.0 - Out:Cooper Tire & Rubber Co.-103402.0- A-Date: 2006-07-11 00:00:00 - C-Date: 2006-07-17 00:00:00
+307-In:Windstream Comm's-123082.0 - Out:Cooper Tire & Rubber Co.-103402.0- A-Date: 2006-07-11 - C-Date: 2006-07-17
 2006-07-12
 Long Leg - Buy   : 1582.0 shares of WIN @ 6.32 for 9995.59
 Short Leg - Sell : 1189.0 shares of CTB @ 8.41 for 9997.84
@@ -1715,7 +1715,7 @@ Return on Long: -295.23, Return on Short: 571.31 Total Return: 278.33
 
 308-In:Realogy Corp.-Out:Gateway Inc.-Not pair tradable
 
-309-In:Wyndham Worldwide-127317.0 - Out:Cendant Corp.-102833.0- A-Date: 2006-07-24 00:00:00 - C-Date: 2006-07-31 00:00:00
+309-In:Wyndham Worldwide-127317.0 - Out:Cendant Corp.-102833.0- A-Date: 2006-07-24 - C-Date: 2006-07-31
 2006-07-25
 Long Leg - Buy   : 345.0 shares of WYN @ 28.94 for 9983.34
 Short Leg - Sell : 4254.0 shares of CD @ 2.35 for 9999.39
@@ -1729,7 +1729,7 @@ Return on Long: 355.44, Return on Short: 26.58 Total Return: 398.07
 
 310-In:CME Group Inc.-Out:Kerr-McGee Corp.-Not pair tradable
 
-311-In:Western Union Co.-127593.0 - Out:Andrew Corp.-101549.0- A-Date: 2006-09-25 00:00:00 - C-Date: 2006-09-29 00:00:00
+311-In:Western Union Co.-127593.0 - Out:Andrew Corp.-101549.0- A-Date: 2006-09-25 - C-Date: 2006-09-29
 2006-09-26
 Long Leg - Buy   : 598.0 shares of WU @ 16.68 for 9977.40
 Short Leg - Sell : 1091.0 shares of ANDW @ 9.16 for 9993.56
@@ -1745,7 +1745,7 @@ Return on Long: 556.14, Return on Short: -98.19 Total Return: 474.10
 
 313-In:Celgene Corp.-Out:AmSouth Bancorp-Not pair tradable
 
-314-In:Fidelity Nat. Info. Services-112717.0 - Out:Louisiana-Pacific Corp.-107044.0- A-Date: 2006-11-02 00:00:00 - C-Date: 2006-11-09 00:00:00
+314-In:Fidelity Nat. Info. Services-112717.0 - Out:Louisiana-Pacific Corp.-107044.0- A-Date: 2006-11-02 - C-Date: 2006-11-09
 2006-11-03
 Long Leg - Buy   : 653.0 shares of FIS @ 15.31 for 9999.07
 Short Leg - Sell : 544.0 shares of LPX @ 18.38 for 9999.57
@@ -1769,7 +1769,7 @@ Return on Long: -201.40, Return on Short: 259.79 Total Return: 58.90
 
 320-In:DirecTV-Out:Freescale Semiconductor-Not pair tradable
 
-321-In:Terex Corp.-110955.0 - Out:Navistar Int'l-107975.0- A-Date: 2006-12-15 00:00:00 - C-Date: 2006-12-19 00:00:00
+321-In:Terex Corp.-110955.0 - Out:Navistar Int'l-107975.0- A-Date: 2006-12-15 - C-Date: 2006-12-19
 2006-12-18
 Long Leg - Buy   : 163.0 shares of TEX @ 61.16 for 9969.08
 Short Leg - Sell : 308.0 shares of NAV @ 32.39 for 9976.12
@@ -1781,7 +1781,7 @@ Results
 Return on Long: 735.13, Return on Short: 317.24 Total Return: 1059.41
 
 
-322-In:Spectra Energy Corp.-128604.0 - Out:PTC Inc-108740.0- A-Date: 2006-12-20 00:00:00 - C-Date: 2006-12-29 00:00:00
+322-In:Spectra Energy Corp.-128604.0 - Out:PTC Inc-108740.0- A-Date: 2006-12-20 - C-Date: 2006-12-29
 2006-12-21
 Long Leg - Buy   : 475.0 shares of SE @ 21.01 for 9981.18
 Short Leg - Sell : 1221.0 shares of PTC @ 8.19 for 9999.99
@@ -1805,7 +1805,7 @@ Return on Long: -131.33, Return on Short: -1013.43 Total Return: -1125.96
 
 328-In:Integrys Energy Group Inc.-Out:Peoples Energy-Not pair tradable
 
-329-In:C. H. Robinson Worldwide-102524.0 - Out:Health Management Assoc.-105617.0- A-Date: 2007-02-26 00:00:00 - C-Date: 2007-03-01 00:00:00
+329-In:C. H. Robinson Worldwide-102524.0 - Out:Health Management Assoc.-105617.0- A-Date: 2007-02-26 - C-Date: 2007-03-01
 2007-02-27
 Long Leg - Buy   : 212.0 shares of CHRW @ 47.11 for 9986.33
 Short Leg - Sell : 945.0 shares of HMA @ 10.58 for 9997.22
@@ -1831,7 +1831,7 @@ Return on Long: -386.12, Return on Short: 474.46 Total Return: 99.24
 
 336-In:Precision Castparts-Out:MedImmune Inc.-Not pair tradable
 
-337-In:Discover Financial Services-129716.0 - Out:ADC Telecomm. Inc.-100871.0- A-Date: 2007-06-21 00:00:00 - C-Date: 2007-06-29 00:00:00
+337-In:Discover Financial Services-129716.0 - Out:ADC Telecomm. Inc.-100871.0- A-Date: 2007-06-21 - C-Date: 2007-06-29
 2007-06-22
 Long Leg - Buy   : 340.0 shares of DFS @ 29.36 for 9982.94
 Short Leg - Sell : 3741.0 shares of ADCT @ 2.67 for 9999.16
@@ -1845,7 +1845,7 @@ Return on Long: -950.76, Return on Short: 203.08 Total Return: -731.46
 
 338-In:BNY Mellon-Out:BNY Mellon-Not pair tradable
 
-339-In:General Growth Properties-105171.0 - Out:Mellon Financial-107407.0- A-Date: 2007-06-25 00:00:00 - C-Date: 2007-06-29 00:00:00
+339-In:General Growth Properties-105171.0 - Out:Mellon Financial-107407.0- A-Date: 2007-06-25 - C-Date: 2007-06-29
 2007-06-26
 Long Leg - Buy   : 263.0 shares of GGP @ 37.84 for 9952.89
 Short Leg - Sell : 263.0 shares of MEL @ 37.96 for 9982.30
@@ -1857,7 +1857,7 @@ Results
 Return on Long: -83.87, Return on Short: -208.45 Total Return: -262.91
 
 
-340-In:Covidien-129709.0 - Out:Sanmina Corp.-109906.0- A-Date: 2007-06-21 00:00:00 - C-Date: 2007-06-29 00:00:00
+340-In:Covidien-129709.0 - Out:Sanmina Corp.-109906.0- A-Date: 2007-06-21 - C-Date: 2007-06-29
 2007-06-22
 Long Leg - Buy   : 278.0 shares of COV @ 35.87 for 9972.11
 Short Leg - Sell : 3012.0 shares of SANM @ 3.32 for 9999.84
@@ -1869,7 +1869,7 @@ Results
 Return on Long: -103.04, Return on Short: 572.28 Total Return: 496.97
 
 
-341-In:TE Connectivity Ltd.-129711.0 - Out:PMC-Sierra-108639.0- A-Date: 2007-06-21 00:00:00 - C-Date: 2007-06-29 00:00:00
+341-In:TE Connectivity Ltd.-129711.0 - Out:PMC-Sierra-108639.0- A-Date: 2007-06-21 - C-Date: 2007-06-29
 2007-06-22
 Long Leg - Buy   : 311.0 shares of TEL @ 32.12 for 9989.02
 Short Leg - Sell : 1290.0 shares of PMCS @ 7.75 for 9997.50
@@ -1883,7 +1883,7 @@ Return on Long: 556.15, Return on Short: 25.80 Total Return: 590.43
 
 342-In:American Capital Ltd.-Out:Dollar General-Not pair tradable
 
-343-In:Akamai Technologies Inc.-101176.0 - Out:Biomet Inc.-102163.0- A-Date: 2007-07-09 00:00:00 - C-Date: 2007-07-11 00:00:00
+343-In:Akamai Technologies Inc.-101176.0 - Out:Biomet Inc.-102163.0- A-Date: 2007-07-09 - C-Date: 2007-07-11
 2007-07-10
 Long Leg - Buy   : 199.0 shares of AKAM @ 49.98 for 9946.02
 Short Leg - Sell : 218.0 shares of BMET @ 45.80 for 9984.40
@@ -1905,7 +1905,7 @@ Return on Long: 67.66, Return on Short: 2.18 Total Return: 108.22
 
 348-In:Tesoro Petroleum Co.-Out:Maxim Integrated-Not pair tradable
 
-349-In:Teradata Corp.-134207.0 - Out:NCR Corp.-107846.0- A-Date: 2007-09-24 00:00:00 - C-Date: 2007-09-28 00:00:00
+349-In:Teradata Corp.-134207.0 - Out:NCR Corp.-107846.0- A-Date: 2007-09-24 - C-Date: 2007-09-28
 2007-09-25
 Long Leg - Buy   : 386.0 shares of TDC @ 25.85 for 9978.10
 Short Leg - Sell : 439.0 shares of NCR @ 22.76 for 9992.31
@@ -1929,7 +1929,7 @@ Return on Long: 88.78, Return on Short: -392.02 Total Return: -289.03
 
 355-In:Titanium Metals-Out:Bausch & Lomb Inc.-Not pair tradable
 
-356-In:Pepco Holdings Inc.-109120.0 - Out:Manor Care Inc.-107203.0- A-Date: 2007-11-01 00:00:00 - C-Date: 2007-11-08 00:00:00
+356-In:Pepco Holdings Inc.-109120.0 - Out:Manor Care Inc.-107203.0- A-Date: 2007-11-01 - C-Date: 2007-11-08
 2007-11-02
 Long Leg - Buy   : 488.0 shares of POM @ 20.44 for 9974.11
 Short Leg - Sell : 150.0 shares of HCR @ 66.62 for 9993.00
@@ -1945,7 +1945,7 @@ Return on Long: -1007.84, Return on Short: 31.50 Total Return: -957.44
 
 358-In:American Tower Corp.-Out:Alltel Wireless-Not pair tradable
 
-359-In:Transocean-112333.0 - Out:Transocean-112333.0- A-Date: 2007-11-21 00:00:00 - C-Date: 2007-11-26 00:00:00
+359-In:Transocean-112333.0 - Out:Transocean-112333.0- A-Date: 2007-11-21 - C-Date: 2007-11-26
 2007-11-23
 Long Leg - Buy   : 89.0 shares of RIG @ 112.33 for 9997.56
 Short Leg - Sell : 89.0 shares of RIG @ 112.33 for 9997.56
@@ -1967,7 +1967,7 @@ Return on Long: 602.98, Return on Short: -602.98 Total Return: 0.00
 
 364-In:Cameron Int'l Corp.-Out:Harrah's Entertainment-Not pair tradable
 
-365-In:Philip Morris Int'l-135403.0 - Out:Circuit City Stores Inc.-103037.0- A-Date: 2008-03-20 00:00:00 - C-Date: 2008-03-28 00:00:00
+365-In:Philip Morris Int'l-135403.0 - Out:Circuit City Stores Inc.-103037.0- A-Date: 2008-03-20 - C-Date: 2008-03-28
 2008-03-24
 Long Leg - Buy   : 251.0 shares of PM @ 39.71 for 9968.20
 Short Leg - Sell : 2438.0 shares of CC @ 4.10 for 9997.19
@@ -1985,7 +1985,7 @@ Return on Long: 250.16, Return on Short: 391.47 Total Return: 670.62
 
 368-In:Southwestern Energy-Out:Trane Inc.-Not pair tradable
 
-369-In:Lorillard Inc.-113928.0 - Out:Ambac Financial Group Inc.-101311.0- A-Date: 2008-06-03 00:00:00 - C-Date: 2008-06-10 00:00:00
+369-In:Lorillard Inc.-113928.0 - Out:Ambac Financial Group Inc.-101311.0- A-Date: 2008-06-03 - C-Date: 2008-06-10
 2008-06-04
 Long Leg - Buy   : 538.0 shares of LO @ 18.56 for 9984.10
 Short Leg - Sell : 3602.0 shares of ABK @ 2.78 for 9997.90
@@ -1997,7 +1997,7 @@ Results
 Return on Long: 413.85, Return on Short: 3320.73 Total Return: 3748.38
 
 
-370-In:Cabot Oil & Gas-102595.0 - Out:Brunswick Corp.-102386.0- A-Date: 2008-06-12 00:00:00 - C-Date: 2008-06-20 00:00:00
+370-In:Cabot Oil & Gas-102595.0 - Out:Brunswick Corp.-102386.0- A-Date: 2008-06-12 - C-Date: 2008-06-20
 2008-06-13
 Long Leg - Buy   : 607.0 shares of COG @ 16.46 for 9992.06
 Short Leg - Sell : 796.0 shares of BC @ 12.56 for 9997.81
@@ -2009,7 +2009,7 @@ Results
 Return on Long: -202.09, Return on Short: 890.06 Total Return: 693.72
 
 
-371-In:Massey Energy Co.-104918.0 - Out:OfficeMax Inc.-102267.0- A-Date: 2008-06-12 00:00:00 - C-Date: 2008-06-20 00:00:00
+371-In:Massey Energy Co.-104918.0 - Out:OfficeMax Inc.-102267.0- A-Date: 2008-06-12 - C-Date: 2008-06-20
 2008-06-13
 Long Leg - Buy   : 131.0 shares of MEE @ 76.12 for 9971.34
 Short Leg - Sell : 653.0 shares of OMX @ 15.31 for 9997.78
@@ -2023,7 +2023,7 @@ Return on Long: 1451.30, Return on Short: 871.06 Total Return: 2348.81
 
 372-In:AK Steel Holding Corp.-Out:Countrywide Financial Corp.-Not pair tradable
 
-373-In:Scripps Networks Int.-137155.0 - Out:E.W. Scripps Co.-109988.0- A-Date: 2008-06-24 00:00:00 - C-Date: 2008-06-30 00:00:00
+373-In:Scripps Networks Int.-137155.0 - Out:E.W. Scripps Co.-109988.0- A-Date: 2008-06-24 - C-Date: 2008-06-30
 2008-06-25
 Long Leg - Buy   : 256.0 shares of SNI @ 38.92 for 9963.14
 Short Leg - Sell : 3119.0 shares of SSP @ 3.21 for 9997.25
@@ -2035,7 +2035,7 @@ Results
 Return on Long: -586.79, Return on Short: 556.79 Total Return: 4.12
 
 
-374-In:Mastercard Inc.-126938.0 - Out:Chubb Ltd.-103015.0- A-Date: 2008-07-10 00:00:00 - C-Date: 2008-07-17 00:00:00
+374-In:Mastercard Inc.-126938.0 - Out:Chubb Ltd.-103015.0- A-Date: 2008-07-10 - C-Date: 2008-07-17
 2008-07-11
 Long Leg - Buy   : 39.0 shares of MA @ 252.05 for 9829.86
 Short Leg - Sell : 240.0 shares of CB @ 41.65 for 9996.65
@@ -2049,7 +2049,7 @@ Return on Long: 1165.25, Return on Short: -18.98 Total Return: 1313.06
 
 375-In:DaVita Inc.-Out:iHeartMedia Inc-Not pair tradable
 
-376-In:Invesco Ltd.-101530.0 - Out:IAC/InterActiveCorp-111310.0- A-Date: 2008-08-14 00:00:00 - C-Date: 2008-08-20 00:00:00
+376-In:Invesco Ltd.-101530.0 - Out:IAC/InterActiveCorp-111310.0- A-Date: 2008-08-14 - C-Date: 2008-08-20
 2008-08-15
 Long Leg - Buy   : 437.0 shares of IVZ @ 22.83 for 9977.40
 Short Leg - Sell : 565.0 shares of IACI @ 17.70 for 9999.96
@@ -2087,7 +2087,7 @@ Return on Long: -250.27, Return on Short: 857.14 Total Return: 629.42
 
 389-In:Dr Pepper Snapple Group-Out:Wrigley Co.-Not pair tradable
 
-390-In:NASDAQ OMX Group-115885.0 - Out:Dillard's Inc.-103861.0- A-Date: 2008-10-16 00:00:00 - C-Date: 2008-10-21 00:00:00
+390-In:NASDAQ OMX Group-115885.0 - Out:Dillard's Inc.-103861.0- A-Date: 2008-10-16 - C-Date: 2008-10-21
 2008-10-17
 Long Leg - Buy   : 348.0 shares of NDAQ @ 28.65 for 9971.44
 Short Leg - Sell : 1753.0 shares of DDS @ 5.70 for 9994.83
@@ -2099,7 +2099,7 @@ Results
 Return on Long: 1259.16, Return on Short: 206.24 Total Return: 1488.78
 
 
-391-In:WEC Energy Group Inc-112087.0 - Out:MGIC Investment-107107.0- A-Date: 2008-10-29 00:00:00 - C-Date: 2008-10-30 00:00:00
+391-In:WEC Energy Group Inc-112087.0 - Out:MGIC Investment-107107.0- A-Date: 2008-10-29 - C-Date: 2008-10-30
 2008-10-30
 Long Leg - Buy   : 547.0 shares of WEC @ 18.26 for 9986.13
 Short Leg - Sell : 3076.0 shares of MTG @ 3.25 for 9997.00
@@ -2119,7 +2119,7 @@ Return on Long: 219.01, Return on Short: 2583.84 Total Return: 2813.73
 
 395-In:None-Out:General Growth Properties-Not pair tradable
 
-396-In:Wynn Resorts Ltd.-116416.0 - Out:Ashland Inc.-101697.0- A-Date: 2008-11-10 00:00:00 - C-Date: 2008-11-13 00:00:00
+396-In:Wynn Resorts Ltd.-116416.0 - Out:Ashland Inc.-101697.0- A-Date: 2008-11-10 - C-Date: 2008-11-13
 2008-11-11
 Long Leg - Buy   : 274.0 shares of WYNN @ 36.33 for 9954.31
 Short Leg - Sell : 544.0 shares of ASH @ 18.36 for 9986.96
@@ -2139,7 +2139,7 @@ Return on Long: -857.64, Return on Short: 917.12 Total Return: 92.12
 
 400-In:Life Technologies-Out:Applied Biosystems Inc.-Not pair tradable
 
-401-In:Dun & Bradstreet-103981.0 - Out:Kate Spade Co-107006.0- A-Date: 2008-11-26 00:00:00 - C-Date: 2008-12-01 00:00:00
+401-In:Dun & Bradstreet-103981.0 - Out:Kate Spade Co-107006.0- A-Date: 2008-11-26 - C-Date: 2008-12-01
 2008-11-28
 Long Leg - Buy   : 140.0 shares of DNB @ 70.94 for 9932.07
 Short Leg - Sell : 3759.0 shares of KATE @ 2.66 for 9998.94
@@ -2153,7 +2153,7 @@ Return on Long: 48.62, Return on Short: 2067.45 Total Return: 2182.94
 
 402-In:Republic Services Inc.-Out:Allied Waste Industries Inc.-Not pair tradable
 
-403-In:EQT Corporation-104416.0 - Out:Transocean-112333.0- A-Date: 2008-12-11 00:00:00 - C-Date: 2008-12-18 00:00:00
+403-In:EQT Corporation-104416.0 - Out:Transocean-112333.0- A-Date: 2008-12-11 - C-Date: 2008-12-18
 2008-12-12
 Long Leg - Buy   : 348.0 shares of EQT @ 28.53 for 9929.57
 Short Leg - Sell : 200.0 shares of RIG @ 49.76 for 9952.76
@@ -2177,7 +2177,7 @@ Return on Long: 250.97, Return on Short: 1134.09 Total Return: 1408.25
 
 409-In:Welltower Inc-Out:Sovereign Bancorp.-Not pair tradable
 
-410-In:Diamond Offshore Drilling-103821.0 - Out:Weatherford Int'l Ltd.-111921.0- A-Date: 2009-02-13 00:00:00 - C-Date: 2009-02-25 00:00:00
+410-In:Diamond Offshore Drilling-103821.0 - Out:Weatherford Int'l Ltd.-111921.0- A-Date: 2009-02-13 - C-Date: 2009-02-25
 2009-02-17
 Long Leg - Buy   : 204.0 shares of DO @ 48.99 for 9993.73
 Short Leg - Sell : 1019.0 shares of WFT @ 9.81 for 9996.39
@@ -2189,7 +2189,7 @@ Results
 Return on Long: -198.20, Return on Short: 112.09 Total Return: -83.45
 
 
-411-In:Hormel Foods Corp.-105800.0 - Out:American Capital Ltd.-101354.0- A-Date: 2009-02-24 00:00:00 - C-Date: 2009-03-03 00:00:00
+411-In:Hormel Foods Corp.-105800.0 - Out:American Capital Ltd.-101354.0- A-Date: 2009-02-24 - C-Date: 2009-03-03
 2009-02-25
 Long Leg - Buy   : 664.0 shares of HRL @ 15.06 for 9996.53
 Short Leg - Sell : 9758.0 shares of ACAS @ 1.02 for 9999.03
@@ -2201,7 +2201,7 @@ Results
 Return on Long: -640.92, Return on Short: 4484.86 Total Return: 3846.44
 
 
-412-In:Ventas Inc.-111647.0 - Out:Jones Apparel Group Inc.-106569.0- A-Date: 2009-02-25 00:00:00 - C-Date: 2009-03-03 00:00:00
+412-In:Ventas Inc.-111647.0 - Out:Jones Apparel Group Inc.-106569.0- A-Date: 2009-02-25 - C-Date: 2009-03-03
 2009-02-26
 Long Leg - Buy   : 506.0 shares of VTR @ 19.74 for 9990.11
 Short Leg - Sell : 3960.0 shares of JNY @ 2.53 for 9999.01
@@ -2213,7 +2213,7 @@ Results
 Return on Long: -970.35, Return on Short: -368.97 Total Return: -1330.42
 
 
-413-In:Eversource Energy-108220.0 - Out:Tyco Int'l-111283.0- A-Date: 2009-03-05 00:00:00 - C-Date: 2009-03-16 00:00:00
+413-In:Eversource Energy-108220.0 - Out:Tyco Int'l-111283.0- A-Date: 2009-03-05 - C-Date: 2009-03-16
 2009-03-06
 Long Leg - Buy   : 573.0 shares of ES @ 17.41 for 9976.73
 Short Leg - Sell : 1456.0 shares of TYC @ 6.86 for 9993.37
@@ -2225,7 +2225,7 @@ Results
 Return on Long: -4.92, Return on Short: -476.13 Total Return: -464.41
 
 
-414-In:O'Reilly Automotive-108529.0 - Out:Noble Corp.-108175.0- A-Date: 2009-03-18 00:00:00 - C-Date: 2009-03-26 00:00:00
+414-In:O'Reilly Automotive-108529.0 - Out:Noble Corp.-108175.0- A-Date: 2009-03-18 - C-Date: 2009-03-26
 2009-03-19
 Long Leg - Buy   : 277.0 shares of ORLY @ 35.97 for 9963.69
 Short Leg - Sell : 415.0 shares of NE @ 24.07 for 9987.96
@@ -2237,7 +2237,7 @@ Results
 Return on Long: -166.20, Return on Short: 293.31 Total Return: 151.38
 
 
-415-In:Time Warner Cable Inc.-129054.0 - Out:DDR Corp.-103800.0- A-Date: 2009-03-18 00:00:00 - C-Date: 2009-03-27 00:00:00
+415-In:Time Warner Cable Inc.-129054.0 - Out:DDR Corp.-103800.0- A-Date: 2009-03-18 - C-Date: 2009-03-27
 2009-03-19
 Long Leg - Buy   : 1101.0 shares of TWC @ 9.08 for 9997.08
 Short Leg - Sell : 4223.0 shares of DDR @ 2.37 for 9998.38
@@ -2253,7 +2253,7 @@ Return on Long: -337.64, Return on Short: 1848.76 Total Return: 1512.42
 
 417-In:None-Out:General Motors-Not pair tradable
 
-418-In:FMC Technologies Inc.-115259.0 - Out:Covidien-129709.0- A-Date: 2009-05-28 00:00:00 - C-Date: 2009-06-04 00:00:00
+418-In:FMC Technologies Inc.-115259.0 - Out:Covidien-129709.0- A-Date: 2009-05-28 - C-Date: 2009-06-04
 2009-05-29
 Long Leg - Buy   : 488.0 shares of FTI @ 20.48 for 9991.80
 Short Leg - Sell : 348.0 shares of COV @ 28.72 for 9996.03
@@ -2271,7 +2271,7 @@ Return on Long: 475.80, Return on Short: -497.45 Total Return: -17.42
 
 421-In:MetroPCS-Out:None-Not pair tradable
 
-422-In:Quanta Services Inc.-109356.0 - Out:Ingersoll-Rand PLC-106119.0- A-Date: 2009-06-04 00:00:00 - C-Date: 2009-06-30 00:00:00
+422-In:Quanta Services Inc.-109356.0 - Out:Ingersoll-Rand PLC-106119.0- A-Date: 2009-06-04 - C-Date: 2009-06-30
 2009-06-05
 Long Leg - Buy   : 402.0 shares of PWR @ 24.81 for 9973.62
 Short Leg - Sell : 465.0 shares of IR @ 21.49 for 9990.76
@@ -2285,7 +2285,7 @@ Return on Long: -675.36, Return on Short: 771.91 Total Return: 113.69
 
 423-In:Western Digital-Out:Embarq Corp.-Not pair tradable
 
-424-In:Red Hat Inc.-109513.0 - Out:CIT Group Inc.-115929.0- A-Date: 2009-07-17 00:00:00 - C-Date: 2009-07-24 00:00:00
+424-In:Red Hat Inc.-109513.0 - Out:CIT Group Inc.-115929.0- A-Date: 2009-07-17 - C-Date: 2009-07-24
 2009-07-20
 Long Leg - Buy   : 454.0 shares of RHT @ 21.98 for 9978.92
 Short Leg - Sell : 7692.0 shares of CIT @ 1.30 for 9999.60
@@ -2301,7 +2301,7 @@ Return on Long: 463.08, Return on Short: 4230.60 Total Return: 4714.36
 
 426-In:Carefusion-Out:The Manitowoc Company-Not pair tradable
 
-427-In:Airgas Inc.-101167.0 - Out:Cooper Industries-103401.0- A-Date: 2009-08-28 00:00:00 - C-Date: 2009-09-08 00:00:00
+427-In:Airgas Inc.-101167.0 - Out:Cooper Industries-103401.0- A-Date: 2009-08-28 - C-Date: 2009-09-08
 2009-08-31
 Long Leg - Buy   : 227.0 shares of ARG @ 43.90 for 9965.59
 Short Leg - Sell : 324.0 shares of CBE @ 30.83 for 9987.39
@@ -2319,7 +2319,7 @@ Return on Long: -220.70, Return on Short: -618.53 Total Return: -817.43
 
 430-In:Leidos Holdings Inc-Out:Convergys Corp.-Not pair tradable
 
-431-In:Cliffs Natural Resources-103098.0 - Out:KB Home-106629.0- A-Date: 2009-12-11 00:00:00 - C-Date: 2009-12-18 00:00:00
+431-In:Cliffs Natural Resources-103098.0 - Out:KB Home-106629.0- A-Date: 2009-12-11 - C-Date: 2009-12-18
 2009-12-14
 Long Leg - Buy   : 246.0 shares of CLF @ 40.60 for 9987.79
 Short Leg - Sell : 796.0 shares of KBH @ 12.55 for 9987.92
@@ -2331,7 +2331,7 @@ Results
 Return on Long: -63.19, Return on Short: 194.52 Total Return: 131.46
 
 
-432-In:Ross Stores-109706.0 - Out:Dynegy Inc.-104019.0- A-Date: 2009-12-11 00:00:00 - C-Date: 2009-12-18 00:00:00
+432-In:Ross Stores-109706.0 - Out:Dynegy Inc.-104019.0- A-Date: 2009-12-11 - C-Date: 2009-12-18
 2009-12-14
 Long Leg - Buy   : 469.0 shares of ROST @ 21.30 for 9987.64
 Short Leg - Sell : 4950.0 shares of DYN @ 2.02 for 9999.00
@@ -2343,7 +2343,7 @@ Results
 Return on Long: -304.71, Return on Short: 346.50 Total Return: 53.15
 
 
-433-In:Visa Inc.-135419.0 - Out:Ciena Corp.-103022.0- A-Date: 2009-12-11 00:00:00 - C-Date: 2009-12-18 00:00:00
+433-In:Visa Inc.-135419.0 - Out:Ciena Corp.-103022.0- A-Date: 2009-12-11 - C-Date: 2009-12-18
 2009-12-14
 Long Leg - Buy   : 121.0 shares of V @ 82.59 for 9993.16
 Short Leg - Sell : 6238.0 shares of CIEN @ 1.60 for 9998.61
@@ -2355,7 +2355,7 @@ Results
 Return on Long: 471.66, Return on Short: 151.49 Total Return: 628.61
 
 
-434-In:Mead Johnson-138637.0 - Out:MBIA Corp.-107078.0- A-Date: 2009-12-11 00:00:00 - C-Date: 2009-12-18 00:00:00
+434-In:Mead Johnson-138637.0 - Out:MBIA Corp.-107078.0- A-Date: 2009-12-11 - C-Date: 2009-12-18
 2009-12-14
 Long Leg - Buy   : 244.0 shares of MJN @ 40.92 for 9983.85
 Short Leg - Sell : 2808.0 shares of MBI @ 3.56 for 9996.48
@@ -2367,7 +2367,7 @@ Results
 Return on Long: -459.03, Return on Short: 252.72 Total Return: -193.68
 
 
-435-In:Roper Industries-109699.0 - Out:Ensco plc-104056.0- A-Date: 2009-12-15 00:00:00 - C-Date: 2009-12-22 00:00:00
+435-In:Roper Industries-109699.0 - Out:Ensco plc-104056.0- A-Date: 2009-12-15 - C-Date: 2009-12-22
 2009-12-16
 Long Leg - Buy   : 185.0 shares of ROP @ 53.61 for 9918.60
 Short Leg - Sell : 257.0 shares of ESV @ 38.79 for 9969.54
@@ -2395,7 +2395,7 @@ Return on Long: -280.54, Return on Short: 186.65 Total Return: -42.95
 
 443-In:Carmax Inc.-Out:XTO Energy Inc.-Not pair tradable
 
-444-In:QEP Resources-143086.0 - Out:Questar Corp.-109373.0- A-Date: 2010-06-23 00:00:00 - C-Date: 2010-06-30 00:00:00
+444-In:QEP Resources-143086.0 - Out:Questar Corp.-109373.0- A-Date: 2010-06-23 - C-Date: 2010-06-30
 2010-06-24
 Long Leg - Buy   : 310.0 shares of QEP @ 32.20 for 9982.24
 Short Leg - Sell : 708.0 shares of STR @ 14.12 for 9993.98
@@ -2413,7 +2413,7 @@ Return on Long: -504.19, Return on Short: 333.42 Total Return: -159.03
 
 447-In:Ingersoll-Rand PLC-Out:Pactiv LLC-Not pair tradable
 
-448-In:Newfield Exploration Co.-108121.0 - Out:The New York Times Co.-108117.0- A-Date: 2010-12-09 00:00:00 - C-Date: 2010-12-17 00:00:00
+448-In:Newfield Exploration Co.-108121.0 - Out:The New York Times Co.-108117.0- A-Date: 2010-12-09 - C-Date: 2010-12-17
 2010-12-10
 Long Leg - Buy   : 139.0 shares of NFX @ 71.84 for 9985.76
 Short Leg - Sell : 1040.0 shares of NYT @ 9.61 for 9994.40
@@ -2425,7 +2425,7 @@ Results
 Return on Long: -115.37, Return on Short: -197.60 Total Return: -304.33
 
 
-449-In:Netflix Inc.-115422.0 - Out:Office Depot Inc.-108401.0- A-Date: 2010-12-09 00:00:00 - C-Date: 2010-12-17 00:00:00
+449-In:Netflix Inc.-115422.0 - Out:Office Depot Inc.-108401.0- A-Date: 2010-12-09 - C-Date: 2010-12-17
 2010-12-10
 Long Leg - Buy   : 50.0 shares of NFLX @ 197.38 for 9869.00
 Short Leg - Sell : 2049.0 shares of ODP @ 4.88 for 9999.12
@@ -2437,7 +2437,7 @@ Results
 Return on Long: -868.00, Return on Short: -40.98 Total Return: -778.86
 
 
-450-In:F5 Networks-104644.0 - Out:Eastman Kodak Co.-104118.0- A-Date: 2010-12-09 00:00:00 - C-Date: 2010-12-17 00:00:00
+450-In:F5 Networks-104644.0 - Out:Eastman Kodak Co.-104118.0- A-Date: 2010-12-09 - C-Date: 2010-12-17
 2010-12-10
 Long Leg - Buy   : 69.0 shares of FFIV @ 142.94 for 9862.86
 Short Leg - Sell : 1851.0 shares of EK @ 5.40 for 9995.40
@@ -2453,7 +2453,7 @@ Return on Long: -478.17, Return on Short: -240.63 Total Return: -586.26
 
 452-In:Motorola Mobility-Out:Meredith Corp-Not pair tradable
 
-453-In:Noble Corp.-108175.0 - Out:QLogic Corp.-109331.0- A-Date: 2011-01-11 00:00:00 - C-Date: 2011-01-14 00:00:00
+453-In:Noble Corp.-108175.0 - Out:QLogic Corp.-109331.0- A-Date: 2011-01-11 - C-Date: 2011-01-14
 2011-01-12
 Long Leg - Buy   : 275.0 shares of NE @ 36.21 for 9958.23
 Short Leg - Sell : 576.0 shares of QLGC @ 17.35 for 9993.60
@@ -2485,7 +2485,7 @@ Return on Long: 68.44, Return on Short: -391.68 Total Return: -287.87
 
 463-In:TE Connectivity Ltd.-Out:Cephalon Inc.-Not pair tradable
 
-464-In:Xylem Inc.-150893.0 - Out:ITT Corp.-105955.0- A-Date: 2011-10-24 00:00:00 - C-Date: 2011-10-31 00:00:00
+464-In:Xylem Inc.-150893.0 - Out:ITT Corp.-105955.0- A-Date: 2011-10-24 - C-Date: 2011-10-31
 2011-10-25
 Long Leg - Buy   : 399.0 shares of XYL @ 25.04 for 9989.37
 Short Leg - Sell : 561.0 shares of ITT @ 17.82 for 9998.09
@@ -2497,7 +2497,7 @@ Results
 Return on Long: 331.95, Return on Short: -281.79 Total Return: 58.88
 
 
-465-In:Cooper Industries-103401.0 - Out:Janus Capital Group-110531.0- A-Date: 2011-11-18 00:00:00 - C-Date: 2011-11-22 00:00:00
+465-In:Cooper Industries-103401.0 - Out:Janus Capital Group-110531.0- A-Date: 2011-11-18 - C-Date: 2011-11-22
 2011-11-21
 Long Leg - Buy   : 186.0 shares of CBE @ 53.66 for 9981.66
 Short Leg - Sell : 1800.0 shares of JNS @ 5.55 for 9995.12
@@ -2511,7 +2511,7 @@ Return on Long: -218.38, Return on Short: -461.31 Total Return: -666.24
 
 466-In:AGL Resources Inc.-Out:Nicor Inc.-Not pair tradable
 
-467-In:Dollar Tree-103908.0 - Out:SunEdison Inc-107095.0- A-Date: 2011-12-08 00:00:00 - C-Date: 2011-12-16 00:00:00
+467-In:Dollar Tree-103908.0 - Out:SunEdison Inc-107095.0- A-Date: 2011-12-08 - C-Date: 2011-12-16
 2011-12-09
 Long Leg - Buy   : 241.0 shares of DLTR @ 41.42 for 9982.22
 Short Leg - Sell : 2364.0 shares of SUNE @ 4.23 for 9999.72
@@ -2523,7 +2523,7 @@ Results
 Return on Long: -2.41, Return on Short: 945.60 Total Return: 960.69
 
 
-468-In:Perrigo-108916.0 - Out:Monster Worldwide Inc.-110771.0- A-Date: 2011-12-08 00:00:00 - C-Date: 2011-12-16 00:00:00
+468-In:Perrigo-108916.0 - Out:Monster Worldwide Inc.-110771.0- A-Date: 2011-12-08 - C-Date: 2011-12-16
 2011-12-09
 Long Leg - Buy   : 100.0 shares of PRGO @ 99.01 for 9900.75
 Short Leg - Sell : 1347.0 shares of MWW @ 7.42 for 9994.74
@@ -2535,7 +2535,7 @@ Results
 Return on Long: -136.25, Return on Short: -390.63 Total Return: -432.89
 
 
-469-In:BorgWarner Inc-102282.0 - Out:AK Steel Holding Corp.-100903.0- A-Date: 2011-12-08 00:00:00 - C-Date: 2011-12-16 00:00:00
+469-In:BorgWarner Inc-102282.0 - Out:AK Steel Holding Corp.-100903.0- A-Date: 2011-12-08 - C-Date: 2011-12-16
 2011-12-09
 Long Leg - Buy   : 144.0 shares of BWA @ 69.22 for 9968.35
 Short Leg - Sell : 1188.0 shares of AKS @ 8.41 for 9991.98
@@ -2549,7 +2549,7 @@ Return on Long: -1012.64, Return on Short: 1172.77 Total Return: 183.76
 
 470-In:TripAdvisor-Out:Tellabs Inc.-Not pair tradable
 
-471-In:WPX Energy Inc-151404.0 - Out:Compuware-103307.0- A-Date: 2011-12-22 00:00:00 - C-Date: 2011-12-30 00:00:00
+471-In:WPX Energy Inc-151404.0 - Out:Compuware-103307.0- A-Date: 2011-12-22 - C-Date: 2011-12-30
 2011-12-23
 Long Leg - Buy   : 564.0 shares of WPX @ 17.72 for 9994.08
 Short Leg - Sell : 1221.0 shares of CPWR @ 8.19 for 9998.00
@@ -2565,7 +2565,7 @@ Return on Long: 253.80, Return on Short: -48.30 Total Return: 209.42
 
 473-In:Fossil, Inc.-Out:Medco Health Solutions-Not pair tradable
 
-474-In:Phillips 66-152875.0 - Out:Supervalu Inc.-110649.0- A-Date: 2012-04-23 00:00:00 - C-Date: 2012-04-30 00:00:00
+474-In:Phillips 66-152875.0 - Out:Supervalu Inc.-110649.0- A-Date: 2012-04-23 - C-Date: 2012-04-30
 2012-04-24
 Long Leg - Buy   : 285.0 shares of PSX @ 35.07 for 9994.78
 Short Leg - Sell : 1649.0 shares of SVU @ 6.06 for 9999.78
@@ -2583,7 +2583,7 @@ Return on Long: -541.38, Return on Short: 388.34 Total Return: -148.04
 
 477-In:Lam Research-Out:Novellus Systems-Not pair tradable
 
-478-In:Monster Beverage-105546.0 - Out:Hillshire Brands Co-109923.0- A-Date: 2012-06-21 00:00:00 - C-Date: 2012-06-28 00:00:00
+478-In:Monster Beverage-105546.0 - Out:Hillshire Brands Co-109923.0- A-Date: 2012-06-21 - C-Date: 2012-06-28
 2012-06-22
 Long Leg - Buy   : 130.0 shares of MNST @ 76.40 for 9932.00
 Short Leg - Sell : 519.0 shares of HSH @ 19.24 for 9985.56
@@ -2599,7 +2599,7 @@ Return on Long: -1008.80, Return on Short: 384.06 Total Return: -571.18
 
 480-In:Ensco plc-Out:Goodrich Corp.-Not pair tradable
 
-481-In:LyondellBasell-144460.0 - Out:Sears Holding Corporation-117073.0- A-Date: 2012-08-29 00:00:00 - C-Date: 2012-09-04 00:00:00
+481-In:LyondellBasell-144460.0 - Out:Sears Holding Corporation-117073.0- A-Date: 2012-08-29 - C-Date: 2012-09-04
 2012-08-30
 Long Leg - Buy   : 221.0 shares of LYB @ 45.10 for 9967.81
 Short Leg - Sell : 181.0 shares of SHLD @ 55.10 for 9973.10
@@ -2611,7 +2611,7 @@ Results
 Return on Long: -391.13, Return on Short: 354.76 Total Return: -31.09
 
 
-482-In:Pentair Ltd.-108861.0 - Out:DeVry, Inc.-103803.0- A-Date: 2012-09-24 00:00:00 - C-Date: 2012-09-28 00:00:00
+482-In:Pentair Ltd.-108861.0 - Out:DeVry, Inc.-103803.0- A-Date: 2012-09-24 - C-Date: 2012-09-28
 2012-09-25
 Long Leg - Buy   : 233.0 shares of PNR @ 42.89 for 9992.68
 Short Leg - Sell : 450.0 shares of DV @ 22.22 for 9997.56
@@ -2623,7 +2623,7 @@ Results
 Return on Long: 192.21, Return on Short: -120.02 Total Return: 77.07
 
 
-483-In:ADT Corp.-155119.0 - Out:Lexmark Int'l Inc-106917.0- A-Date: 2012-09-24 00:00:00 - C-Date: 2012-09-28 00:00:00
+483-In:ADT Corp.-155119.0 - Out:Lexmark Int'l Inc-106917.0- A-Date: 2012-09-24 - C-Date: 2012-09-28
 2012-09-25
 Long Leg - Buy   : 265.0 shares of ADT @ 37.61 for 9966.51
 Short Leg - Sell : 461.0 shares of LXK @ 21.68 for 9992.20
@@ -2635,7 +2635,7 @@ Results
 Return on Long: -534.48, Return on Short: 180.79 Total Return: -328.00
 
 
-484-In:Kraft Heinz Co-155122.0 - Out:Alpha Natural Resources-123096.0- A-Date: 2012-09-25 00:00:00 - C-Date: 2012-10-01 00:00:00
+484-In:Kraft Heinz Co-155122.0 - Out:Alpha Natural Resources-123096.0- A-Date: 2012-09-25 - C-Date: 2012-10-01
 2012-09-26
 Long Leg - Buy   : 224.0 shares of KHC @ 44.44 for 9955.52
 Short Leg - Sell : 1592.0 shares of ANR @ 6.28 for 9997.76
@@ -2651,7 +2651,7 @@ Return on Long: -369.53, Return on Short: -477.60 Total Return: -804.88
 
 486-In:Dollar General-Out:Cooper Industries-Not pair tradable
 
-487-In:Garmin Ltd.-112498.0 - Out:R.R. Donnelley-103920.0- A-Date: 2012-12-05 00:00:00 - C-Date: 2012-12-11 00:00:00
+487-In:Garmin Ltd.-112498.0 - Out:R.R. Donnelley-103920.0- A-Date: 2012-12-05 - C-Date: 2012-12-11
 2012-12-06
 Long Leg - Buy   : 249.0 shares of GRMN @ 40.14 for 9993.70
 Short Leg - Sell : 1158.0 shares of RRD @ 8.63 for 9995.92
@@ -2665,7 +2665,7 @@ Return on Long: 179.96, Return on Short: -314.75 Total Return: -132.56
 
 488-In:Delphi Automotive-Out:Titanium Metals-Not pair tradable
 
-489-In:AbbVie Inc.-160586.0 - Out:Federated Investors-104634.0- A-Date: 2012-12-20 00:00:00 - C-Date: 2013-01-01 00:00:00
+489-In:AbbVie Inc.-160586.0 - Out:Federated Investors-104634.0- A-Date: 2012-12-20 - C-Date: 2013-01-01
 2012-12-21
 Long Leg - Buy   : 300.0 shares of ABBV @ 33.27 for 9982.38
 Short Leg - Sell : 510.0 shares of FII @ 19.57 for 9982.72
@@ -2677,7 +2677,7 @@ Results
 Return on Long: -37.85, Return on Short: -39.63 Total Return: -77.13
 
 
-490-In:PVH Corp.-108970.0 - Out:Big Lots Inc.-103363.0- A-Date: 2013-02-07 00:00:00 - C-Date: 2013-02-13 00:00:00
+490-In:PVH Corp.-108970.0 - Out:Big Lots Inc.-103363.0- A-Date: 2013-02-07 - C-Date: 2013-02-13
 2013-02-08
 Long Leg - Buy   : 80.0 shares of PVH @ 123.91 for 9913.08
 Short Leg - Sell : 306.0 shares of BIG @ 32.65 for 9990.90
@@ -2689,7 +2689,7 @@ Results
 Return on Long: -282.93, Return on Short: -260.10 Total Return: -465.21
 
 
-491-In:Regeneron-109538.0 - Out:MetroPCS-121764.0- A-Date: 2013-04-24 00:00:00 - C-Date: 2013-04-30 00:00:00
+491-In:Regeneron-109538.0 - Out:MetroPCS-121764.0- A-Date: 2013-04-24 - C-Date: 2013-04-30
 2013-04-25
 Long Leg - Buy   : 46.0 shares of REGN @ 214.88 for 9884.48
 Short Leg - Sell : 843.0 shares of PCS @ 11.86 for 9997.98
@@ -2703,7 +2703,7 @@ Return on Long: 11.96, Return on Short: 16.86 Total Return: 142.32
 
 492-In:Macerich-Out:Coventry Health Care-Not pair tradable
 
-493-In:Kansas City Southern-106625.0 - Out:Dean Foods-110590.0- A-Date: 2013-05-16 00:00:00 - C-Date: 2013-05-23 00:00:00
+493-In:Kansas City Southern-106625.0 - Out:Dean Foods-110590.0- A-Date: 2013-05-16 - C-Date: 2013-05-23
 2013-05-17
 Long Leg - Buy   : 168.0 shares of KSU @ 59.43 for 9983.96
 Short Leg - Sell : 1103.0 shares of DF @ 9.06 for 9996.16
@@ -2717,7 +2717,7 @@ Return on Long: -456.79, Return on Short: 68.10 Total Return: -376.49
 
 494-In:General Motors-Out:H. J. Heinz Company-Not pair tradable
 
-495-In:Zoetis, Inc.-161291.0 - Out:First Horizon-104845.0- A-Date: 2013-06-14 00:00:00 - C-Date: 2013-06-21 00:00:00
+495-In:Zoetis, Inc.-161291.0 - Out:First Horizon-104845.0- A-Date: 2013-06-14 - C-Date: 2013-06-21
 2013-06-17
 Long Leg - Buy   : 319.0 shares of ZTS @ 31.33 for 9994.97
 Short Leg - Sell : 914.0 shares of FHN @ 10.94 for 9999.16
@@ -2729,7 +2729,7 @@ Results
 Return on Long: -254.65, Return on Short: 173.66 Total Return: -76.80
 
 
-496-In:News Corporation-122337.0 - Out:Apollo Group Inc.-101590.0- A-Date: 2013-06-20 00:00:00 - C-Date: 2013-06-28 00:00:00
+496-In:News Corporation-122337.0 - Out:Apollo Group Inc.-101590.0- A-Date: 2013-06-20 - C-Date: 2013-06-28
 2013-06-21
 Long Leg - Buy   : 360.0 shares of NWSA @ 27.73 for 9984.03
 Short Leg - Sell : 505.0 shares of APOL @ 19.78 for 9988.90

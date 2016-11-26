@@ -5,7 +5,7 @@ from pygments.lexers.sql import SqlLexer
 from pygments.formatters import HtmlFormatter, LatexFormatter
 from IPython import display
 
-CONNECTION_STRING = 'mssql+pymssql://IVYuser:resuyvi@vita.ieor.columbia.edu'
+CONNECTION_STRING = 'mssql+pymssql://IVYuser:resuyvi@vita.ieor.columbia.edu/XF'
 
 
 def get_connection():

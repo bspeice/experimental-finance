@@ -47,7 +47,7 @@ select
     oivol_out.OI as Out_Option_OI,
     oivol_out.Call_Volume as Out_Call_Volume,
     oivol_out.Put_Volume as Out_Put_Volume,
-    oivol_out.Volume as Out_Option_Vols,
+    oivol_out.Volume as Out_Option_Vol,
 	-- Index
     spy.OpenPrice as IDX_OpenPrice,
     spy.ClosePrice as IDX_ClosePrice,
@@ -63,9 +63,9 @@ from XF.db_datawriter.hi2179_SP500_comp co
 join XFData.dbo.SECURITY_PRICE spy on spy.SecurityID = 109820
   and (abs(datediff(day,spy.Date,co.AnnouncementDate)) <= @datediff or abs(datediff(day,spy.Date,co.ChangeDate)) <= @datediff)
 left join XFDATA.dbo.SECURITY_PRICE sp_in on sp_in.SecurityID = co.inSecurityID and sp_in.Date = spy.Date
-left join XF.db_datawriter.hi2179_OIVOL oivol_in on oivol_in.SecurityID = sp_in.SecurityID and oivol_in.Date = sp_in.Date
+left join XF.db_datawriter.hi2179_OIVOL oivol_in on oivol_in.SecurityID = co.inSecurityID and oivol_in.Date = sp_in.Date
 left join XFDATA.dbo.SECURITY_PRICE sp_out on sp_out.SecurityID = co.outSecurityID and sp_out.Date = spy.Date
-left join XF.db_datawriter.hi2179_OIVOL oivol_out on oivol_out.SecurityID = sp_out.SecurityID and oivol_out.Date = sp_out.Date
+left join XF.db_datawriter.hi2179_OIVOL oivol_out on oivol_out.SecurityID = co.outSecurityID and oivol_out.Date = sp_out.Date
 order by co.ID, spy.Date
 
 -- Check dates

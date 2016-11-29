@@ -50,10 +50,8 @@ join XF.db_datawriter.hi2179_SP500_comp_2_SecData spy on spy.SecurityID = 109820
   and (abs(datediff(day,spy.Date,co.AnnouncementDate)) <= @datediff or abs(datediff(day,spy.Date,co.ChangeDate)) <= @datediff)
 left join XF.db_datawriter.hi2179_SP500_comp_2_SecData sp_in on sp_in.SecurityID = co.inSecurityID and sp_in.Date = spy.Date
 left join XF.db_datawriter.hi2179_SP500_comp_2_SecData sp_out on sp_out.SecurityID = co.outSecurityID and sp_out.Date = spy.Date
-where isnull(sp_in.ClosePrice,1) > 0 and isnull(sp_in.OpenPrice,1) > 0 and isnull(sp_out.ClosePrice,1) > 0 and isnull(sp_out.OpenPrice,1) > 0
+where isnull(sp_in.PriceClose,1) > 0 and isnull(sp_in.PriceOpen,1) > 0 and isnull(sp_out.PriceClose,1) > 0 and isnull(sp_out.PriceOpen,1) > 0
 order by co.ID, spy.Date
-
-delete from #temp where DataID = 307 and Date = '2006-7-18' -- buggy price
 
 -- Check dates
 select *,
@@ -70,5 +68,6 @@ case when MinInDate <= AnnouncementDate and MaxInDate >= ChangeDate then 1 else 
 case when MinInDate < AnnouncementDate and MaxInDate > ChangeDate 
 	 and MinOutDate < AnnouncementDate and MaxOutDate > ChangeDate 
 	 and IsTakeover = 0 then 1 else 0 end as IsPairTradable
+from #temp2
 
 drop table #temp,#temp2

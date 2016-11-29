@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import seaborn as sns
 import sqlalchemy
 from sqlalchemy import create_engine
 import time

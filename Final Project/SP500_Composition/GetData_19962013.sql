@@ -66,7 +66,10 @@ left join XFDATA.dbo.SECURITY_PRICE sp_in on sp_in.SecurityID = co.inSecurityID 
 left join XF.db_datawriter.hi2179_OIVOL oivol_in on oivol_in.SecurityID = co.inSecurityID and oivol_in.Date = sp_in.Date
 left join XFDATA.dbo.SECURITY_PRICE sp_out on sp_out.SecurityID = co.outSecurityID and sp_out.Date = spy.Date
 left join XF.db_datawriter.hi2179_OIVOL oivol_out on oivol_out.SecurityID = co.outSecurityID and oivol_out.Date = sp_out.Date
+where isnull(sp_in.ClosePrice,1) > 0 and isnull(sp_in.OpenPrice,1) > 0 and isnull(sp_out.ClosePrice,1) > 0 and isnull(sp_out.OpenPrice,1) > 0
 order by co.ID, spy.Date
+
+delete from #temp where DataID = 307 and Date = '2006-7-18' -- buggy price
 
 -- Check dates
 select *,

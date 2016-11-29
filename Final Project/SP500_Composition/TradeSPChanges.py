@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
-import sqlalchemy
 from sqlalchemy import create_engine
-import time
 import matplotlib.pyplot as plt
 
 CONNECTION_STRING = 'mssql+pymssql://IVYuser:resuyvi@vita.ieor.columbia.edu'
@@ -40,12 +38,15 @@ def get_stock_data(file_name, date_diff):
     return data
     
 # Run trading strategy
-# data: dataframe from get_stock_data
-# log_file: Filename for log file
-# strategy: 0-(Long only vs. index), 1-(Pairs only) , 2-(Pairs when available else long vs. index), 
-# fixed_trade_amount: Dollar amount traded on each event
-# close_offset: Close position (offset) trading days from change date
-# timing: False-(Open position on open day after announcement), True-(Open position on close on announcement day)
+# Input:
+#   data: Dataframe from get_stock_data
+#   log_file: Filename for log file
+#   strategy: 0-(Long only vs. index), 1-(Pairs only) , 2-(Pairs when available else long vs. index), 
+#   fixed_trade_amount: Dollar amount traded on each event
+#   close_offset: Close position (offset) trading days from change date
+#   timing: False-(Open position on open day after announcement), True-(Open position on close on announcement day)
+# Output:
+#   results: Dataframe containing results of each trade
 def run_trading_strategy(data, log_file, strategy = 0, fixed_trade_amount = 10000, close_offset = 0, timing = False, t_cost = 0.0015):
     # Prepare output file
     with open(log_file, "w") as file:
@@ -97,7 +98,16 @@ def run_trading_strategy(data, log_file, strategy = 0, fixed_trade_amount = 1000
         elif (close_offset < 0):
             change_trade_date_idx = max(change_trade_date_idx + close_offset, announcement_trade_date_idx)
             change_trade_date = group.loc[change_trade_date_idx].Date
-    
+        # Allow only offsets to dates where data is available
+        if (strategy > 0 and is_pair_tradable == 1):
+            max_avail_date = min(group.MaxInDate.values[0], group.MaxOutDate.values[0])
+        else:
+            max_avail_date = group.MaxInDate.values[0]
+        # Adjust trade date if needed
+        if (change_trade_date > max_avail_date):
+            change_trade_date = max_avail_date
+        
+        # Get short position ticker        
         if (strategy > 0 and is_pair_tradable == 1):
             short_ticker = out_ticker
         else:
@@ -130,7 +140,6 @@ def run_trading_strategy(data, log_file, strategy = 0, fixed_trade_amount = 1000
 		# Transaction cost
         cumulative_transaction_cost += t_cost * (short_opening_value + long_opening_value)
         
-        
         # Close trade
         # Short leg
         if (strategy == 0 or is_pair_tradable == 0): # Index
@@ -154,6 +163,7 @@ def run_trading_strategy(data, log_file, strategy = 0, fixed_trade_amount = 1000
                       index=['DataID','AnnouncementDate','ChangeDate','LongReturn','ShortReturn','LegDiff','TransactionCost','TotalReturn'])
         results = results.append(s, ignore_index=True)
         
+        # Log trade results
         with open(log_file, "a") as file:
             print('\n{}-In:{}-{} - Out:{}-{}- A-Date: {} - C-Date: {}\n'
                   '{}'
@@ -200,25 +210,34 @@ def run_trading_strategy(data, log_file, strategy = 0, fixed_trade_amount = 1000
                           short_return,
                           total_return)
                   ,file=file)
+
+    # Calculate cumulative returns at each point in time    
     results['CumDollarReturn'] = results.TotalReturn.cumsum()
     
+    # Print summary of results
     print('Trades: {} - Winning: {} - Losing: {}'.format(
         len(results), len(results[results.TotalReturn>=0]), len(results[results.TotalReturn<0])))
-    print('Long  Leg Returns - Mean: {:.2f} - Stdev: {:.2f} - Max: {:.2f} - Min: {:.2f}'.format(
+    print('Long  Leg Returns   Mean: {:>6.2f}   Stdev: {:>6.2f}   Max: {:>6.2f}   Min: {:>6.2f}'.format(
         results.LongReturn.mean(), results.LongReturn.std(), results.LongReturn.max(), results.LongReturn.min()))
-    print('Short Leg Returns - Mean: {:.2f} - Stdev: {:.2f} - Max: {:.2f} - Min: {:.2f}'.format(
+    print('Short Leg Returns   Mean: {:>6.2f}   Stdev: {:>6.2f}   Max: {:>6.2f}   Min: {:>6.2f}'.format(
         results.ShortReturn.mean(), results.ShortReturn.std(), results.ShortReturn.max(), results.ShortReturn.min()))
-    print('Total Returns:    - Mean: {:.2f} - Stdev: {:.2f} - Max: {:.2f} - Min: {:.2f}'.format(
+    print('Total Returns:      Mean: {:>6.2f}   Stdev: {:>6.2f}   Max: {:>6.2f}   Min: {:>6.2f}'.format(
         results.TotalReturn.mean(), results.TotalReturn.std(), results.TotalReturn.max(), results.TotalReturn.min()))
-    print('Cumulative Returns: {:.2f} - Cumulative Transaction costs: {:.2f}'.format(
-        results.CumDollarReturn[-1:].values[0], results.TransactionCost.sum()))        
+    print('Cumulative Returns: {:.2f} - Cumulative Transaction Costs: {:.2f}'.format(
+        results.CumDollarReturn[-1:].values[0], results.TransactionCost.sum()))       
     
+    # Log summary results for each trade
+    results.to_csv(log_file,index=None,sep=',',mode='a')
+    
+    # Plot distribution of returns
     fig, ax = plt.subplots(figsize=(18,5))
     plt.hist(results.TotalReturn,100)
     plt.title('Trade returns')
     plt.xlabel('Dollar return')
     plt.ylabel('Frequency')
     plt.show()
+    
+    # Plot cumulative returns
     fig, ax = plt.subplots(figsize=(18,5))
     plt.plot(results.ChangeDate, results.CumDollarReturn,'k')
     plt.plot(results[results.TotalReturn>0].ChangeDate, results[results.TotalReturn>0].CumDollarReturn,'g.')
@@ -227,5 +246,4 @@ def run_trading_strategy(data, log_file, strategy = 0, fixed_trade_amount = 1000
     plt.ylabel('$')
     plt.show()
     
-    results.to_csv(log_file,index=None,sep=',',mode='a')
     return results
